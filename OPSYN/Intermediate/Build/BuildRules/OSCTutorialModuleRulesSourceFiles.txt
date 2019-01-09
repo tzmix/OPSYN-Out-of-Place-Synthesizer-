@@ -1,0 +1,4 @@
+C:\Users\luste\Documents\Unreal\Unreal Project\OSCTutorial\Source\OSCTutorial\OSCTutorial.Build.cs
+C:\Users\luste\Documents\Unreal\Unreal Project\OSCTutorial\Plugins\OSC\Source\OSC\OSC.Build.cs
+C:\Users\luste\Documents\Unreal\Unreal Project\OSCTutorial\Source\OSCTutorial.Target.cs
+C:\Users\luste\Documents\Unreal\Unreal Project\OSCTutorial\Source\OSCTutorialEditor.Target.cs
