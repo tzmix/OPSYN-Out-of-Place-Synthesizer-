@@ -15,7 +15,7 @@ struct FOscDataElemStruct;
 #endif
 #define OSC_OscFunctionLibrary_generated_h
 
-#define OSCTutorial_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_RPC_WRAPPERS \
+#define OPSYN_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execAddSendOscTarget) \
 	{ \
@@ -248,7 +248,7 @@ struct FOscDataElemStruct;
 	}
 
 
-#define OSCTutorial_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
+#define OPSYN_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execAddSendOscTarget) \
 	{ \
@@ -481,7 +481,7 @@ struct FOscDataElemStruct;
 	}
 
 
-#define OSCTutorial_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_INCLASS_NO_PURE_DECLS \
+#define OPSYN_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUOscFunctionLibrary(); \
 	friend struct Z_Construct_UClass_UOscFunctionLibrary_Statics; \
@@ -490,7 +490,7 @@ public: \
 	DECLARE_SERIALIZER(UOscFunctionLibrary)
 
 
-#define OSCTutorial_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_INCLASS \
+#define OPSYN_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_INCLASS \
 private: \
 	static void StaticRegisterNativesUOscFunctionLibrary(); \
 	friend struct Z_Construct_UClass_UOscFunctionLibrary_Statics; \
@@ -499,7 +499,7 @@ public: \
 	DECLARE_SERIALIZER(UOscFunctionLibrary)
 
 
-#define OSCTutorial_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_STANDARD_CONSTRUCTORS \
+#define OPSYN_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UOscFunctionLibrary(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UOscFunctionLibrary) \
@@ -512,7 +512,7 @@ private: \
 public:
 
 
-#define OSCTutorial_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_ENHANCED_CONSTRUCTORS \
+#define OPSYN_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UOscFunctionLibrary(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -525,32 +525,32 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UOscFunctionLibrary); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UOscFunctionLibrary)
 
 
-#define OSCTutorial_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_PRIVATE_PROPERTY_OFFSET
-#define OSCTutorial_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_8_PROLOG
-#define OSCTutorial_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_GENERATED_BODY_LEGACY \
+#define OPSYN_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_PRIVATE_PROPERTY_OFFSET
+#define OPSYN_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_8_PROLOG
+#define OPSYN_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	OSCTutorial_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_PRIVATE_PROPERTY_OFFSET \
-	OSCTutorial_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_RPC_WRAPPERS \
-	OSCTutorial_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_INCLASS \
-	OSCTutorial_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_STANDARD_CONSTRUCTORS \
+	OPSYN_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_PRIVATE_PROPERTY_OFFSET \
+	OPSYN_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_RPC_WRAPPERS \
+	OPSYN_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_INCLASS \
+	OPSYN_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define OSCTutorial_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_GENERATED_BODY \
+#define OPSYN_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	OSCTutorial_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_PRIVATE_PROPERTY_OFFSET \
-	OSCTutorial_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
-	OSCTutorial_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_INCLASS_NO_PURE_DECLS \
-	OSCTutorial_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_ENHANCED_CONSTRUCTORS \
+	OPSYN_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_PRIVATE_PROPERTY_OFFSET \
+	OPSYN_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
+	OPSYN_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_INCLASS_NO_PURE_DECLS \
+	OPSYN_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID OSCTutorial_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h
+#define CURRENT_FILE_ID OPSYN_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

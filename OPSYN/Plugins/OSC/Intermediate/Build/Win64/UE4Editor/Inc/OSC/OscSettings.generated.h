@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define OSC_OscSettings_generated_h
 
-#define OSCTutorial_Plugins_OSC_Source_OSC_Private_OscSettings_h_18_RPC_WRAPPERS
-#define OSCTutorial_Plugins_OSC_Source_OSC_Private_OscSettings_h_18_RPC_WRAPPERS_NO_PURE_DECLS
-#define OSCTutorial_Plugins_OSC_Source_OSC_Private_OscSettings_h_18_INCLASS_NO_PURE_DECLS \
+#define OPSYN_Plugins_OSC_Source_OSC_Private_OscSettings_h_18_RPC_WRAPPERS
+#define OPSYN_Plugins_OSC_Source_OSC_Private_OscSettings_h_18_RPC_WRAPPERS_NO_PURE_DECLS
+#define OPSYN_Plugins_OSC_Source_OSC_Private_OscSettings_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUOscSettings(); \
 	friend struct Z_Construct_UClass_UOscSettings_Statics; \
@@ -26,7 +26,7 @@ public: \
 
 
 
-#define OSCTutorial_Plugins_OSC_Source_OSC_Private_OscSettings_h_18_INCLASS \
+#define OPSYN_Plugins_OSC_Source_OSC_Private_OscSettings_h_18_INCLASS \
 private: \
 	static void StaticRegisterNativesUOscSettings(); \
 	friend struct Z_Construct_UClass_UOscSettings_Statics; \
@@ -37,7 +37,7 @@ public: \
 
 
 
-#define OSCTutorial_Plugins_OSC_Source_OSC_Private_OscSettings_h_18_STANDARD_CONSTRUCTORS \
+#define OPSYN_Plugins_OSC_Source_OSC_Private_OscSettings_h_18_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UOscSettings(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UOscSettings) \
@@ -49,7 +49,7 @@ private: \
 public:
 
 
-#define OSCTutorial_Plugins_OSC_Source_OSC_Private_OscSettings_h_18_ENHANCED_CONSTRUCTORS \
+#define OPSYN_Plugins_OSC_Source_OSC_Private_OscSettings_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UOscSettings(UOscSettings&&); \
@@ -59,32 +59,32 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UOscSettings); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UOscSettings)
 
 
-#define OSCTutorial_Plugins_OSC_Source_OSC_Private_OscSettings_h_18_PRIVATE_PROPERTY_OFFSET
-#define OSCTutorial_Plugins_OSC_Source_OSC_Private_OscSettings_h_15_PROLOG
-#define OSCTutorial_Plugins_OSC_Source_OSC_Private_OscSettings_h_18_GENERATED_BODY_LEGACY \
+#define OPSYN_Plugins_OSC_Source_OSC_Private_OscSettings_h_18_PRIVATE_PROPERTY_OFFSET
+#define OPSYN_Plugins_OSC_Source_OSC_Private_OscSettings_h_15_PROLOG
+#define OPSYN_Plugins_OSC_Source_OSC_Private_OscSettings_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	OSCTutorial_Plugins_OSC_Source_OSC_Private_OscSettings_h_18_PRIVATE_PROPERTY_OFFSET \
-	OSCTutorial_Plugins_OSC_Source_OSC_Private_OscSettings_h_18_RPC_WRAPPERS \
-	OSCTutorial_Plugins_OSC_Source_OSC_Private_OscSettings_h_18_INCLASS \
-	OSCTutorial_Plugins_OSC_Source_OSC_Private_OscSettings_h_18_STANDARD_CONSTRUCTORS \
+	OPSYN_Plugins_OSC_Source_OSC_Private_OscSettings_h_18_PRIVATE_PROPERTY_OFFSET \
+	OPSYN_Plugins_OSC_Source_OSC_Private_OscSettings_h_18_RPC_WRAPPERS \
+	OPSYN_Plugins_OSC_Source_OSC_Private_OscSettings_h_18_INCLASS \
+	OPSYN_Plugins_OSC_Source_OSC_Private_OscSettings_h_18_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define OSCTutorial_Plugins_OSC_Source_OSC_Private_OscSettings_h_18_GENERATED_BODY \
+#define OPSYN_Plugins_OSC_Source_OSC_Private_OscSettings_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	OSCTutorial_Plugins_OSC_Source_OSC_Private_OscSettings_h_18_PRIVATE_PROPERTY_OFFSET \
-	OSCTutorial_Plugins_OSC_Source_OSC_Private_OscSettings_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
-	OSCTutorial_Plugins_OSC_Source_OSC_Private_OscSettings_h_18_INCLASS_NO_PURE_DECLS \
-	OSCTutorial_Plugins_OSC_Source_OSC_Private_OscSettings_h_18_ENHANCED_CONSTRUCTORS \
+	OPSYN_Plugins_OSC_Source_OSC_Private_OscSettings_h_18_PRIVATE_PROPERTY_OFFSET \
+	OPSYN_Plugins_OSC_Source_OSC_Private_OscSettings_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	OPSYN_Plugins_OSC_Source_OSC_Private_OscSettings_h_18_INCLASS_NO_PURE_DECLS \
+	OPSYN_Plugins_OSC_Source_OSC_Private_OscSettings_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID OSCTutorial_Plugins_OSC_Source_OSC_Private_OscSettings_h
+#define CURRENT_FILE_ID OPSYN_Plugins_OSC_Source_OSC_Private_OscSettings_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

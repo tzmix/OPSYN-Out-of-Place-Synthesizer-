@@ -6,8 +6,8 @@
 /NAME:"UE4Editor-OSC.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"C:\Users\luste\Documents\Unreal\Unreal Project\OSCTutorial\Intermediate\Build\Win64\OSCTutorialEditor\Development\UnrealEd\SharedPCH.UnrealEd.h.obj"
-"C:\Users\luste\Documents\Unreal\Unreal Project\OSCTutorial\Plugins\OSC\Intermediate\Build\Win64\UE4Editor\Development\OSC\Module.OSC.cpp.obj"
-"C:\Users\luste\Documents\Unreal\Unreal Project\OSCTutorial\Plugins\OSC\Intermediate\Build\Win64\UE4Editor\Development\OSC\Module.OSC.gen.cpp.obj"
-"C:\Users\luste\Documents\Unreal\Unreal Project\OSCTutorial\Plugins\OSC\Intermediate\Build\Win64\UE4Editor\Development\OSC\PCLaunch.rc.res"
-/OUT:"C:\Users\luste\Documents\Unreal\Unreal Project\OSCTutorial\Plugins\OSC\Intermediate\Build\Win64\UE4Editor\Development\OSC\UE4Editor-OSC.lib"
+"C:\Users\luste\Documents\Unreal\Unreal Project\OPSYN\Intermediate\Build\Win64\OPSYNEditor\Development\UnrealEd\SharedPCH.UnrealEd.h.obj"
+"C:\Users\luste\Documents\Unreal\Unreal Project\OPSYN\Plugins\OSC\Intermediate\Build\Win64\UE4Editor\Development\OSC\Module.OSC.cpp.obj"
+"C:\Users\luste\Documents\Unreal\Unreal Project\OPSYN\Plugins\OSC\Intermediate\Build\Win64\UE4Editor\Development\OSC\Module.OSC.gen.cpp.obj"
+"C:\Users\luste\Documents\Unreal\Unreal Project\OPSYN\Plugins\OSC\Intermediate\Build\Win64\UE4Editor\Development\OSC\PCLaunch.rc.res"
+/OUT:"C:\Users\luste\Documents\Unreal\Unreal Project\OPSYN\Plugins\OSC\Intermediate\Build\Win64\UE4Editor\Development\OSC\UE4Editor-OSC.lib"

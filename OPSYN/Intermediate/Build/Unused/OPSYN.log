@@ -1,0 +1,24 @@
+﻿  Creating makefile for OPSYNEditor (no existing makefile)
+  Using Visual Studio 2017 14.13.26128 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Parsing headers for OPSYNEditor
+    Running UnrealHeaderTool "C:\Users\luste\Documents\Unreal\Unreal Project\OPSYN\OPSYN.uproject" "C:\Users\luste\Documents\Unreal\Unreal Project\OPSYN\Intermediate\Build\Win64\OPSYNEditor\Development\OPSYNEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for OPSYNEditor in 11.6313875 seconds
+  Building 6 actions with 8 processes...
+    [1/6] PCLaunch.rc
+    [2/6] SharedPCH.UnrealEd.cpp
+    [3/6] Module.OSC.gen.cpp
+    [4/6] Module.OSC.cpp
+C:\Users\luste\Documents\Unreal\Unreal Project\OPSYN\Plugins\OSC\Source\OSC\Private\Common\oscpack\osc\OscOutboundPacketStream.cpp(359): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+    C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\string.h(132): note: see declaration of 'strcpy'
+C:\Users\luste\Documents\Unreal\Unreal Project\OPSYN\Plugins\OSC\Source\OSC\Private\Common\oscpack\osc\OscOutboundPacketStream.cpp(637): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+    C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\string.h(132): note: see declaration of 'strcpy'
+C:\Users\luste\Documents\Unreal\Unreal Project\OPSYN\Plugins\OSC\Source\OSC\Private\Common\oscpack\osc\OscOutboundPacketStream.cpp(660): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+    C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\string.h(132): note: see declaration of 'strcpy'
+C:\Users\luste\Documents\Unreal\Unreal Project\OPSYN\Plugins\OSC\Source\OSC\Private\Receive\OscReceiverInputKey.cpp(13): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+    C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+    [5/6] UE4Editor-OSC.lib
+       Creating library C:\Users\luste\Documents\Unreal\Unreal Project\OPSYN\Plugins\OSC\Intermediate\Build\Win64\UE4Editor\Development\OSC\UE4Editor-OSC.lib and object C:\Users\luste\Documents\Unreal\Unreal Project\OPSYN\Plugins\OSC\Intermediate\Build\Win64\UE4Editor\Development\OSC\UE4Editor-OSC.exp
+    [6/6] UE4Editor-OSC.dll
+       Creating library C:\Users\luste\Documents\Unreal\Unreal Project\OPSYN\Plugins\OSC\Intermediate\Build\Win64\UE4Editor\Development\OSC\UE4Editor-OSC.suppressed.lib and object C:\Users\luste\Documents\Unreal\Unreal Project\OPSYN\Plugins\OSC\Intermediate\Build\Win64\UE4Editor\Development\OSC\UE4Editor-OSC.suppressed.exp
+  Deploying OPSYNEditor Win64 Development...
+  Total build time: 72.41 seconds (Parallel executor: 54.33 seconds)

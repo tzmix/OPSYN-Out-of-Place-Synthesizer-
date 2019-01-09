@@ -24,9 +24,9 @@
 /wd4838
 /we4668
 /I .
-/I "C:\Users\luste\Documents\Unreal\Unreal Project\OSCTutorial\Plugins\OSC\Source\OSC\Private"
-/I "C:\Users\luste\Documents\Unreal\Unreal Project\OSCTutorial\Plugins\OSC\Source\OSC\Private\Common"
-/I "C:\Users\luste\Documents\Unreal\Unreal Project\OSCTutorial\Plugins\OSC\Source\OSC\Private\Receive"
+/I "C:\Users\luste\Documents\Unreal\Unreal Project\OPSYN\Plugins\OSC\Source\OSC\Private"
+/I "C:\Users\luste\Documents\Unreal\Unreal Project\OPSYN\Plugins\OSC\Source\OSC\Private\Common"
+/I "C:\Users\luste\Documents\Unreal\Unreal Project\OPSYN\Plugins\OSC\Source\OSC\Private\Receive"
 /I Runtime
 /I Runtime\Core\Public
 /I Runtime\Core
@@ -415,12 +415,12 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I "C:\Users\luste\Documents\Unreal\Unreal Project\OSCTutorial\Plugins\OSC\Intermediate\Build\Win64\UE4Editor\Inc\OSC"
-/I "C:\Users\luste\Documents\Unreal\Unreal Project\OSCTutorial\Plugins\OSC\Source"
-/I "C:\Users\luste\Documents\Unreal\Unreal Project\OSCTutorial\Plugins\OSC\Source\OSC\Public"
-/I "C:\Users\luste\Documents\Unreal\Unreal Project\OSCTutorial\Plugins\OSC\Source\OSC"
-/I "C:\Users\luste\Documents\Unreal\Unreal Project\OSCTutorial\Plugins\OSC\Source\OSC\Public\Common"
-/I "C:\Users\luste\Documents\Unreal\Unreal Project\OSCTutorial\Plugins\OSC\Source\OSC\Public\Receive"
+/I "C:\Users\luste\Documents\Unreal\Unreal Project\OPSYN\Plugins\OSC\Intermediate\Build\Win64\UE4Editor\Inc\OSC"
+/I "C:\Users\luste\Documents\Unreal\Unreal Project\OPSYN\Plugins\OSC\Source"
+/I "C:\Users\luste\Documents\Unreal\Unreal Project\OPSYN\Plugins\OSC\Source\OSC\Public"
+/I "C:\Users\luste\Documents\Unreal\Unreal Project\OPSYN\Plugins\OSC\Source\OSC"
+/I "C:\Users\luste\Documents\Unreal\Unreal Project\OPSYN\Plugins\OSC\Source\OSC\Public\Common"
+/I "C:\Users\luste\Documents\Unreal\Unreal Project\OPSYN\Plugins\OSC\Source\OSC\Public\Receive"
 /I Runtime\Networking\Public
 /I Runtime\Networking
 /I Runtime\Networking\Public\Common
@@ -433,12 +433,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
-/FI"C:\Users\luste\Documents\Unreal\Unreal Project\OSCTutorial\Intermediate\Build\Win64\OSCTutorialEditor\Development\UnrealEd\SharedPCH.UnrealEd.h"
-/Yu"C:\Users\luste\Documents\Unreal\Unreal Project\OSCTutorial\Intermediate\Build\Win64\OSCTutorialEditor\Development\UnrealEd\SharedPCH.UnrealEd.h"
-/Fp"C:\Users\luste\Documents\Unreal\Unreal Project\OSCTutorial\Intermediate\Build\Win64\OSCTutorialEditor\Development\UnrealEd\SharedPCH.UnrealEd.h.pch"
-"C:\Users\luste\Documents\Unreal\Unreal Project\OSCTutorial\Plugins\OSC\Intermediate\Build\Win64\UE4Editor\Development\OSC\Module.OSC.gen.cpp"
-/FI"C:\Users\luste\Documents\Unreal\Unreal Project\OSCTutorial\Plugins\OSC\Intermediate\Build\Win64\UE4Editor\Development\OSC\Definitions.OSC.h"
-/Fo"C:\Users\luste\Documents\Unreal\Unreal Project\OSCTutorial\Plugins\OSC\Intermediate\Build\Win64\UE4Editor\Development\OSC\Module.OSC.gen.cpp.obj"
+/FI"C:\Users\luste\Documents\Unreal\Unreal Project\OPSYN\Intermediate\Build\Win64\OPSYNEditor\Development\UnrealEd\SharedPCH.UnrealEd.h"
+/Yu"C:\Users\luste\Documents\Unreal\Unreal Project\OPSYN\Intermediate\Build\Win64\OPSYNEditor\Development\UnrealEd\SharedPCH.UnrealEd.h"
+/Fp"C:\Users\luste\Documents\Unreal\Unreal Project\OPSYN\Intermediate\Build\Win64\OPSYNEditor\Development\UnrealEd\SharedPCH.UnrealEd.h.pch"
+"C:\Users\luste\Documents\Unreal\Unreal Project\OPSYN\Plugins\OSC\Intermediate\Build\Win64\UE4Editor\Development\OSC\Module.OSC.gen.cpp"
+/FI"C:\Users\luste\Documents\Unreal\Unreal Project\OPSYN\Plugins\OSC\Intermediate\Build\Win64\UE4Editor\Development\OSC\Definitions.OSC.h"
+/Fo"C:\Users\luste\Documents\Unreal\Unreal Project\OPSYN\Plugins\OSC\Intermediate\Build\Win64\UE4Editor\Development\OSC\Module.OSC.gen.cpp.obj"
 /TP
 /GR-
 /W4

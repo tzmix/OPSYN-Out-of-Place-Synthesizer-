@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-OPSYN.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\luste\Documents\Unreal\Unreal Project\OPSYN\Intermediate\Build\Win64\OPSYNEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\luste\Documents\Unreal\Unreal Project\OPSYN\Intermediate\Build\Win64\UE4Editor\Development\OPSYN\OPSYN.cpp.obj"
+"C:\Users\luste\Documents\Unreal\Unreal Project\OPSYN\Intermediate\Build\Win64\UE4Editor\Development\OPSYN\OPSYNGameModeBase.cpp.obj"
+"C:\Users\luste\Documents\Unreal\Unreal Project\OPSYN\Intermediate\Build\Win64\UE4Editor\Development\OPSYN\OPSYN.init.gen.cpp.obj"
+"C:\Users\luste\Documents\Unreal\Unreal Project\OPSYN\Intermediate\Build\Win64\UE4Editor\Development\OPSYN\OPSYNGameModeBase.gen.cpp.obj"
+"C:\Users\luste\Documents\Unreal\Unreal Project\OPSYN\Intermediate\Build\Win64\UE4Editor\Development\OPSYN\PCLaunch.rc.res"
+/OUT:"C:\Users\luste\Documents\Unreal\Unreal Project\OPSYN\Intermediate\Build\Win64\UE4Editor\Development\OPSYN\UE4Editor-OPSYN.lib"

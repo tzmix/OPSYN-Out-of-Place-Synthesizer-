@@ -1,0 +1,4 @@
+C:\Users\luste\Documents\Unreal\Unreal Project\OPSYN\Source\OPSYN\OPSYN.Build.cs
+C:\Users\luste\Documents\Unreal\Unreal Project\OPSYN\Plugins\OSC\Source\OSC\OSC.Build.cs
+C:\Users\luste\Documents\Unreal\Unreal Project\OPSYN\Source\OPSYN.Target.cs
+C:\Users\luste\Documents\Unreal\Unreal Project\OPSYN\Source\OPSYNEditor.Target.cs

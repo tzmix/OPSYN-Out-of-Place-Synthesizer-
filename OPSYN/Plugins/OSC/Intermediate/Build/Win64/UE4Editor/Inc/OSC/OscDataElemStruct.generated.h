@@ -13,13 +13,13 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define OSC_OscDataElemStruct_generated_h
 
-#define OSCTutorial_Plugins_OSC_Source_OSC_Public_Common_OscDataElemStruct_h_9_GENERATED_BODY \
+#define OPSYN_Plugins_OSC_Source_OSC_Public_Common_OscDataElemStruct_h_9_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FOscDataElemStruct_Statics; \
 	static class UScriptStruct* StaticStruct();
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID OSCTutorial_Plugins_OSC_Source_OSC_Public_Common_OscDataElemStruct_h
+#define CURRENT_FILE_ID OPSYN_Plugins_OSC_Source_OSC_Public_Common_OscDataElemStruct_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

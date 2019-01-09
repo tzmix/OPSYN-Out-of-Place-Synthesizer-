@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define OSC_OscDispatcher_generated_h
 
-#define OSCTutorial_Plugins_OSC_Source_OSC_Private_Receive_OscDispatcher_h_23_RPC_WRAPPERS
-#define OSCTutorial_Plugins_OSC_Source_OSC_Private_Receive_OscDispatcher_h_23_RPC_WRAPPERS_NO_PURE_DECLS
-#define OSCTutorial_Plugins_OSC_Source_OSC_Private_Receive_OscDispatcher_h_23_INCLASS_NO_PURE_DECLS \
+#define OPSYN_Plugins_OSC_Source_OSC_Private_Receive_OscDispatcher_h_23_RPC_WRAPPERS
+#define OPSYN_Plugins_OSC_Source_OSC_Private_Receive_OscDispatcher_h_23_RPC_WRAPPERS_NO_PURE_DECLS
+#define OPSYN_Plugins_OSC_Source_OSC_Private_Receive_OscDispatcher_h_23_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUOscDispatcher(); \
 	friend struct Z_Construct_UClass_UOscDispatcher_Statics; \
@@ -24,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(UOscDispatcher)
 
 
-#define OSCTutorial_Plugins_OSC_Source_OSC_Private_Receive_OscDispatcher_h_23_INCLASS \
+#define OPSYN_Plugins_OSC_Source_OSC_Private_Receive_OscDispatcher_h_23_INCLASS \
 private: \
 	static void StaticRegisterNativesUOscDispatcher(); \
 	friend struct Z_Construct_UClass_UOscDispatcher_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(UOscDispatcher)
 
 
-#define OSCTutorial_Plugins_OSC_Source_OSC_Private_Receive_OscDispatcher_h_23_STANDARD_CONSTRUCTORS \
+#define OPSYN_Plugins_OSC_Source_OSC_Private_Receive_OscDispatcher_h_23_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UOscDispatcher(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UOscDispatcher) \
@@ -45,7 +45,7 @@ private: \
 public:
 
 
-#define OSCTutorial_Plugins_OSC_Source_OSC_Private_Receive_OscDispatcher_h_23_ENHANCED_CONSTRUCTORS \
+#define OPSYN_Plugins_OSC_Source_OSC_Private_Receive_OscDispatcher_h_23_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UOscDispatcher(UOscDispatcher&&); \
@@ -55,32 +55,32 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UOscDispatcher); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UOscDispatcher)
 
 
-#define OSCTutorial_Plugins_OSC_Source_OSC_Private_Receive_OscDispatcher_h_23_PRIVATE_PROPERTY_OFFSET
-#define OSCTutorial_Plugins_OSC_Source_OSC_Private_Receive_OscDispatcher_h_20_PROLOG
-#define OSCTutorial_Plugins_OSC_Source_OSC_Private_Receive_OscDispatcher_h_23_GENERATED_BODY_LEGACY \
+#define OPSYN_Plugins_OSC_Source_OSC_Private_Receive_OscDispatcher_h_23_PRIVATE_PROPERTY_OFFSET
+#define OPSYN_Plugins_OSC_Source_OSC_Private_Receive_OscDispatcher_h_20_PROLOG
+#define OPSYN_Plugins_OSC_Source_OSC_Private_Receive_OscDispatcher_h_23_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	OSCTutorial_Plugins_OSC_Source_OSC_Private_Receive_OscDispatcher_h_23_PRIVATE_PROPERTY_OFFSET \
-	OSCTutorial_Plugins_OSC_Source_OSC_Private_Receive_OscDispatcher_h_23_RPC_WRAPPERS \
-	OSCTutorial_Plugins_OSC_Source_OSC_Private_Receive_OscDispatcher_h_23_INCLASS \
-	OSCTutorial_Plugins_OSC_Source_OSC_Private_Receive_OscDispatcher_h_23_STANDARD_CONSTRUCTORS \
+	OPSYN_Plugins_OSC_Source_OSC_Private_Receive_OscDispatcher_h_23_PRIVATE_PROPERTY_OFFSET \
+	OPSYN_Plugins_OSC_Source_OSC_Private_Receive_OscDispatcher_h_23_RPC_WRAPPERS \
+	OPSYN_Plugins_OSC_Source_OSC_Private_Receive_OscDispatcher_h_23_INCLASS \
+	OPSYN_Plugins_OSC_Source_OSC_Private_Receive_OscDispatcher_h_23_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define OSCTutorial_Plugins_OSC_Source_OSC_Private_Receive_OscDispatcher_h_23_GENERATED_BODY \
+#define OPSYN_Plugins_OSC_Source_OSC_Private_Receive_OscDispatcher_h_23_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	OSCTutorial_Plugins_OSC_Source_OSC_Private_Receive_OscDispatcher_h_23_PRIVATE_PROPERTY_OFFSET \
-	OSCTutorial_Plugins_OSC_Source_OSC_Private_Receive_OscDispatcher_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
-	OSCTutorial_Plugins_OSC_Source_OSC_Private_Receive_OscDispatcher_h_23_INCLASS_NO_PURE_DECLS \
-	OSCTutorial_Plugins_OSC_Source_OSC_Private_Receive_OscDispatcher_h_23_ENHANCED_CONSTRUCTORS \
+	OPSYN_Plugins_OSC_Source_OSC_Private_Receive_OscDispatcher_h_23_PRIVATE_PROPERTY_OFFSET \
+	OPSYN_Plugins_OSC_Source_OSC_Private_Receive_OscDispatcher_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
+	OPSYN_Plugins_OSC_Source_OSC_Private_Receive_OscDispatcher_h_23_INCLASS_NO_PURE_DECLS \
+	OPSYN_Plugins_OSC_Source_OSC_Private_Receive_OscDispatcher_h_23_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID OSCTutorial_Plugins_OSC_Source_OSC_Private_Receive_OscDispatcher_h
+#define CURRENT_FILE_ID OPSYN_Plugins_OSC_Source_OSC_Private_Receive_OscDispatcher_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

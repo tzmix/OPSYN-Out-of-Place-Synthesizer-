@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\OPSYN.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{C546692C-69E2-4F6F-848F-0159346E898D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\OPSYN.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\OPSYNEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{A0AFF398-57EA-44CA-BCA5-24FAB86CC7C3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{E8A960EE-54AC-4145-AB48-2FD128E7F670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\OSC">
+      <UniqueIdentifier>{9C988A15-1B7A-4F19-A845-18FB875E33BB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\OSC\Source">
+      <UniqueIdentifier>{D1971BAF-57A7-46F0-B1D0-C23F6C47C310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\OSC\Source\OSC">
+      <UniqueIdentifier>{68F2C7A4-0AA1-4DC0-A9D3-6B9DBA22F5DC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\OSC\Source\OSC\OSC.Build.cs">
+      <Filter>Plugins\OSC\Source\OSC</Filter>
+    </None>
+    <Filter Include="Plugins\OSC\Source\OSC\Private">
+      <UniqueIdentifier>{42505FE6-D4F4-4193-AB98-E25F6008029E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\OSC\Source\OSC\Private\OscModule.cpp">
+      <Filter>Plugins\OSC\Source\OSC\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\OSC\Source\OSC\Private\OscPrivatePCH.h">
+      <Filter>Plugins\OSC\Source\OSC\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\OSC\Source\OSC\Private\OscSettings.cpp">
+      <Filter>Plugins\OSC\Source\OSC\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\OSC\Source\OSC\Private\OscSettings.h">
+      <Filter>Plugins\OSC\Source\OSC\Private</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OSC\Source\OSC\Private\Common">
+      <UniqueIdentifier>{243BAA5D-E49B-45C4-B746-3E097676027B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\OSC\Source\OSC\Private\Common\oscpack">
+      <UniqueIdentifier>{2DEDC6F4-BD7B-41A9-B659-C1546F73B058}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\OSC\Source\OSC\Private\Common\oscpack\osc">
+      <UniqueIdentifier>{4B8D92C2-69E4-4B97-90AA-E90893914AD7}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OSC\Source\OSC\Private\Common\oscpack\osc\OscHostEndianness.h">
+      <Filter>Plugins\OSC\Source\OSC\Private\Common\oscpack\osc</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\OSC\Source\OSC\Private\Common\oscpack\osc\OscOutboundPacketStream.cpp">
+      <Filter>Plugins\OSC\Source\OSC\Private\Common\oscpack\osc</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\OSC\Source\OSC\Private\Common\oscpack\osc\OscOutboundPacketStream.h">
+      <Filter>Plugins\OSC\Source\OSC\Private\Common\oscpack\osc</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\OSC\Source\OSC\Private\Common\oscpack\osc\OscReceivedElements.cpp">
+      <Filter>Plugins\OSC\Source\OSC\Private\Common\oscpack\osc</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\OSC\Source\OSC\Private\Common\oscpack\osc\OscReceivedElements.h">
+      <Filter>Plugins\OSC\Source\OSC\Private\Common\oscpack\osc</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\OSC\Source\OSC\Private\Common\oscpack\osc\OscTypes.cpp">
+      <Filter>Plugins\OSC\Source\OSC\Private\Common\oscpack\osc</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\OSC\Source\OSC\Private\Common\oscpack\osc\OscTypes.h">
+      <Filter>Plugins\OSC\Source\OSC\Private\Common\oscpack\osc</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OSC\Source\OSC\Private\Receive">
+      <UniqueIdentifier>{B960B9E7-6C04-4BE2-B1A2-CF163DDFE540}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\OSC\Source\OSC\Private\Receive\OscDispatcher.cpp">
+      <Filter>Plugins\OSC\Source\OSC\Private\Receive</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\OSC\Source\OSC\Private\Receive\OscDispatcher.h">
+      <Filter>Plugins\OSC\Source\OSC\Private\Receive</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\OSC\Source\OSC\Private\Receive\OscReceiverInputKey.cpp">
+      <Filter>Plugins\OSC\Source\OSC\Private\Receive</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\OSC\Source\OSC\Private\Receive\OscReceiverInputKey.h">
+      <Filter>Plugins\OSC\Source\OSC\Private\Receive</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OSC\Source\OSC\Public">
+      <UniqueIdentifier>{5663F48D-81B3-4B3B-870C-635F628FC48A}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OSC\Source\OSC\Public\Osc.h">
+      <Filter>Plugins\OSC\Source\OSC\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OSC\Source\OSC\Public\Common">
+      <UniqueIdentifier>{327877E3-F59C-4663-BC7A-AD7A105D8278}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OSC\Source\OSC\Public\Common\OscDataElemStruct.h">
+      <Filter>Plugins\OSC\Source\OSC\Public\Common</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\OSC\Source\OSC\Public\Common\OscFunctionLibrary.cpp">
+      <Filter>Plugins\OSC\Source\OSC\Public\Common</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\OSC\Source\OSC\Public\Common\OscFunctionLibrary.h">
+      <Filter>Plugins\OSC\Source\OSC\Public\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OSC\Source\OSC\Public\Common\OscMessageStruct.h">
+      <Filter>Plugins\OSC\Source\OSC\Public\Common</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OSC\Source\OSC\Public\Receive">
+      <UniqueIdentifier>{DC18F17E-FAEF-4D80-9869-4DC7D6837172}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\OSC\Source\OSC\Public\Receive\OscReceiverActor.cpp">
+      <Filter>Plugins\OSC\Source\OSC\Public\Receive</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\OSC\Source\OSC\Public\Receive\OscReceiverActor.h">
+      <Filter>Plugins\OSC\Source\OSC\Public\Receive</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\OSC\Source\OSC\Public\Receive\OscReceiverComponent.cpp">
+      <Filter>Plugins\OSC\Source\OSC\Public\Receive</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\OSC\Source\OSC\Public\Receive\OscReceiverComponent.h">
+      <Filter>Plugins\OSC\Source\OSC\Public\Receive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OSC\Source\OSC\Public\Receive\OscReceiverInterface.h">
+      <Filter>Plugins\OSC\Source\OSC\Public\Receive</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\OSC\OSC.uplugin">
+      <Filter>Plugins\OSC</Filter>
+    </None>
+    <Filter Include="Plugins\OSC\Resources">
+      <UniqueIdentifier>{88477D06-3FBD-4F06-8643-2D47FC6319F4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\OSC\Resources\Icon128.png">
+      <Filter>Plugins\OSC\Resources</Filter>
+    </None>
+    <Filter Include="Source\OPSYN">
+      <UniqueIdentifier>{855B3500-FCB0-4D50-B74A-338B578C5925}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\OPSYN\OPSYN.Build.cs">
+      <Filter>Source\OPSYN</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\OPSYN\OPSYN.cpp">
+      <Filter>Source\OPSYN</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\OPSYN\OPSYN.h">
+      <Filter>Source\OPSYN</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\OPSYN\OPSYNGameModeBase.cpp">
+      <Filter>Source\OPSYN</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\OPSYN\OPSYNGameModeBase.h">
+      <Filter>Source\OPSYN</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
