@@ -11,4 +11,4 @@ OPSYN is a Sci-Fi, Cyber Punk, Immersive Virtual Musical Environment. It is a s
 [OSC plugin](https://github.com/monsieurgustav/UE4-OSC) \
 [Leap Motion SDK](https://developer.leapmotion.com/get-started) \
 [Leap Unreal](https://github.com/leapmotion/LeapUnreal) \
-[LeapUnrealModules](https://github.com/leapmotion/LeapUnrealModules) \
+[LeapUnrealModules](https://github.com/leapmotion/LeapUnrealModules) 
