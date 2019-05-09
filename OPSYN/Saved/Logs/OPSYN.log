@@ -1,4 +1,4 @@
-﻿Log file open, 02/11/19 23:53:09
+﻿Log file open, 05/08/19 19:32:07
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogInit: Display: Running engine for game: OPSYN
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.785742
+LogStats: Stats thread started at 0.297658
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -96,7 +96,7 @@ LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin WindowsMoviePlayer
 LogPluginManager: Mounting plugin OSC
-LogStreaming: Display: Took  0.160s to configure plugins.
+LogStreaming: Display: Took  0.099s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -116,6 +116,7 @@ LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connecti
 LogInit:  - LocalHostAddr = Default
 LogInit:  - BufferSize = 65536
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogHMD: Failed initializing OVRPlugin 1.28.0
 LogInit: Build: ++UE4+Release-4.21-CL-4613538
 LogInit: Engine Version: 4.21.1-4613538+++UE4+Release-4.21
 LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
@@ -151,1268 +152,511 @@ LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
 LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
-LogStreaming: Display: Took  0.001s to delete old logs.
+LogStreaming: Display: Took  0.003s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.02.12-04.53.10:920][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.02.12-04.53.10:920][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.02.12-04.53.10:920][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Engine.ini]
-[2019.02.12-04.53.10:920][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.02.12-04.53.10:921][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Engine.ini]
-[2019.02.12-04.53.10:921][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Engine.ini]
-[2019.02.12-04.53.10:921][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.02.12-04.53.10:921][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.02.12-04.53.10:921][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.02.12-04.53.10:921][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.02.12-04.53.10:921][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.02.12-04.53.10:921][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.02.12-04.53.10:921][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.02.12-04.53.10:921][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.02.12-04.53.10:921][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.02.12-04.53.10:921][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.02.12-04.53.10:921][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.02.12-04.53.10:921][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.02.12-04.53.10:921][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.02.12-04.53.10:921][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Engine.ini]
-[2019.02.12-04.53.10:921][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.02.12-04.53.10:921][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.02.12-04.53.10:921][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.02.12-04.53.10:921][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.02.12-04.53.10:921][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.02.12-04.53.10:921][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.02.12-04.53.10:921][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
-[2019.02.12-04.53.10:921][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.02.12-04.53.10:921][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.02.12-04.53.10:921][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
-[2019.02.12-04.53.10:921][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.02.12-04.53.10:921][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.02.12-04.53.10:921][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.02.12-04.53.10:921][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.02.12-04.53.10:921][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Engine.ini]
-[2019.02.12-04.53.10:921][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Engine.ini]
-[2019.02.12-04.53.10:927][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Scalability.ini]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Scalability.ini]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Scalability.ini]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Scalability.ini]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Scalability.ini]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Scalability.ini]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Scalability.ini]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.02.12-04.53.10:927][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.02.12-04.53.10:928][  0]LogInit: Selected Device Profile: [Windows]
-[2019.02.12-04.53.10:928][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.02.12-04.53.10:957][  0]LogHAL: Display: Platform has ~ 16 GB [17065697280 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.02.12-04.53.10:957][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
-[2019.02.12-04.53.10:957][  0]LogInit: Going up to parent DeviceProfile []
-[2019.02.12-04.53.10:957][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Scalability.ini]
-[2019.02.12-04.53.10:957][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.02.12-04.53.10:957][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.02.12-04.53.10:957][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Scalability.ini]
-[2019.02.12-04.53.10:957][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.02.12-04.53.10:957][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Scalability.ini]
-[2019.02.12-04.53.10:957][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.02.12-04.53.10:957][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.02.12-04.53.10:957][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.02.12-04.53.10:957][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.02.12-04.53.10:957][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.02.12-04.53.10:957][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.02.12-04.53.10:957][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.02.12-04.53.10:957][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.02.12-04.53.10:957][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.02.12-04.53.10:957][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.02.12-04.53.10:957][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.02.12-04.53.10:957][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.02.12-04.53.10:957][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.02.12-04.53.10:957][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.02.12-04.53.10:957][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.02.12-04.53.10:957][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Scalability.ini]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Scalability.ini]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Scalability.ini]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Scalability.ini]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.02.12-04.53.10:958][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.02.12-04.53.10:963][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.02.12-04.53.10:963][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Engine.ini]
-[2019.02.12-04.53.10:964][  0]LogInit: Computer: LAPTOP-SD3MDD22
-[2019.02.12-04.53.10:964][  0]LogInit: User: luste
-[2019.02.12-04.53.10:964][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.02.12-04.53.10:964][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.02.12-04.53.10:965][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2019.02.12-04.53.10:965][  0]LogMemory: Platform Memory Stats for Windows
-[2019.02.12-04.53.10:965][  0]LogMemory: Process Physical Memory: 109.08 MB used, 109.09 MB peak
-[2019.02.12-04.53.10:965][  0]LogMemory: Process Virtual Memory: 98.32 MB used, 98.32 MB peak
-[2019.02.12-04.53.10:965][  0]LogMemory: Physical Memory: 4434.88 MB used,  11840.24 MB free, 16275.12 MB total
-[2019.02.12-04.53.10:965][  0]LogMemory: Virtual Memory: 4676.46 MB used,  134213048.00 MB free, 134217728.00 MB total
-[2019.02.12-04.53.11:174][  0]LogInit: Using OS detected language (en-US).
-[2019.02.12-04.53.11:174][  0]LogInit: Using OS detected locale (en-US).
-[2019.02.12-04.53.11:178][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.02.12-04.53.11:773][  0]LogStreaming: Display: Took  0.598s to InitEngineTextLocalization.
-[2019.02.12-04.53.11:774][  0]LogInit: Setting process to per monitor DPI aware
-[2019.02.12-04.53.11:878][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.02.12-04.53.11:878][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.02.12-04.53.14:874][  0]LogD3D11RHI: D3D11 adapters:
-[2019.02.12-04.53.14:948][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
-[2019.02.12-04.53.14:948][  0]LogD3D11RHI:       6052/0/8137 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.02.12-04.53.14:958][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2019.02.12-04.53.14:958][  0]LogD3D11RHI:       128/0/8137 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.02.12-04.53.14:960][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.02.12-04.53.14:960][  0]LogD3D11RHI:       0/0/8137 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.02.12-04.53.14:960][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.02.12-04.53.14:994][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.02.12-04.53.14:994][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
-[2019.02.12-04.53.14:994][  0]LogWindows: EnumDisplayDevices:
-[2019.02.12-04.53.14:994][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
-[2019.02.12-04.53.14:995][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2019.02.12-04.53.14:995][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2019.02.12-04.53.14:995][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2019.02.12-04.53.14:995][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
-[2019.02.12-04.53.14:995][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
-[2019.02.12-04.53.14:996][  0]LogD3D11RHI:   Driver Version: 416.34 (internal:25.21.14.1634, unified:416.34)
-[2019.02.12-04.53.14:996][  0]LogD3D11RHI:      Driver Date: 10-10-2018
-[2019.02.12-04.53.14:996][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
-[2019.02.12-04.53.15:050][  0]LogD3D11RHI: Async texture creation enabled
-[2019.02.12-04.53.15:107][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.02.12-04.53.15:535][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.02.12-04.53.15:551][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.02.12-04.53.15:566][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.02.12-04.53.15:582][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.02.12-04.53.15:602][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.02.12-04.53.15:619][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.02.12-04.53.15:634][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.02.12-04.53.15:650][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.02.12-04.53.15:658][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.02.12-04.53.15:755][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.12-04.53.15:755][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.12-04.53.15:755][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.12-04.53.15:755][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.12-04.53.15:755][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.12-04.53.15:755][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.12-04.53.15:755][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.12-04.53.15:755][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.12-04.53.15:755][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.12-04.53.15:755][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.12-04.53.15:755][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.12-04.53.15:755][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.12-04.53.15:755][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.12-04.53.15:755][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.12-04.53.15:755][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.12-04.53.15:755][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.12-04.53.15:756][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.12-04.53.15:756][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.12-04.53.15:758][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.02.12-04.53.15:836][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.02.12-04.53.15:836][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.02.12-04.53.15:863][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.02.12-04.53.15:863][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.02.12-04.53.15:878][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.02.12-04.53.15:893][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.02.12-04.53.15:909][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.02.12-04.53.15:931][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.02.12-04.53.15:986][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.02.12-04.53.15:986][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.02.12-04.53.15:986][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.02.12-04.53.16:120][  0]LogShaderCompilers: Guid format shader working directory is -38 characters bigger than the processId version (../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Intermediate/Shaders/WorkingDirectory/8152/).
-[2019.02.12-04.53.16:120][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/luste/AppData/Local/Temp/UnrealShaderWorkingDir/AE8C5AE54864A88B7C8860999AD9016E/'.
-[2019.02.12-04.53.16:123][  0]LogXGEController: Cleaning working directory: C:/Users/luste/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.02.12-04.53.16:123][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.02.12-04.53.16:123][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.02.12-04.53.16:123][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.02.12-04.53.18:218][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.02.12-04.53.18:314][  0]LogDerivedDataCache: Loaded boot cache 0.10s 71MB C:/Users/luste/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2019.02.12-04.53.18:314][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/luste/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
-[2019.02.12-04.53.18:314][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.02.12-04.53.18:314][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.02.12-04.53.18:314][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.02.12-04.53.18:314][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.02.12-04.53.18:337][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.02.12-04.53.18:337][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.02.12-04.53.18:337][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.02.12-04.53.18:350][  0]LogDerivedDataCache: Using Local data cache path C:/Users/luste/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.02.12-04.53.18:350][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.02.12-04.53.18:350][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.02.12-04.53.18:379][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.02.12-04.53.18:386][  0]LogSlate: Using FreeType 2.6.0
-[2019.02.12-04.53.18:406][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.02.12-04.53.18:774][  0]LogAssetRegistry: FAssetRegistry took 0.0378 seconds to start up
-[2019.02.12-04.53.19:226][  0]LogInit: Selected Device Profile: [Windows]
-[2019.02.12-04.53.19:586][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.02.12-04.53.19:602][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.02.12-04.53.19:602][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.02.12-04.53.19:603][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.02.12-04.53.19:603][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.02.12-04.53.19:658][  0]LogNetVersion: OPSYN 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2167866302)
-[2019.02.12-04.53.21:157][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 2 prioritized culture(s) in 0.149484 seconds
-[2019.02.12-04.53.21:164][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
-[2019.02.12-04.53.21:164][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
-[2019.02.12-04.53.21:164][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.02.12-04.53.25:376][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.02.12-04.53.25:392][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.02.12-04.53.26:257][  0]LogOSC: Display: Update settings
-[2019.02.12-04.53.26:257][  0]LogOSC: Display: Send targets cleared
-[2019.02.12-04.53.26:257][  0]LogOSC: Display: Send target added: 127.0.0.1:8000
-[2019.02.12-04.53.26:257][  0]LogOSC: Display: Send target added: 192.168.0.133:8080
-[2019.02.12-04.53.26:257][  0]LogOSC: Display: Send target added: 192.168.0.189:7000
-[2019.02.12-04.53.26:257][  0]LogOSC: Display: Send target added: 192.168.0.189:7010
-[2019.02.12-04.53.26:257][  0]LogOSC: Display: Send target added: 192.168.0.189:9000
-[2019.02.12-04.53.26:257][  0]LogOSC: Display: Startup succeed
-[2019.02.12-04.53.26:416][  0]SourceControl: Source control is disabled
-[2019.02.12-04.53.26:417][  0]SourceControl: Source control is disabled
-[2019.02.12-04.53.26:426][  0]SourceControl: Source control is disabled
-[2019.02.12-04.53.26:430][  0]SourceControl: Source control is disabled
-[2019.02.12-04.53.26:756][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.02.12-04.53.26:966][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/LeapMotion/Win64/LeapC.dll' (GetLastError=126)
-[2019.02.12-04.53.26:967][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/LeapMotion/Win64/LeapC.dll' does not exist
-[2019.02.12-04.53.26:967][  0]LeapMotionLog: Leap Plugin started v3.2.0
-[2019.02.12-04.53.26:975][  0]LogOcInput: OculusInput pre-init called
-[2019.02.12-04.53.27:197][  0]LogClass: Warning: ObjectProperty FMappedBoneAnimData::BodyStateSkeleton is not initialized properly
-[2019.02.12-04.53.27:197][  0]LogClass: Warning: FBodyStateDeviceConfig::InputType is not initialized properly
-[2019.02.12-04.53.27:197][  0]LogClass: Warning: FLeapStats::FrameExtrapolationInMS is not initialized properly
-[2019.02.12-04.53.27:197][  0]LogClass: Display: 3 Uninitialized script stuct members found
-[2019.02.12-04.53.27:201][  0]LogAutomationTest: Warning: ObjectProperty FMappedBoneAnimData::BodyStateSkeleton is not initialized properly
-[2019.02.12-04.53.27:201][  0]LogAutomationTest: Warning: FBodyStateDeviceConfig::InputType is not initialized properly
-[2019.02.12-04.53.27:201][  0]LogAutomationTest: Warning: FLeapStats::FrameExtrapolationInMS is not initialized properly
-[2019.02.12-04.53.27:205][  0]LogEngine: Initializing Engine...
-[2019.02.12-04.53.27:207][  0]LogHMD: Oculus plugin initialized. Version: 4.21.1-4613538+++UE4+Release-4.21, OVRPlugin: 1.28.0
-[2019.02.12-04.53.27:211][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.001 s
-[2019.02.12-04.53.27:211][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.02.12-04.53.27:211][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.02.12-04.53.27:212][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.02.12-04.53.27:712][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.02.12-04.53.27:756][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.02.12-04.53.27:801][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.12-04.53.27:914][  0]LogInit: FAudioDevice initialized.
-[2019.02.12-04.53.27:914][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.02.12-04.53.27:964][  0]LogDerivedDataCache: Saved boot cache 0.05s 71MB C:/Users/luste/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2019.02.12-04.53.27:976][  0]LogInit: Texture streaming: Enabled
-[2019.02.12-04.53.28:003][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.02.12-04.53.28:032][  0]LogInit: Transaction tracking system initialized
-[2019.02.12-04.53.28:099][  0]BlueprintLog: New page: Editor Load
-[2019.02.12-04.53.28:327][  0]LocalizationService: Localization service is disabled
-[2019.02.12-04.53.29:208][  0]LogFileCache: Scanning file cache for directory 'C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Content/' took 0.02s
-[2019.02.12-04.53.29:208][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.02.12-04.53.29:208][  0]LogCook: Display: Mobile HDR setting 1
-[2019.02.12-04.53.29:208][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.02.12-04.53.29:208][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.02.12-04.53.29:208][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.02.12-04.53.29:208][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.02.12-04.53.29:208][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.02.12-04.53.29:560][  0]SourceControl: Source control is disabled
-[2019.02.12-04.53.29:560][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.02.12-04.53.29:567][  0]LightingResults: New page: Lighting Build
-[2019.02.12-04.53.29:576][  0]MapCheck: New page: Map Check
-[2019.02.12-04.53.29:576][  0]LightingResults: New page: Lighting Build
-[2019.02.12-04.53.29:884][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2019.02.12-04.53.29:909][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.02.12-04.53.29:935][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.02.12-04.53.29:937][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.292ms to complete.
-[2019.02.12-04.53.29:937][  0]LogFileHelpers: Loading map 'Template_Default' took 0.377
-[2019.02.12-04.53.30:124][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.12-04.53.30:133][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.12-04.53.30:145][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.12-04.53.30:153][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.12-04.53.30:178][  0]LogCollectionManager: Loaded 0 collections in 0.002856 seconds
-[2019.02.12-04.53.30:224][  0]LogFileCache: Scanning file cache for directory 'C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Collections/' took 0.01s
-[2019.02.12-04.53.30:224][  0]LogFileCache: Scanning file cache for directory 'C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Content/Developers/luste/Collections/' took 0.01s
-[2019.02.12-04.53.30:224][  0]LogFileCache: Scanning file cache for directory 'C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Content/Collections/' took 0.00s
-[2019.02.12-04.53.30:224][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.02.12-04.53.30:239][  0]LogContentBrowser: Native class hierarchy populated in 0.0121 seconds. Added 2671 classes and 637 folders.
-[2019.02.12-04.53.30:259][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.02.12-04.53.30:273][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.12-04.53.30:284][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.12-04.53.30:312][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.12-04.53.30:320][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.12-04.53.30:326][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.12-04.53.30:332][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.12-04.53.30:338][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.12-04.53.30:346][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.12-04.53.30:354][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.12-04.53.30:361][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.12-04.53.30:369][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.12-04.53.30:376][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.12-04.53.30:386][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.12-04.53.30:392][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.12-04.53.30:400][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.12-04.53.30:405][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.12-04.53.30:444][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.12-04.53.30:452][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.12-04.53.30:458][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.12-04.53.30:465][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.12-04.53.30:515][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.12-04.53.30:521][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.12-04.53.30:527][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.12-04.53.30:535][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.12-04.53.30:543][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.12-04.53.30:551][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.12-04.53.30:771][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.02.12-04.53.30:783][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2019.02.12-04.53.30:844][  0]LogSlate: Took 0.008706 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.02.12-04.53.30:856][  0]LogSlate: Took 0.009213 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.02.12-04.53.30:874][  0]LogSlate: Took 0.008081 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.02.12-04.53.31:042][  0]LogRenderer: Reallocating scene render targets to support 916x236 Format 10 NumSamples 1 (Frame:1).
-[2019.02.12-04.53.31:273][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.02.12-04.53.31:273][  0]LogLoad: (Engine Initialization) Total time: 25.82 seconds
-[2019.02.12-04.53.31:273][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.02.12-04.53.31:295][  0]LogOcInput: OculusInput is initialized
-[2019.02.12-04.53.31:309][  0]LeapMotionLog: ServiceMessageLoop started.
-[2019.02.12-04.53.31:309][  0]BodyStateLog: BodyState::DeviceAttached: Leap Motion (1)
-[2019.02.12-04.53.31:309][  0]BodyStateLog: BodyState::DeviceAttached: HMD (2)
-[2019.02.12-04.53.31:358][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.02.12-04.53.31:463][  1]LeapMotionLog: LeapService: OnConnect.
-[2019.02.12-04.53.31:463][  1]LeapMotionLog: OnDeviceFound Peripheral LP48968462935.
-[2019.02.12-04.53.31:494][  2]LogAssetRegistry: Asset discovery search completed in 12.7434 seconds
-[2019.02.12-04.53.31:500][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.02.12-04.53.31:500][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000139 seconds (updated 0 objects)
-[2019.02.12-04.53.33:895][135]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.12-04.53.34:068][144]LogSlate: Took 0.010773 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.02.12-04.53.35:547][144]LogAIModule: Creating AISystem for world OPSYN1
-[2019.02.12-04.53.35:575][144]LogAssetEditorManager: Opening Asset editor for World /Game/OPSYN1.OPSYN1
-[2019.02.12-04.53.35:610][144]Cmd: MAP LOAD FILE="../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Content/OPSYN1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.02.12-04.53.35:610][144]LightingResults: New page: Lighting Build
-[2019.02.12-04.53.35:611][144]LoadErrors: New page: Loading map: OPSYN1.umap
-[2019.02.12-04.53.35:611][144]MapCheck: New page: Map Check
-[2019.02.12-04.53.35:611][144]LightingResults: New page: Lighting Build
-[2019.02.12-04.53.35:675][144]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.02.12-04.53.35:735][144]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.02.12-04.53.35:736][144]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.141ms to complete.
-[2019.02.12-04.53.35:736][144]LogFileHelpers: Loading map 'OPSYN1' took 0.127
-[2019.02.12-04.53.35:817][145]LogRenderer: Reallocating scene render targets to support 916x256 Format 10 NumSamples 1 (Frame:1).
-[2019.02.12-04.53.46:423][769]LogTemp: Repeating last play command: VR Preview
-[2019.02.12-04.53.46:454][769]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/OPSYN1.OPSYN1:PersistentLevel' has LevelScriptBlueprint '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1' with GeneratedClass '/Game/OPSYN1.OPSYN1_C' with ClassGeneratedBy '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1'
-[2019.02.12-04.53.46:454][769]LogOSC: Display: Stop listening
-[2019.02.12-04.53.46:466][769]LogOSC: Display: Listen to port 8060
-[2019.02.12-04.53.46:466][769]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.12-04.53.46:466][769]LogHMD: Initializing OVRPlugin session
-[2019.02.12-04.53.48:328][769]PIE: New page: PIE session: OPSYN1 (Feb 11, 2019, 6:53:48 PM)
-[2019.02.12-04.53.48:342][769]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_OPSYN1
-[2019.02.12-04.53.48:360][769]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016881s)
-[2019.02.12-04.53.48:360][769]LogAIModule: Creating AISystem for world OPSYN1
-[2019.02.12-04.53.48:361][769]LogPlayLevel: PIE: World Init took: (0.000810s)
-[2019.02.12-04.53.48:361][769]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OPSYN1.OPSYN1 to /Game/UEDPIE_0_OPSYN1.OPSYN1 (0.018210s)
-[2019.02.12-04.53.48:422][769]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.02.12-04.53.48:441][769]LogInit: FAudioDevice initialized.
-[2019.02.12-04.53.48:451][769]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.12-04.53.48:566][769]LogHMD: Allocating Oculus 2688 x 1600 rendertarget swapchain
-[2019.02.12-04.53.48:613][769]LogLoad: Game class is 'GameModeBase'
-[2019.02.12-04.53.48:623][769]LogTemp: Bone cache synced: 0
-[2019.02.12-04.53.48:623][769]LogTemp: Bone cache synced: 20
-[2019.02.12-04.53.48:627][769]LogTemp: Bone cache synced: 0
-[2019.02.12-04.53.48:627][769]LogTemp: Bone cache synced: 20
-[2019.02.12-04.53.48:630][769]LogTemp: Bone cache synced: 0
-[2019.02.12-04.53.48:630][769]LogTemp: Bone cache synced: 20
-[2019.02.12-04.53.48:631][769]LogTemp: Bone cache synced: 0
-[2019.02.12-04.53.48:631][769]LogTemp: Bone cache synced: 20
-[2019.02.12-04.53.48:634][769]LogWorld: Bringing World /Game/UEDPIE_0_OPSYN1.OPSYN1 up for play (max tick rate 0) at 2019.02.11-23.53.48
-[2019.02.12-04.53.48:642][769]LeapMotionLog: AddEventDelegate (1).
-[2019.02.12-04.53.48:644][769]LogWorld: Bringing up level for play took: 0.029428
-[2019.02.12-04.53.48:675][769]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0014 seconds. Added 20 classes and 0 folders.
-[2019.02.12-04.53.48:675][769]LogBlueprintUserMessages: [OSC_BP_2] BP STARTED
-[2019.02.12-04.53.48:677][769]LogBlueprintUserMessages: [LeapHandsPawn_2] Adjusting Origin for OculusHMD
-[2019.02.12-04.53.48:688][769]PIE: Play in editor start time for /Game/UEDPIE_0_OPSYN1 1.7
-[2019.02.12-04.53.48:689][769]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/OPSYN1.OPSYN1:PersistentLevel' has LevelScriptBlueprint '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1' with GeneratedClass '/Game/OPSYN1.OPSYN1_C' with ClassGeneratedBy '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1'
-[2019.02.12-04.53.48:690][769]LogEngine: Changing dynamic resolution state.
-[2019.02.12-04.53.48:711][769]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
-[2019.02.12-04.53.48:711][769]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
-[2019.02.12-04.53.48:711][769]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
-[2019.02.12-04.53.48:711][769]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
-[2019.02.12-04.53.48:713][769]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
-[2019.02.12-04.53.48:717][769]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
-[2019.02.12-04.53.48:746][769]LogRenderer: Reallocating scene render targets to support 2688x1600 Format 10 NumSamples 1 (Frame:1).
-[2019.02.12-04.53.48:746][769]LogHMD: Allocating Oculus 2688 x 1600 depth rendertarget swapchain
-[2019.02.12-04.53.48:894][771]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
-[2019.02.12-04.54.07:238][539]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/OPSYN1.OPSYN1:PersistentLevel' has LevelScriptBlueprint '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1' with GeneratedClass '/Game/OPSYN1.OPSYN1_C' with ClassGeneratedBy '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1'
-[2019.02.12-04.54.07:319][539]LogOSC: Display: Stop listening
-[2019.02.12-04.54.07:363][539]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.12-04.54.07:445][539]LogSlate: Window 'OPSYN Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.02.12-04.54.07:538][539]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.12-04.54.07:542][539]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/OPSYN1.OPSYN1:PersistentLevel' has LevelScriptBlueprint '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1' with GeneratedClass '/Game/OPSYN1.OPSYN1_C' with ClassGeneratedBy '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1'
-[2019.02.12-04.54.07:683][540]LogPlayLevel: Display: Destroying online subsystem :Context_3
-[2019.02.12-04.54.07:684][540]LogEngine: Changing dynamic resolution state.
-[2019.02.12-04.54.09:331][604]LogTemp: Repeating last play command: VR Preview
-[2019.02.12-04.54.09:375][604]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/OPSYN1.OPSYN1:PersistentLevel' has LevelScriptBlueprint '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1' with GeneratedClass '/Game/OPSYN1.OPSYN1_C' with ClassGeneratedBy '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1'
-[2019.02.12-04.54.09:375][604]LogOSC: Display: Stop listening
-[2019.02.12-04.54.09:389][604]LogOSC: Display: Listen to port 8060
-[2019.02.12-04.54.09:390][604]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.12-04.54.09:390][604]LogHMD: Initializing OVRPlugin session
-[2019.02.12-04.54.09:642][604]PIE: New page: PIE session: OPSYN1 (Feb 11, 2019, 6:54:09 PM)
-[2019.02.12-04.54.09:643][604]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_OPSYN1
-[2019.02.12-04.54.09:699][604]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055199s)
-[2019.02.12-04.54.09:700][604]LogAIModule: Creating AISystem for world OPSYN1
-[2019.02.12-04.54.09:700][604]LogPlayLevel: PIE: World Init took: (0.001214s)
-[2019.02.12-04.54.09:700][604]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OPSYN1.OPSYN1 to /Game/UEDPIE_0_OPSYN1.OPSYN1 (0.057246s)
-[2019.02.12-04.54.09:792][604]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.02.12-04.54.09:810][604]LogInit: FAudioDevice initialized.
-[2019.02.12-04.54.09:818][604]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.12-04.54.09:923][604]LogHMD: Allocating Oculus 2688 x 1600 rendertarget swapchain
-[2019.02.12-04.54.09:953][604]LogLoad: Game class is 'GameModeBase'
-[2019.02.12-04.54.09:956][604]LogTemp: Bone cache synced: 0
-[2019.02.12-04.54.09:956][604]LogTemp: Bone cache synced: 20
-[2019.02.12-04.54.09:957][604]LogTemp: Bone cache synced: 0
-[2019.02.12-04.54.09:957][604]LogTemp: Bone cache synced: 20
-[2019.02.12-04.54.09:958][604]LogTemp: Bone cache synced: 0
-[2019.02.12-04.54.09:958][604]LogTemp: Bone cache synced: 20
-[2019.02.12-04.54.09:958][604]LogTemp: Bone cache synced: 0
-[2019.02.12-04.54.09:958][604]LogTemp: Bone cache synced: 20
-[2019.02.12-04.54.09:959][604]LogWorld: Bringing World /Game/UEDPIE_0_OPSYN1.OPSYN1 up for play (max tick rate 0) at 2019.02.11-23.54.09
-[2019.02.12-04.54.09:959][604]LeapMotionLog: AddEventDelegate (1).
-[2019.02.12-04.54.09:960][604]LogWorld: Bringing up level for play took: 0.006019
-[2019.02.12-04.54.09:980][604]LogBlueprintUserMessages: [OSC_BP_2] BP STARTED
-[2019.02.12-04.54.09:982][604]LogBlueprintUserMessages: [LeapHandsPawn_2] Adjusting Origin for OculusHMD
-[2019.02.12-04.54.10:007][604]PIE: Play in editor start time for /Game/UEDPIE_0_OPSYN1 1.018
-[2019.02.12-04.54.10:008][604]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/OPSYN1.OPSYN1:PersistentLevel' has LevelScriptBlueprint '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1' with GeneratedClass '/Game/OPSYN1.OPSYN1_C' with ClassGeneratedBy '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1'
-[2019.02.12-04.54.10:012][604]LogEngine: Changing dynamic resolution state.
-[2019.02.12-04.54.10:048][604]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
-[2019.02.12-04.54.10:048][604]LogHMD: Allocating Oculus 2688 x 1600 depth rendertarget swapchain
-[2019.02.12-04.54.10:207][606]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
-[2019.02.12-04.55.19:783][205]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/OPSYN1.OPSYN1:PersistentLevel' has LevelScriptBlueprint '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1' with GeneratedClass '/Game/OPSYN1.OPSYN1_C' with ClassGeneratedBy '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1'
-[2019.02.12-04.55.19:867][205]LogOSC: Display: Stop listening
-[2019.02.12-04.55.19:938][205]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.12-04.55.19:988][205]LogSlate: Window 'OPSYN Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.02.12-04.55.20:053][205]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.12-04.55.20:055][205]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/OPSYN1.OPSYN1:PersistentLevel' has LevelScriptBlueprint '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1' with GeneratedClass '/Game/OPSYN1.OPSYN1_C' with ClassGeneratedBy '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1'
-[2019.02.12-04.55.20:181][206]LogPlayLevel: Display: Destroying online subsystem :Context_4
-[2019.02.12-04.55.20:183][206]LogEngine: Changing dynamic resolution state.
-[2019.02.12-04.55.23:656][403]LogEditorViewport: Clicking on Actor (LMB): OSC_BP_C (OSC_BP)
-[2019.02.12-04.55.32:839][844]LogEditorViewport: Clicking on Actor (LMB): OSC_BP_C (OSC_BP)
-[2019.02.12-04.55.36:761][ 31]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.12-04.55.36:880][ 37]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/OSC_BP.OSC_BP
-[2019.02.12-04.55.37:578][ 37]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 117 classes and 0 folders.
-[2019.02.12-04.55.38:647][ 37]LogSlate: Took 0.004504 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.02.12-04.55.39:330][ 38]LogSlate: Took 0.018958 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.02.12-04.56.18:661][902]LogEditorViewport: Clicking on Actor (LMB): OSC_BP_C (OSC_BP)
-[2019.02.12-04.56.19:607][937]LogEditorViewport: Clicking on Actor (LMB): OSC_BP_C (OSC_BP)
-[2019.02.12-04.56.20:271][972]LogEditorViewport: Clicking on Actor (LMB): OSC_BP_C (OSC_BP)
-[2019.02.12-04.56.20:385][976]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMesh)
-[2019.02.12-04.56.21:995][ 64]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMesh)
-[2019.02.12-04.56.25:674][250]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.12-04.58.20:406][847]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2019.02.12-04.58.27:983][255]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.12-04.58.28:067][260]LogTemp: Repeating last play command: VR Preview
-[2019.02.12-04.58.28:089][260]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/OPSYN1.OPSYN1:PersistentLevel' has LevelScriptBlueprint '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1' with GeneratedClass '/Game/OPSYN1.OPSYN1_C' with ClassGeneratedBy '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1'
-[2019.02.12-04.58.28:089][260]LogOSC: Display: Stop listening
-[2019.02.12-04.58.28:101][260]LogOSC: Display: Listen to port 8060
-[2019.02.12-04.58.28:101][260]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.12-04.58.28:101][260]LogHMD: Initializing OVRPlugin session
-[2019.02.12-04.58.28:227][260]PIE: New page: PIE session: OPSYN1 (Feb 11, 2019, 6:58:28 PM)
-[2019.02.12-04.58.28:227][260]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_OPSYN1
-[2019.02.12-04.58.28:239][260]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011283s)
-[2019.02.12-04.58.28:241][260]LogAIModule: Creating AISystem for world OPSYN1
-[2019.02.12-04.58.28:242][260]LogPlayLevel: PIE: World Init took: (0.003140s)
-[2019.02.12-04.58.28:242][260]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OPSYN1.OPSYN1 to /Game/UEDPIE_0_OPSYN1.OPSYN1 (0.014939s)
-[2019.02.12-04.58.28:310][260]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.02.12-04.58.28:327][260]LogInit: FAudioDevice initialized.
-[2019.02.12-04.58.28:336][260]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.12-04.58.28:432][260]LogHMD: Allocating Oculus 2688 x 1600 rendertarget swapchain
-[2019.02.12-04.58.28:461][260]LogLoad: Game class is 'GameModeBase'
-[2019.02.12-04.58.28:465][260]LogTemp: Bone cache synced: 0
-[2019.02.12-04.58.28:465][260]LogTemp: Bone cache synced: 20
-[2019.02.12-04.58.28:466][260]LogTemp: Bone cache synced: 0
-[2019.02.12-04.58.28:466][260]LogTemp: Bone cache synced: 20
-[2019.02.12-04.58.28:469][260]LogTemp: Bone cache synced: 0
-[2019.02.12-04.58.28:469][260]LogTemp: Bone cache synced: 20
-[2019.02.12-04.58.28:470][260]LogTemp: Bone cache synced: 0
-[2019.02.12-04.58.28:471][260]LogTemp: Bone cache synced: 20
-[2019.02.12-04.58.28:471][260]LogWorld: Bringing World /Game/UEDPIE_0_OPSYN1.OPSYN1 up for play (max tick rate 0) at 2019.02.11-23.58.28
-[2019.02.12-04.58.28:471][260]LeapMotionLog: AddEventDelegate (1).
-[2019.02.12-04.58.28:472][260]LogWorld: Bringing up level for play took: 0.010866
-[2019.02.12-04.58.28:491][260]LogBlueprintUserMessages: [OSC_BP_2] BP STARTED
-[2019.02.12-04.58.28:493][260]LogBlueprintUserMessages: [LeapHandsPawn_2] Adjusting Origin for OculusHMD
-[2019.02.12-04.58.28:499][260]PIE: Play in editor start time for /Game/UEDPIE_0_OPSYN1 -0.488
-[2019.02.12-04.58.28:501][260]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/OPSYN1.OPSYN1:PersistentLevel' has LevelScriptBlueprint '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1' with GeneratedClass '/Game/OPSYN1.OPSYN1_C' with ClassGeneratedBy '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1'
-[2019.02.12-04.58.28:505][260]LogEngine: Changing dynamic resolution state.
-[2019.02.12-04.58.28:522][260]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
-[2019.02.12-04.58.28:523][260]LogHMD: Allocating Oculus 2688 x 1600 depth rendertarget swapchain
-[2019.02.12-04.58.28:646][262]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
-[2019.02.12-04.58.39:025][760]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.12-04.59.56:565][576]LogSlate: Window 'OPSYN Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.02.12-04.59.56:582][576]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/OPSYN1.OPSYN1:PersistentLevel' has LevelScriptBlueprint '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1' with GeneratedClass '/Game/OPSYN1.OPSYN1_C' with ClassGeneratedBy '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1'
-[2019.02.12-04.59.56:589][576]LogOSC: Display: Stop listening
-[2019.02.12-04.59.56:811][576]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.12-04.59.56:811][576]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/OPSYN1.OPSYN1:PersistentLevel' has LevelScriptBlueprint '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1' with GeneratedClass '/Game/OPSYN1.OPSYN1_C' with ClassGeneratedBy '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1'
-[2019.02.12-04.59.56:957][577]LogPlayLevel: Display: Destroying online subsystem :Context_8
-[2019.02.12-04.59.57:069][579]LogProfilingDebugging: Allocated a 2288 x 588 texture for HMD canvas layer
-[2019.02.12-05.00.26:275][ 64]LogTemp: Repeating last play command: VR Preview
-[2019.02.12-05.00.26:298][ 64]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/OPSYN1.OPSYN1:PersistentLevel' has LevelScriptBlueprint '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1' with GeneratedClass '/Game/OPSYN1.OPSYN1_C' with ClassGeneratedBy '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1'
-[2019.02.12-05.00.26:298][ 64]LogOSC: Display: Stop listening
-[2019.02.12-05.00.26:311][ 64]LogOSC: Display: Listen to port 8060
-[2019.02.12-05.00.26:311][ 64]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.12-05.00.26:311][ 64]LogHMD: Initializing OVRPlugin session
-[2019.02.12-05.00.26:456][ 64]PIE: New page: PIE session: OPSYN1 (Feb 11, 2019, 7:00:26 PM)
-[2019.02.12-05.00.26:457][ 64]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_OPSYN1
-[2019.02.12-05.00.26:465][ 64]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008306s)
-[2019.02.12-05.00.26:466][ 64]LogAIModule: Creating AISystem for world OPSYN1
-[2019.02.12-05.00.26:466][ 64]LogPlayLevel: PIE: World Init took: (0.001083s)
-[2019.02.12-05.00.26:466][ 64]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OPSYN1.OPSYN1 to /Game/UEDPIE_0_OPSYN1.OPSYN1 (0.009599s)
-[2019.02.12-05.00.26:524][ 64]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.02.12-05.00.26:553][ 64]LogInit: FAudioDevice initialized.
-[2019.02.12-05.00.26:563][ 64]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.12-05.00.26:628][ 64]LogHMD: Allocating Oculus 2688 x 1600 rendertarget swapchain
-[2019.02.12-05.00.26:661][ 64]LogLoad: Game class is 'GameModeBase'
-[2019.02.12-05.00.26:666][ 64]LogTemp: Bone cache synced: 0
-[2019.02.12-05.00.26:666][ 64]LogTemp: Bone cache synced: 20
-[2019.02.12-05.00.26:666][ 64]LogTemp: Bone cache synced: 0
-[2019.02.12-05.00.26:666][ 64]LogTemp: Bone cache synced: 20
-[2019.02.12-05.00.26:667][ 64]LogTemp: Bone cache synced: 0
-[2019.02.12-05.00.26:667][ 64]LogTemp: Bone cache synced: 20
-[2019.02.12-05.00.26:668][ 64]LogTemp: Bone cache synced: 0
-[2019.02.12-05.00.26:668][ 64]LogTemp: Bone cache synced: 20
-[2019.02.12-05.00.26:668][ 64]LogWorld: Bringing World /Game/UEDPIE_0_OPSYN1.OPSYN1 up for play (max tick rate 0) at 2019.02.12-00.00.26
-[2019.02.12-05.00.26:669][ 64]LeapMotionLog: AddEventDelegate (1).
-[2019.02.12-05.00.26:669][ 64]LogWorld: Bringing up level for play took: 0.006727
-[2019.02.12-05.00.26:683][ 64]LogBlueprintUserMessages: [OSC_BP_2] BP STARTED
-[2019.02.12-05.00.26:684][ 64]LogBlueprintUserMessages: [LeapHandsPawn_2] Adjusting Origin for OculusHMD
-[2019.02.12-05.00.26:695][ 64]PIE: Play in editor start time for /Game/UEDPIE_0_OPSYN1 -0.293
-[2019.02.12-05.00.26:696][ 64]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/OPSYN1.OPSYN1:PersistentLevel' has LevelScriptBlueprint '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1' with GeneratedClass '/Game/OPSYN1.OPSYN1_C' with ClassGeneratedBy '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1'
-[2019.02.12-05.00.26:869][ 65]LogEngine: Changing dynamic resolution state.
-[2019.02.12-05.00.41:473][315]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/OPSYN1.OPSYN1:PersistentLevel' has LevelScriptBlueprint '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1' with GeneratedClass '/Game/OPSYN1.OPSYN1_C' with ClassGeneratedBy '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1'
-[2019.02.12-05.00.41:473][315]LogOSC: Display: Stop listening
-[2019.02.12-05.00.41:475][315]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.12-05.00.41:528][315]LogSlate: Window 'OPSYN Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.02.12-05.00.41:590][315]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.12-05.00.41:591][315]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/OPSYN1.OPSYN1:PersistentLevel' has LevelScriptBlueprint '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1' with GeneratedClass '/Game/OPSYN1.OPSYN1_C' with ClassGeneratedBy '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1'
-[2019.02.12-05.00.41:715][316]LogPlayLevel: Display: Destroying online subsystem :Context_9
-[2019.02.12-05.00.43:321][397]LogTemp: Repeating last play command: VR Preview
-[2019.02.12-05.00.43:347][397]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/OPSYN1.OPSYN1:PersistentLevel' has LevelScriptBlueprint '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1' with GeneratedClass '/Game/OPSYN1.OPSYN1_C' with ClassGeneratedBy '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1'
-[2019.02.12-05.00.43:347][397]LogOSC: Display: Stop listening
-[2019.02.12-05.00.43:360][397]LogOSC: Display: Listen to port 8060
-[2019.02.12-05.00.43:360][397]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.12-05.00.43:360][397]LogHMD: Initializing OVRPlugin session
-[2019.02.12-05.00.43:490][397]PIE: New page: PIE session: OPSYN1 (Feb 11, 2019, 7:00:43 PM)
-[2019.02.12-05.00.43:490][397]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_OPSYN1
-[2019.02.12-05.00.43:499][397]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009124s)
-[2019.02.12-05.00.43:500][397]LogAIModule: Creating AISystem for world OPSYN1
-[2019.02.12-05.00.43:500][397]LogPlayLevel: PIE: World Init took: (0.000709s)
-[2019.02.12-05.00.43:500][397]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OPSYN1.OPSYN1 to /Game/UEDPIE_0_OPSYN1.OPSYN1 (0.010002s)
-[2019.02.12-05.00.43:559][397]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.02.12-05.00.43:573][397]LogInit: FAudioDevice initialized.
-[2019.02.12-05.00.43:584][397]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.12-05.00.43:689][397]LogHMD: Allocating Oculus 2688 x 1600 rendertarget swapchain
-[2019.02.12-05.00.43:718][397]LogLoad: Game class is 'GameModeBase'
-[2019.02.12-05.00.43:724][397]LogTemp: Bone cache synced: 0
-[2019.02.12-05.00.43:724][397]LogTemp: Bone cache synced: 20
-[2019.02.12-05.00.43:727][397]LogTemp: Bone cache synced: 0
-[2019.02.12-05.00.43:727][397]LogTemp: Bone cache synced: 20
-[2019.02.12-05.00.43:730][397]LogTemp: Bone cache synced: 0
-[2019.02.12-05.00.43:730][397]LogTemp: Bone cache synced: 20
-[2019.02.12-05.00.43:732][397]LogTemp: Bone cache synced: 0
-[2019.02.12-05.00.43:732][397]LogTemp: Bone cache synced: 20
-[2019.02.12-05.00.43:734][397]LogWorld: Bringing World /Game/UEDPIE_0_OPSYN1.OPSYN1 up for play (max tick rate 0) at 2019.02.12-00.00.43
-[2019.02.12-05.00.43:737][397]LeapMotionLog: AddEventDelegate (1).
-[2019.02.12-05.00.43:738][397]LogWorld: Bringing up level for play took: 0.018834
-[2019.02.12-05.00.43:754][397]LogBlueprintUserMessages: [OSC_BP_2] BP STARTED
-[2019.02.12-05.00.43:757][397]LogBlueprintUserMessages: [LeapHandsPawn_2] Adjusting Origin for OculusHMD
-[2019.02.12-05.00.43:782][397]PIE: Play in editor start time for /Game/UEDPIE_0_OPSYN1 0.793
-[2019.02.12-05.00.43:785][397]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/OPSYN1.OPSYN1:PersistentLevel' has LevelScriptBlueprint '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1' with GeneratedClass '/Game/OPSYN1.OPSYN1_C' with ClassGeneratedBy '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1'
-[2019.02.12-05.00.43:789][397]LogEngine: Changing dynamic resolution state.
-[2019.02.12-05.00.43:815][397]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
-[2019.02.12-05.00.43:815][397]LogHMD: Allocating Oculus 2688 x 1600 depth rendertarget swapchain
-[2019.02.12-05.00.43:954][399]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
-[2019.02.12-05.00.46:536][523]Set new viewmode: Wireframe
-[2019.02.12-05.00.48:910][730]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/OPSYN1.OPSYN1:PersistentLevel' has LevelScriptBlueprint '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1' with GeneratedClass '/Game/OPSYN1.OPSYN1_C' with ClassGeneratedBy '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1'
-[2019.02.12-05.00.48:986][730]LogOSC: Display: Stop listening
-[2019.02.12-05.00.49:082][730]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.12-05.00.49:137][730]LogSlate: Window 'OPSYN Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.02.12-05.00.49:204][730]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.12-05.00.49:205][730]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/OPSYN1.OPSYN1:PersistentLevel' has LevelScriptBlueprint '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1' with GeneratedClass '/Game/OPSYN1.OPSYN1_C' with ClassGeneratedBy '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1'
-[2019.02.12-05.00.49:350][731]LogPlayLevel: Display: Destroying online subsystem :Context_10
-[2019.02.12-05.00.49:351][731]LogEngine: Changing dynamic resolution state.
-[2019.02.12-05.00.50:483][789]LogTemp: Repeating last play command: VR Preview
-[2019.02.12-05.00.50:512][789]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/OPSYN1.OPSYN1:PersistentLevel' has LevelScriptBlueprint '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1' with GeneratedClass '/Game/OPSYN1.OPSYN1_C' with ClassGeneratedBy '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1'
-[2019.02.12-05.00.50:512][789]LogOSC: Display: Stop listening
-[2019.02.12-05.00.50:524][789]LogOSC: Display: Listen to port 8060
-[2019.02.12-05.00.50:524][789]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.12-05.00.50:524][789]LogHMD: Initializing OVRPlugin session
-[2019.02.12-05.00.50:652][789]PIE: New page: PIE session: OPSYN1 (Feb 11, 2019, 7:00:50 PM)
-[2019.02.12-05.00.50:652][789]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_OPSYN1
-[2019.02.12-05.00.50:661][789]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008972s)
-[2019.02.12-05.00.50:662][789]LogAIModule: Creating AISystem for world OPSYN1
-[2019.02.12-05.00.50:662][789]LogPlayLevel: PIE: World Init took: (0.001058s)
-[2019.02.12-05.00.50:662][789]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OPSYN1.OPSYN1 to /Game/UEDPIE_0_OPSYN1.OPSYN1 (0.010196s)
-[2019.02.12-05.00.50:719][789]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.02.12-05.00.50:733][789]LogInit: FAudioDevice initialized.
-[2019.02.12-05.00.50:745][789]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.12-05.00.50:843][789]LogHMD: Allocating Oculus 2688 x 1600 rendertarget swapchain
-[2019.02.12-05.00.50:875][789]LogLoad: Game class is 'GameModeBase'
-[2019.02.12-05.00.50:879][789]LogTemp: Bone cache synced: 0
-[2019.02.12-05.00.50:879][789]LogTemp: Bone cache synced: 20
-[2019.02.12-05.00.50:880][789]LogTemp: Bone cache synced: 0
-[2019.02.12-05.00.50:880][789]LogTemp: Bone cache synced: 20
-[2019.02.12-05.00.50:880][789]LogTemp: Bone cache synced: 0
-[2019.02.12-05.00.50:880][789]LogTemp: Bone cache synced: 20
-[2019.02.12-05.00.50:880][789]LogTemp: Bone cache synced: 0
-[2019.02.12-05.00.50:880][789]LogTemp: Bone cache synced: 20
-[2019.02.12-05.00.50:881][789]LogWorld: Bringing World /Game/UEDPIE_0_OPSYN1.OPSYN1 up for play (max tick rate 0) at 2019.02.12-00.00.50
-[2019.02.12-05.00.50:881][789]LeapMotionLog: AddEventDelegate (1).
-[2019.02.12-05.00.50:881][789]LogWorld: Bringing up level for play took: 0.004621
-[2019.02.12-05.00.50:896][789]LogBlueprintUserMessages: [OSC_BP_2] BP STARTED
-[2019.02.12-05.00.50:903][789]LogBlueprintUserMessages: [LeapHandsPawn_2] Adjusting Origin for OculusHMD
-[2019.02.12-05.00.50:922][789]PIE: Play in editor start time for /Game/UEDPIE_0_OPSYN1 -0.067
-[2019.02.12-05.00.50:923][789]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/OPSYN1.OPSYN1:PersistentLevel' has LevelScriptBlueprint '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1' with GeneratedClass '/Game/OPSYN1.OPSYN1_C' with ClassGeneratedBy '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1'
-[2019.02.12-05.00.50:928][789]LogEngine: Changing dynamic resolution state.
-[2019.02.12-05.00.50:956][789]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
-[2019.02.12-05.00.50:956][789]LogHMD: Allocating Oculus 2688 x 1600 depth rendertarget swapchain
-[2019.02.12-05.00.51:097][791]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
-[2019.02.12-05.00.52:654][866]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.12-05.04.58:621][375]LogSlate: Window 'OPSYN Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.02.12-05.04.58:649][375]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/OPSYN1.OPSYN1:PersistentLevel' has LevelScriptBlueprint '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1' with GeneratedClass '/Game/OPSYN1.OPSYN1_C' with ClassGeneratedBy '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1'
-[2019.02.12-05.04.58:657][375]LogOSC: Display: Stop listening
-[2019.02.12-05.04.58:837][375]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.12-05.04.58:840][375]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/OPSYN1.OPSYN1:PersistentLevel' has LevelScriptBlueprint '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1' with GeneratedClass '/Game/OPSYN1.OPSYN1_C' with ClassGeneratedBy '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1'
-[2019.02.12-05.04.58:913][376]LogPlayLevel: Display: Destroying online subsystem :Context_11
-[2019.02.12-05.06.44:123][ 25]LogTemp: Repeating last play command: VR Preview
-[2019.02.12-05.06.44:159][ 25]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/OPSYN1.OPSYN1:PersistentLevel' has LevelScriptBlueprint '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1' with GeneratedClass '/Game/OPSYN1.OPSYN1_C' with ClassGeneratedBy '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1'
-[2019.02.12-05.06.44:160][ 25]LogOSC: Display: Stop listening
-[2019.02.12-05.06.44:172][ 25]LogOSC: Display: Listen to port 8060
-[2019.02.12-05.06.44:172][ 25]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.12-05.06.44:172][ 25]LogHMD: Initializing OVRPlugin session
-[2019.02.12-05.06.44:360][ 25]PIE: New page: PIE session: OPSYN1 (Feb 11, 2019, 7:06:44 PM)
-[2019.02.12-05.06.44:360][ 25]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_OPSYN1
-[2019.02.12-05.06.44:373][ 25]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012687s)
-[2019.02.12-05.06.44:374][ 25]LogAIModule: Creating AISystem for world OPSYN1
-[2019.02.12-05.06.44:375][ 25]LogPlayLevel: PIE: World Init took: (0.001609s)
-[2019.02.12-05.06.44:375][ 25]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OPSYN1.OPSYN1 to /Game/UEDPIE_0_OPSYN1.OPSYN1 (0.014651s)
-[2019.02.12-05.06.44:450][ 25]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.02.12-05.06.44:468][ 25]LogInit: FAudioDevice initialized.
-[2019.02.12-05.06.44:494][ 25]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.12-05.06.44:552][ 25]LogHMD: Allocating Oculus 2688 x 1600 rendertarget swapchain
-[2019.02.12-05.06.44:585][ 25]LogLoad: Game class is 'GameModeBase'
-[2019.02.12-05.06.44:590][ 25]LogTemp: Bone cache synced: 0
-[2019.02.12-05.06.44:590][ 25]LogTemp: Bone cache synced: 20
-[2019.02.12-05.06.44:591][ 25]LogTemp: Bone cache synced: 0
-[2019.02.12-05.06.44:592][ 25]LogTemp: Bone cache synced: 20
-[2019.02.12-05.06.44:593][ 25]LogTemp: Bone cache synced: 0
-[2019.02.12-05.06.44:593][ 25]LogTemp: Bone cache synced: 20
-[2019.02.12-05.06.44:593][ 25]LogTemp: Bone cache synced: 0
-[2019.02.12-05.06.44:593][ 25]LogTemp: Bone cache synced: 20
-[2019.02.12-05.06.44:594][ 25]LogWorld: Bringing World /Game/UEDPIE_0_OPSYN1.OPSYN1 up for play (max tick rate 0) at 2019.02.12-00.06.44
-[2019.02.12-05.06.44:598][ 25]LeapMotionLog: AddEventDelegate (1).
-[2019.02.12-05.06.44:601][ 25]LogWorld: Bringing up level for play took: 0.015074
-[2019.02.12-05.06.44:634][ 25]LogBlueprintUserMessages: [OSC_BP_2] BP STARTED
-[2019.02.12-05.06.44:639][ 25]LogBlueprintUserMessages: [LeapHandsPawn_2] Adjusting Origin for OculusHMD
-[2019.02.12-05.06.44:663][ 25]PIE: Play in editor start time for /Game/UEDPIE_0_OPSYN1 -0.326
-[2019.02.12-05.06.44:664][ 25]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/OPSYN1.OPSYN1:PersistentLevel' has LevelScriptBlueprint '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1' with GeneratedClass '/Game/OPSYN1.OPSYN1_C' with ClassGeneratedBy '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1'
-[2019.02.12-05.06.44:799][ 26]LogEngine: Changing dynamic resolution state.
-[2019.02.12-05.06.49:293][552]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/OPSYN1.OPSYN1:PersistentLevel' has LevelScriptBlueprint '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1' with GeneratedClass '/Game/OPSYN1.OPSYN1_C' with ClassGeneratedBy '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1'
-[2019.02.12-05.06.49:293][552]LogOSC: Display: Stop listening
-[2019.02.12-05.06.49:394][552]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.12-05.06.49:454][552]LogSlate: Window 'OPSYN Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.02.12-05.06.49:635][552]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.12-05.06.49:636][552]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/OPSYN1.OPSYN1:PersistentLevel' has LevelScriptBlueprint '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1' with GeneratedClass '/Game/OPSYN1.OPSYN1_C' with ClassGeneratedBy '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1'
-[2019.02.12-05.06.49:745][553]LogPlayLevel: Display: Destroying online subsystem :Context_12
-[2019.02.12-05.06.55:406][829]LogTemp: Repeating last play command: VR Preview
-[2019.02.12-05.06.55:444][829]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/OPSYN1.OPSYN1:PersistentLevel' has LevelScriptBlueprint '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1' with GeneratedClass '/Game/OPSYN1.OPSYN1_C' with ClassGeneratedBy '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1'
-[2019.02.12-05.06.55:444][829]LogOSC: Display: Stop listening
-[2019.02.12-05.06.55:457][829]LogOSC: Display: Listen to port 8060
-[2019.02.12-05.06.55:457][829]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.12-05.06.55:457][829]LogHMD: Initializing OVRPlugin session
-[2019.02.12-05.06.55:576][829]PIE: New page: PIE session: OPSYN1 (Feb 11, 2019, 7:06:55 PM)
-[2019.02.12-05.06.55:576][829]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_OPSYN1
-[2019.02.12-05.06.55:583][829]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007387s)
-[2019.02.12-05.06.55:584][829]LogAIModule: Creating AISystem for world OPSYN1
-[2019.02.12-05.06.55:584][829]LogPlayLevel: PIE: World Init took: (0.001006s)
-[2019.02.12-05.06.55:585][829]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OPSYN1.OPSYN1 to /Game/UEDPIE_0_OPSYN1.OPSYN1 (0.008605s)
-[2019.02.12-05.06.55:634][829]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.02.12-05.06.55:650][829]LogInit: FAudioDevice initialized.
-[2019.02.12-05.06.55:660][829]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.12-05.06.55:763][829]LogHMD: Allocating Oculus 2688 x 1600 rendertarget swapchain
-[2019.02.12-05.06.55:794][829]LogLoad: Game class is 'GameModeBase'
-[2019.02.12-05.06.55:797][829]LogTemp: Bone cache synced: 0
-[2019.02.12-05.06.55:797][829]LogTemp: Bone cache synced: 20
-[2019.02.12-05.06.55:798][829]LogTemp: Bone cache synced: 0
-[2019.02.12-05.06.55:798][829]LogTemp: Bone cache synced: 20
-[2019.02.12-05.06.55:798][829]LogTemp: Bone cache synced: 0
-[2019.02.12-05.06.55:798][829]LogTemp: Bone cache synced: 20
-[2019.02.12-05.06.55:799][829]LogTemp: Bone cache synced: 0
-[2019.02.12-05.06.55:799][829]LogTemp: Bone cache synced: 20
-[2019.02.12-05.06.55:799][829]LogWorld: Bringing World /Game/UEDPIE_0_OPSYN1.OPSYN1 up for play (max tick rate 0) at 2019.02.12-00.06.55
-[2019.02.12-05.06.55:799][829]LeapMotionLog: AddEventDelegate (1).
-[2019.02.12-05.06.55:800][829]LogWorld: Bringing up level for play took: 0.004861
-[2019.02.12-05.06.55:813][829]LogBlueprintUserMessages: [OSC_BP_2] BP STARTED
-[2019.02.12-05.06.55:815][829]LogBlueprintUserMessages: [LeapHandsPawn_2] Adjusting Origin for OculusHMD
-[2019.02.12-05.06.55:840][829]PIE: Play in editor start time for /Game/UEDPIE_0_OPSYN1 0.851
-[2019.02.12-05.06.55:840][829]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/OPSYN1.OPSYN1:PersistentLevel' has LevelScriptBlueprint '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1' with GeneratedClass '/Game/OPSYN1.OPSYN1_C' with ClassGeneratedBy '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1'
-[2019.02.12-05.06.55:842][829]LogEngine: Changing dynamic resolution state.
-[2019.02.12-05.06.55:868][829]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
-[2019.02.12-05.06.55:869][829]LogHMD: Allocating Oculus 2688 x 1600 depth rendertarget swapchain
-[2019.02.12-05.06.56:007][831]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
-[2019.02.12-05.07.23:106][855]Set new viewmode: Wireframe
-[2019.02.12-05.07.31:576][436]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/OPSYN1.OPSYN1:PersistentLevel' has LevelScriptBlueprint '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1' with GeneratedClass '/Game/OPSYN1.OPSYN1_C' with ClassGeneratedBy '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1'
-[2019.02.12-05.07.31:686][436]LogOSC: Display: Stop listening
-[2019.02.12-05.07.31:715][436]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.12-05.07.31:788][436]LogSlate: Window 'OPSYN Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.02.12-05.07.31:851][436]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.12-05.07.31:853][436]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/OPSYN1.OPSYN1:PersistentLevel' has LevelScriptBlueprint '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1' with GeneratedClass '/Game/OPSYN1.OPSYN1_C' with ClassGeneratedBy '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1'
-[2019.02.12-05.07.32:035][437]LogPlayLevel: Display: Destroying online subsystem :Context_13
-[2019.02.12-05.07.32:035][437]LogEngine: Changing dynamic resolution state.
-[2019.02.12-05.12.23:462][810]LogSavePackage: Moving '../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/OPSYN1_Auto1E029DB2D46CC2CDB5CECCF899BF08E72.tmp' to '../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Autosaves/Game/OPSYN1_Auto1.umap'
-[2019.02.12-05.12.23:473][810]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/OPSYN1' took 0.387
-[2019.02.12-05.12.23:473][810]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.387
-[2019.02.12-05.20.21:712][651]LogTemp: Repeating last play command: VR Preview
-[2019.02.12-05.20.21:783][651]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/OPSYN1.OPSYN1:PersistentLevel' has LevelScriptBlueprint '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1' with GeneratedClass '/Game/OPSYN1.OPSYN1_C' with ClassGeneratedBy '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1'
-[2019.02.12-05.20.21:784][651]LogOSC: Display: Stop listening
-[2019.02.12-05.20.21:797][651]LogOSC: Display: Listen to port 8060
-[2019.02.12-05.20.21:797][651]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.12-05.20.21:797][651]LogHMD: Initializing OVRPlugin session
-[2019.02.12-05.20.21:968][651]PIE: New page: PIE session: OPSYN1 (Feb 11, 2019, 7:20:21 PM)
-[2019.02.12-05.20.21:968][651]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_OPSYN1
-[2019.02.12-05.20.21:985][651]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017737s)
-[2019.02.12-05.20.21:986][651]LogAIModule: Creating AISystem for world OPSYN1
-[2019.02.12-05.20.21:988][651]LogPlayLevel: PIE: World Init took: (0.001602s)
-[2019.02.12-05.20.21:988][651]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OPSYN1.OPSYN1 to /Game/UEDPIE_0_OPSYN1.OPSYN1 (0.019573s)
-[2019.02.12-05.20.22:067][651]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.02.12-05.20.22:113][651]LogInit: FAudioDevice initialized.
-[2019.02.12-05.20.22:127][651]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.12-05.20.22:241][651]LogHMD: Allocating Oculus 2688 x 1600 rendertarget swapchain
-[2019.02.12-05.20.22:274][651]LogLoad: Game class is 'GameModeBase'
-[2019.02.12-05.20.22:280][651]LogTemp: Bone cache synced: 0
-[2019.02.12-05.20.22:281][651]LogTemp: Bone cache synced: 20
-[2019.02.12-05.20.22:282][651]LogTemp: Bone cache synced: 0
-[2019.02.12-05.20.22:282][651]LogTemp: Bone cache synced: 20
-[2019.02.12-05.20.22:286][651]LogTemp: Bone cache synced: 0
-[2019.02.12-05.20.22:287][651]LogTemp: Bone cache synced: 20
-[2019.02.12-05.20.22:287][651]LogTemp: Bone cache synced: 0
-[2019.02.12-05.20.22:288][651]LogTemp: Bone cache synced: 20
-[2019.02.12-05.20.22:288][651]LogWorld: Bringing World /Game/UEDPIE_0_OPSYN1.OPSYN1 up for play (max tick rate 0) at 2019.02.12-00.20.22
-[2019.02.12-05.20.22:289][651]LeapMotionLog: AddEventDelegate (1).
-[2019.02.12-05.20.22:290][651]LogWorld: Bringing up level for play took: 0.014320
-[2019.02.12-05.20.22:308][651]LogBlueprintUserMessages: [OSC_BP_2] BP STARTED
-[2019.02.12-05.20.22:312][651]LogBlueprintUserMessages: [LeapHandsPawn_2] Adjusting Origin for OculusHMD
-[2019.02.12-05.20.22:338][651]PIE: Play in editor start time for /Game/UEDPIE_0_OPSYN1 1.35
-[2019.02.12-05.20.22:339][651]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/OPSYN1.OPSYN1:PersistentLevel' has LevelScriptBlueprint '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1' with GeneratedClass '/Game/OPSYN1.OPSYN1_C' with ClassGeneratedBy '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1'
-[2019.02.12-05.20.22:346][651]LogEngine: Changing dynamic resolution state.
-[2019.02.12-05.20.22:375][651]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
-[2019.02.12-05.20.22:376][651]LogHMD: Allocating Oculus 2688 x 1600 depth rendertarget swapchain
-[2019.02.12-05.20.22:527][653]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
-[2019.02.12-05.20.24:170][733]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.12-05.22.03:856][666]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/OPSYN1.OPSYN1:PersistentLevel' has LevelScriptBlueprint '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1' with GeneratedClass '/Game/OPSYN1.OPSYN1_C' with ClassGeneratedBy '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1'
-[2019.02.12-05.22.03:953][666]LogOSC: Display: Stop listening
-[2019.02.12-05.22.03:965][666]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.12-05.22.04:028][666]LogSlate: Window 'OPSYN Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.02.12-05.22.04:096][666]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.12-05.22.04:098][666]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/OPSYN1.OPSYN1:PersistentLevel' has LevelScriptBlueprint '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1' with GeneratedClass '/Game/OPSYN1.OPSYN1_C' with ClassGeneratedBy '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1'
-[2019.02.12-05.22.04:252][667]LogPlayLevel: Display: Destroying online subsystem :Context_14
-[2019.02.12-05.22.04:252][667]LogEngine: Changing dynamic resolution state.
-[2019.02.12-05.23.49:476][361]LogTemp: Repeating last play command: VR Preview
-[2019.02.12-05.23.49:514][361]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/OPSYN1.OPSYN1:PersistentLevel' has LevelScriptBlueprint '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1' with GeneratedClass '/Game/OPSYN1.OPSYN1_C' with ClassGeneratedBy '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1'
-[2019.02.12-05.23.49:514][361]LogOSC: Display: Stop listening
-[2019.02.12-05.23.49:526][361]LogOSC: Display: Listen to port 8060
-[2019.02.12-05.23.49:526][361]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.12-05.23.49:526][361]LogHMD: Initializing OVRPlugin session
-[2019.02.12-05.23.49:665][361]PIE: New page: PIE session: OPSYN1 (Feb 11, 2019, 7:23:49 PM)
-[2019.02.12-05.23.49:665][361]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_OPSYN1
-[2019.02.12-05.23.49:675][361]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009414s)
-[2019.02.12-05.23.49:676][361]LogAIModule: Creating AISystem for world OPSYN1
-[2019.02.12-05.23.49:678][361]LogPlayLevel: PIE: World Init took: (0.002602s)
-[2019.02.12-05.23.49:679][361]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OPSYN1.OPSYN1 to /Game/UEDPIE_0_OPSYN1.OPSYN1 (0.012853s)
-[2019.02.12-05.23.49:739][361]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.02.12-05.23.49:758][361]LogInit: FAudioDevice initialized.
-[2019.02.12-05.23.49:768][361]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.12-05.23.49:887][361]LogHMD: Allocating Oculus 2688 x 1600 rendertarget swapchain
-[2019.02.12-05.23.49:915][361]LogLoad: Game class is 'GameModeBase'
-[2019.02.12-05.23.49:924][361]LogTemp: Bone cache synced: 0
-[2019.02.12-05.23.49:924][361]LogTemp: Bone cache synced: 20
-[2019.02.12-05.23.49:925][361]LogTemp: Bone cache synced: 0
-[2019.02.12-05.23.49:925][361]LogTemp: Bone cache synced: 20
-[2019.02.12-05.23.49:926][361]LogTemp: Bone cache synced: 0
-[2019.02.12-05.23.49:926][361]LogTemp: Bone cache synced: 20
-[2019.02.12-05.23.49:927][361]LogTemp: Bone cache synced: 0
-[2019.02.12-05.23.49:927][361]LogTemp: Bone cache synced: 20
-[2019.02.12-05.23.49:927][361]LogWorld: Bringing World /Game/UEDPIE_0_OPSYN1.OPSYN1 up for play (max tick rate 0) at 2019.02.12-00.23.49
-[2019.02.12-05.23.49:928][361]LeapMotionLog: AddEventDelegate (1).
-[2019.02.12-05.23.49:928][361]LogWorld: Bringing up level for play took: 0.009159
-[2019.02.12-05.23.49:950][361]LogBlueprintUserMessages: [OSC_BP_2] BP STARTED
-[2019.02.12-05.23.49:952][361]LogBlueprintUserMessages: [LeapHandsPawn_2] Adjusting Origin for OculusHMD
-[2019.02.12-05.23.49:983][361]PIE: Play in editor start time for /Game/UEDPIE_0_OPSYN1 0.995
-[2019.02.12-05.23.49:984][361]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/OPSYN1.OPSYN1:PersistentLevel' has LevelScriptBlueprint '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1' with GeneratedClass '/Game/OPSYN1.OPSYN1_C' with ClassGeneratedBy '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1'
-[2019.02.12-05.23.49:988][361]LogEngine: Changing dynamic resolution state.
-[2019.02.12-05.23.50:013][361]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
-[2019.02.12-05.23.50:013][361]LogHMD: Allocating Oculus 2688 x 1600 depth rendertarget swapchain
-[2019.02.12-05.23.50:138][363]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
-[2019.02.12-05.23.52:314][452]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.02.12-05.25.02:899][523]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/OPSYN1.OPSYN1:PersistentLevel' has LevelScriptBlueprint '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1' with GeneratedClass '/Game/OPSYN1.OPSYN1_C' with ClassGeneratedBy '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1'
-[2019.02.12-05.25.02:997][523]LogOSC: Display: Stop listening
-[2019.02.12-05.25.03:089][523]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.12-05.25.03:157][523]LogSlate: Window 'OPSYN Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.02.12-05.25.03:239][523]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.12-05.25.03:242][523]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/OPSYN1.OPSYN1:PersistentLevel' has LevelScriptBlueprint '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1' with GeneratedClass '/Game/OPSYN1.OPSYN1_C' with ClassGeneratedBy '/Game/OPSYN1.OPSYN1:PersistentLevel.OPSYN1'
-[2019.02.12-05.25.03:377][524]LogPlayLevel: Display: Destroying online subsystem :Context_15
-[2019.02.12-05.25.03:377][524]LogEngine: Changing dynamic resolution state.
-[2019.02.12-05.33.21:106][153]BodyStateLog: Warning: Invalid Lerp Timestamp, this: 2478066556 other: 2477042198 desired: 2478088077 diff: 1024358
-[2019.02.12-05.51.30:604][ 83]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OPSYN1" FILE="../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Content/OPSYN1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2019.02.12-05.51.30:958][ 83]LogSavePackage: Moving '../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/OPSYN1383E077345D72463045C5CB61D67EB1D.tmp' to '../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Content/OPSYN1.umap'
-[2019.02.12-05.51.31:103][ 83]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OPSYN1_BuiltData" FILE="../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Content/OPSYN1_BuiltData.uasset" SILENT=true
-[2019.02.12-05.51.31:290][ 83]LogSavePackage: Moving '../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/OPSYN1_BuiltData0EA09E154DBDB36D0F2FAEB85A48B48E.tmp' to '../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Content/OPSYN1_BuiltData.uasset'
-[2019.02.12-05.51.37:676][414]LogSlate: Window 'OPSYN - Unreal Editor' being destroyed
-[2019.02.12-05.51.37:678][414]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.02.12-05.51.38:016][415]Cmd: QUIT_EDITOR
-[2019.02.12-05.51.38:555][415]LogExit: Preparing to exit.
-[2019.02.12-05.51.38:959][415]LogOSC: Display: Stop listening
-[2019.02.12-05.51.39:075][415]LogExit: Editor shut down
-[2019.02.12-05.51.39:076][415]LogExit: Transaction tracking system shut down
-[2019.02.12-05.51.39:536][415]LogExit: Object subsystem successfully closed.
-[2019.02.12-05.51.39:567][415]LogShaderCompilers: Display: Shaders left to compile 0
-[2019.02.12-05.51.39:573][415]LogD3D11RHI: Shutdown
-[2019.02.12-05.51.39:573][415]LogD3D11RHI: CleanupD3DDevice
-[2019.02.12-05.51.39:580][415]LogD3D11RHI: ~FD3D11DynamicRHI
-[2019.02.12-05.51.39:609][415]LogModuleManager: Shutting down and abandoning module BlueprintGraph (640)
-[2019.02.12-05.51.39:609][415]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (638)
-[2019.02.12-05.51.39:609][415]LogModuleManager: Shutting down and abandoning module Voice (636)
-[2019.02.12-05.51.39:609][415]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (634)
-[2019.02.12-05.51.39:609][415]LogModuleManager: Shutting down and abandoning module SceneOutliner (632)
-[2019.02.12-05.51.39:609][415]LogModuleManager: Shutting down and abandoning module AddContentDialog (630)
-[2019.02.12-05.51.39:613][415]LogModuleManager: Shutting down and abandoning module WidgetCarousel (629)
-[2019.02.12-05.51.39:613][415]LogModuleManager: Shutting down and abandoning module EditorWidgets (626)
-[2019.02.12-05.51.39:613][415]LogModuleManager: Shutting down and abandoning module CollectionManager (624)
-[2019.02.12-05.51.39:614][415]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (622)
-[2019.02.12-05.51.39:614][415]LogModuleManager: Shutting down and abandoning module StatsViewer (620)
-[2019.02.12-05.51.39:614][415]LogModuleManager: Shutting down and abandoning module FoliageEdit (618)
-[2019.02.12-05.51.39:614][415]LogModuleManager: Shutting down and abandoning module LandscapeEditor (616)
-[2019.02.12-05.51.39:614][415]LogModuleManager: Shutting down and abandoning module MeshPaintMode (614)
-[2019.02.12-05.51.39:614][415]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (612)
-[2019.02.12-05.51.39:614][415]LogModuleManager: Shutting down and abandoning module ActorPickerMode (610)
-[2019.02.12-05.51.39:614][415]LogModuleManager: Shutting down and abandoning module GeometryMode (608)
-[2019.02.12-05.51.39:614][415]LogModuleManager: Shutting down and abandoning module TextureAlignMode (606)
-[2019.02.12-05.51.39:614][415]LogModuleManager: Shutting down and abandoning module BspMode (604)
-[2019.02.12-05.51.39:614][415]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (602)
-[2019.02.12-05.51.39:614][415]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (600)
-[2019.02.12-05.51.39:614][415]LogModuleManager: Shutting down and abandoning module AutomationWorker (598)
-[2019.02.12-05.51.39:614][415]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (596)
-[2019.02.12-05.51.39:614][415]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (594)
-[2019.02.12-05.51.39:614][415]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (592)
-[2019.02.12-05.51.39:614][415]LogModuleManager: Shutting down and abandoning module PlacementMode (591)
-[2019.02.12-05.51.39:615][415]LogModuleManager: Shutting down and abandoning module MaterialEditor (590)
-[2019.02.12-05.51.39:615][415]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (586)
-[2019.02.12-05.51.39:615][415]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (584)
-[2019.02.12-05.51.39:615][415]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (582)
-[2019.02.12-05.51.39:615][415]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (580)
-[2019.02.12-05.51.39:615][415]LogModuleManager: Shutting down and abandoning module WebMMedia (578)
-[2019.02.12-05.51.39:615][415]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (576)
-[2019.02.12-05.51.39:615][415]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (574)
-[2019.02.12-05.51.39:615][415]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
-[2019.02.12-05.51.39:615][415]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (570)
-[2019.02.12-05.51.39:615][415]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (568)
-[2019.02.12-05.51.39:615][415]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (566)
-[2019.02.12-05.51.39:615][415]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (564)
-[2019.02.12-05.51.39:615][415]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (562)
-[2019.02.12-05.51.39:615][415]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (560)
-[2019.02.12-05.51.39:615][415]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (558)
-[2019.02.12-05.51.39:615][415]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (556)
-[2019.02.12-05.51.39:615][415]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (554)
-[2019.02.12-05.51.39:615][415]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (552)
-[2019.02.12-05.51.39:615][415]LogModuleManager: Shutting down and abandoning module CharacterAI (550)
-[2019.02.12-05.51.39:615][415]LogModuleManager: Shutting down and abandoning module SmartSnapping (548)
-[2019.02.12-05.51.39:615][415]LogModuleManager: Shutting down and abandoning module SessionServices (546)
-[2019.02.12-05.51.39:615][415]LogModuleManager: Shutting down and abandoning module ViewportSnapping (544)
-[2019.02.12-05.51.39:615][415]LogModuleManager: Shutting down and abandoning module ViewportInteraction (542)
-[2019.02.12-05.51.39:615][415]LogModuleManager: Shutting down and abandoning module ClothPainter (540)
-[2019.02.12-05.51.39:615][415]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (539)
-[2019.02.12-05.51.39:615][415]LogModuleManager: Shutting down and abandoning module LogVisualizer (536)
-[2019.02.12-05.51.39:616][415]LogModuleManager: Shutting down and abandoning module IntroTutorials (534)
-[2019.02.12-05.51.39:616][415]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (533)
-[2019.02.12-05.51.39:616][415]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (530)
-[2019.02.12-05.51.39:616][415]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (528)
-[2019.02.12-05.51.39:616][415]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (526)
-[2019.02.12-05.51.39:616][415]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (524)
-[2019.02.12-05.51.39:616][415]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (523)
-[2019.02.12-05.51.39:824][415]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (520)
-[2019.02.12-05.51.39:825][415]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (518)
-[2019.02.12-05.51.39:825][415]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (516)
-[2019.02.12-05.51.39:825][415]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (514)
-[2019.02.12-05.51.39:825][415]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (512)
-[2019.02.12-05.51.39:825][415]LogModuleManager: Shutting down and abandoning module InputBindingEditor (510)
-[2019.02.12-05.51.39:825][415]LogModuleManager: Shutting down and abandoning module MergeActors (508)
-[2019.02.12-05.51.39:825][415]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (506)
-[2019.02.12-05.51.39:825][415]LogModuleManager: Shutting down and abandoning module LocalizationService (505)
-[2019.02.12-05.51.39:825][415]LogModuleManager: Shutting down and abandoning module HardwareTargeting (502)
-[2019.02.12-05.51.39:825][415]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (500)
-[2019.02.12-05.51.39:825][415]LogModuleManager: Shutting down and abandoning module UndoHistory (498)
-[2019.02.12-05.51.39:825][415]LogModuleManager: Shutting down and abandoning module XmlParser (496)
-[2019.02.12-05.51.39:825][415]LogModuleManager: Shutting down and abandoning module Blutility (494)
-[2019.02.12-05.51.39:825][415]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (492)
-[2019.02.12-05.51.39:825][415]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (491)
-[2019.02.12-05.51.39:825][415]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (488)
-[2019.02.12-05.51.39:826][415]LogModuleManager: Shutting down and abandoning module SettingsEditor (486)
-[2019.02.12-05.51.39:826][415]LogModuleManager: Shutting down and abandoning module ProjectLauncher (484)
-[2019.02.12-05.51.39:826][415]LogModuleManager: Shutting down and abandoning module SessionFrontend (482)
-[2019.02.12-05.51.39:826][415]LogModuleManager: Shutting down and abandoning module ProfilerClient (480)
-[2019.02.12-05.51.39:826][415]LogModuleManager: Shutting down and abandoning module DeviceManager (478)
-[2019.02.12-05.51.39:826][415]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (477)
-[2019.02.12-05.51.39:893][415]LogModuleManager: Shutting down and abandoning module AutomationController (474)
-[2019.02.12-05.51.39:893][415]LogModuleManager: Shutting down and abandoning module AutomationWindow (472)
-[2019.02.12-05.51.39:893][415]LogModuleManager: Shutting down and abandoning module Layers (470)
-[2019.02.12-05.51.39:893][415]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (468)
-[2019.02.12-05.51.39:893][415]LogModuleManager: Shutting down and abandoning module DetailCustomizations (466)
-[2019.02.12-05.51.39:893][415]LogModuleManager: Shutting down and abandoning module PackagesDialog (464)
-[2019.02.12-05.51.39:893][415]LogModuleManager: Shutting down and abandoning module Persona (462)
-[2019.02.12-05.51.39:893][415]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (461)
-[2019.02.12-05.51.39:893][415]LogModuleManager: Shutting down and abandoning module AnimGraph (459)
-[2019.02.12-05.51.39:893][415]LogModuleManager: Shutting down and abandoning module Kismet (456)
-[2019.02.12-05.51.39:899][415]LogModuleManager: Shutting down and abandoning module GraphEditor (454)
-[2019.02.12-05.51.39:899][415]LogModuleManager: Shutting down and abandoning module ClassViewer (452)
-[2019.02.12-05.51.39:899][415]LogModuleManager: Shutting down and abandoning module Toolbox (450)
-[2019.02.12-05.51.39:899][415]LogModuleManager: Shutting down and abandoning module DesktopPlatform (449)
-[2019.02.12-05.51.39:899][415]LogModuleManager: Shutting down and abandoning module ModuleUI (446)
-[2019.02.12-05.51.39:899][415]LogModuleManager: Shutting down and abandoning module MovieSceneTools (444)
-[2019.02.12-05.51.39:899][415]LogModuleManager: Shutting down and abandoning module OutputLog (442)
-[2019.02.12-05.51.39:899][415]LogModuleManager: Shutting down and abandoning module GammaUI (440)
-[2019.02.12-05.51.39:899][415]LogModuleManager: Shutting down and abandoning module Documentation (438)
-[2019.02.12-05.51.39:899][415]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (436)
-[2019.02.12-05.51.39:899][415]LogModuleManager: Shutting down and abandoning module MovieScene (434)
-[2019.02.12-05.51.39:899][415]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (432)
-[2019.02.12-05.51.39:899][415]LogModuleManager: Shutting down and abandoning module LauncherPlatform (430)
-[2019.02.12-05.51.39:899][415]LogModuleManager: Shutting down and abandoning module AnalyticsET (428)
-[2019.02.12-05.51.39:899][415]LogModuleManager: Shutting down and abandoning module PortalServices (426)
-[2019.02.12-05.51.39:899][415]LogModuleManager: Shutting down and abandoning module PortalRpc (424)
-[2019.02.12-05.51.39:899][415]LogModuleManager: Shutting down and abandoning module MessagingRpc (422)
-[2019.02.12-05.51.39:899][415]LogModuleManager: Shutting down and abandoning module AIModule (420)
-[2019.02.12-05.51.39:899][415]LogModuleManager: Shutting down and abandoning module GameplayDebugger (419)
-[2019.02.12-05.51.39:899][415]LogModuleManager: Shutting down and abandoning module AITestSuite (417)
-[2019.02.12-05.51.39:899][415]LogModuleManager: Shutting down and abandoning module NavigationSystem (415)
-[2019.02.12-05.51.39:899][415]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (412)
-[2019.02.12-05.51.39:903][415]LogModuleManager: Shutting down and abandoning module ProfilerService (410)
-[2019.02.12-05.51.40:036][415]LogModuleManager: Shutting down and abandoning module TaskGraph (408)
-[2019.02.12-05.51.40:036][415]LogModuleManager: Shutting down and abandoning module SteamVRController (406)
-[2019.02.12-05.51.40:036][415]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (404)
-[2019.02.12-05.51.40:036][415]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (402)
-[2019.02.12-05.51.40:036][415]LogModuleManager: Shutting down and abandoning module OculusInput (400)
-[2019.02.12-05.51.40:036][415]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (398)
-[2019.02.12-05.51.40:036][415]LogModuleManager: Shutting down and abandoning module LeapMotion (396)
-[2019.02.12-05.51.40:036][415]LeapMotionLog: Leap Plugin shutdown.
-[2019.02.12-05.51.40:036][415]BodyStateLog: Id: 1
-[2019.02.12-05.51.40:037][415]LogUObjectArray: Warning: Invalid object index 7471207
-[2019.02.12-05.51.40:037][415]BodyStateLog: BodyState::Device Detached: Leap Motion (1)
-[2019.02.12-05.51.40:042][415]LeapMotionLog: ServiceMessageLoop stopped.
-[2019.02.12-05.51.40:042][415]LeapMotionLog: Connection successfully closed.
-[2019.02.12-05.51.40:042][415]LogModuleManager: Shutting down and abandoning module EditableMesh (394)
-[2019.02.12-05.51.40:042][415]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (392)
-[2019.02.12-05.51.40:042][415]LogModuleManager: Shutting down and abandoning module CableComponent (390)
-[2019.02.12-05.51.40:042][415]LogModuleManager: Shutting down and abandoning module AudioCapture (388)
-[2019.02.12-05.51.40:042][415]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (386)
-[2019.02.12-05.51.40:042][415]LogModuleManager: Shutting down and abandoning module AndroidPermission (384)
-[2019.02.12-05.51.40:042][415]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (382)
-[2019.02.12-05.51.40:042][415]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (380)
-[2019.02.12-05.51.40:042][415]LogModuleManager: Shutting down and abandoning module MediaCompositing (378)
-[2019.02.12-05.51.40:042][415]LogModuleManager: Shutting down and abandoning module LinearTimecode (376)
-[2019.02.12-05.51.40:042][415]LogModuleManager: Shutting down and abandoning module ImgMedia (374)
-[2019.02.12-05.51.40:049][415]LogModuleManager: Shutting down and abandoning module HTML5Networking (372)
-[2019.02.12-05.51.40:049][415]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (370)
-[2019.02.12-05.51.40:049][415]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (368)
-[2019.02.12-05.51.40:049][415]LogModuleManager: Shutting down and abandoning module BackChannel (366)
-[2019.02.12-05.51.40:049][415]LogModuleManager: Shutting down and abandoning module AppleVision (364)
-[2019.02.12-05.51.40:049][415]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (362)
-[2019.02.12-05.51.40:049][415]LogModuleManager: Shutting down and abandoning module AppleImageUtils (360)
-[2019.02.12-05.51.40:049][415]LogModuleManager: Shutting down and abandoning module AlembicImporter (358)
-[2019.02.12-05.51.40:049][415]LogModuleManager: Shutting down and abandoning module AlembicLibrary (357)
-[2019.02.12-05.51.40:049][415]LogModuleManager: Shutting down and abandoning module GeometryCache (356)
-[2019.02.12-05.51.40:049][415]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (355)
-[2019.02.12-05.51.40:049][415]LogModuleManager: Shutting down and abandoning module VariantManagerContent (350)
-[2019.02.12-05.51.40:049][415]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (348)
-[2019.02.12-05.51.40:049][415]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (346)
-[2019.02.12-05.51.40:049][415]LogModuleManager: Shutting down and abandoning module PluginBrowser (344)
-[2019.02.12-05.51.40:049][415]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (342)
-[2019.02.12-05.51.40:050][415]LogModuleManager: Shutting down and abandoning module PolygonModeling (340)
-[2019.02.12-05.51.40:050][415]LogModuleManager: Shutting down and abandoning module MeshEditor (338)
-[2019.02.12-05.51.40:050][415]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (336)
-[2019.02.12-05.51.40:050][415]LogModuleManager: Shutting down and abandoning module CryptoKeys (334)
-[2019.02.12-05.51.40:050][415]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (332)
-[2019.02.12-05.51.40:050][415]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (330)
-[2019.02.12-05.51.40:050][415]LogModuleManager: Shutting down and abandoning module UObjectPlugin (328)
-[2019.02.12-05.51.40:050][415]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (326)
-[2019.02.12-05.51.40:050][415]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (324)
-[2019.02.12-05.51.40:050][415]LogModuleManager: Shutting down and abandoning module GitSourceControl (322)
-[2019.02.12-05.51.40:050][415]LogModuleManager: Shutting down and abandoning module SourceControl (321)
-[2019.02.12-05.51.40:050][415]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (318)
-[2019.02.12-05.51.40:050][415]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (316)
-[2019.02.12-05.51.40:050][415]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (314)
-[2019.02.12-05.51.40:050][415]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (312)
-[2019.02.12-05.51.40:050][415]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (310)
-[2019.02.12-05.51.40:050][415]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (308)
-[2019.02.12-05.51.40:050][415]LogModuleManager: Shutting down and abandoning module Paper2DEditor (306)
-[2019.02.12-05.51.40:051][415]LogModuleManager: Shutting down and abandoning module MeshPaint (305)
-[2019.02.12-05.51.40:051][415]LogModuleManager: Shutting down and abandoning module OPSYN (302)
-[2019.02.12-05.51.40:051][415]LogModuleManager: Shutting down and abandoning module OSC (300)
-[2019.02.12-05.51.40:051][415]LogOSC: Display: Shutdown
-[2019.02.12-05.51.40:051][415]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
-[2019.02.12-05.51.40:051][415]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
-[2019.02.12-05.51.40:051][415]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
-[2019.02.12-05.51.40:051][415]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
-[2019.02.12-05.51.40:051][415]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
-[2019.02.12-05.51.40:051][415]LogModuleManager: Shutting down and abandoning module BodyState (288)
-[2019.02.12-05.51.40:051][415]BodyStateLog: Id: 2
-[2019.02.12-05.51.40:051][415]LogUObjectArray: Warning: Invalid object index 7471207
-[2019.02.12-05.51.40:051][415]BodyStateLog: BodyState::Device Detached: HMD (0)
-[2019.02.12-05.51.40:051][415]LogUObjectArray: Warning: Invalid object index 7471207
-[2019.02.12-05.51.40:051][415]LogModuleManager: Shutting down and abandoning module LeapMotionEditor (286)
-[2019.02.12-05.51.40:051][415]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
-[2019.02.12-05.51.40:051][415]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
-[2019.02.12-05.51.40:151][415]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
-[2019.02.12-05.51.40:252][415]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
-[2019.02.12-05.51.40:252][415]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
-[2019.02.12-05.51.40:252][415]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
-[2019.02.12-05.51.40:252][415]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
-[2019.02.12-05.51.40:252][415]LogModuleManager: Shutting down and abandoning module DataValidation (270)
-[2019.02.12-05.51.40:252][415]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
-[2019.02.12-05.51.40:252][415]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
-[2019.02.12-05.51.40:254][415]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
-[2019.02.12-05.51.40:254][415]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
-[2019.02.12-05.51.40:254][415]LogModuleManager: Shutting down and abandoning module MainFrame (262)
-[2019.02.12-05.51.40:254][415]LogModuleManager: Shutting down and abandoning module HotReload (261)
-[2019.02.12-05.51.40:255][415]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
-[2019.02.12-05.51.40:259][415]LogModuleManager: Shutting down and abandoning module TreeMap (255)
-[2019.02.12-05.51.40:259][415]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
-[2019.02.12-05.51.40:259][415]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
-[2019.02.12-05.51.40:259][415]LogModuleManager: Shutting down and abandoning module Paper2D (248)
-[2019.02.12-05.51.40:259][415]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
-[2019.02.12-05.51.40:259][415]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (244)
-[2019.02.12-05.51.40:259][415]LogModuleManager: Shutting down and abandoning module WmfMedia (242)
-[2019.02.12-05.51.40:261][415]LogModuleManager: Shutting down and abandoning module Media (241)
-[2019.02.12-05.51.40:268][415]LogModuleManager: Shutting down and abandoning module PacketHandler (238)
-[2019.02.12-05.51.40:269][415]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (236)
-[2019.02.12-05.51.40:269][415]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (234)
-[2019.02.12-05.51.40:269][415]LogModuleManager: Shutting down and abandoning module MediaAssets (232)
-[2019.02.12-05.51.40:269][415]LogModuleManager: Shutting down and abandoning module Overlay (230)
-[2019.02.12-05.51.40:269][415]LogModuleManager: Shutting down and abandoning module OverlayEditor (229)
-[2019.02.12-05.51.40:269][415]LogModuleManager: Shutting down and abandoning module VREditor (226)
-[2019.02.12-05.51.40:269][415]LogModuleManager: Shutting down and abandoning module StringTableEditor (224)
-[2019.02.12-05.51.40:269][415]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (222)
-[2019.02.12-05.51.40:269][415]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (220)
-[2019.02.12-05.51.40:269][415]LogModuleManager: Shutting down and abandoning module FunctionalTesting (218)
-[2019.02.12-05.51.40:269][415]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (216)
-[2019.02.12-05.51.40:269][415]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (215)
-[2019.02.12-05.51.40:269][415]LogModuleManager: Shutting down and abandoning module UMG (212)
-[2019.02.12-05.51.40:269][415]LogModuleManager: Shutting down and abandoning module UMGEditor (211)
-[2019.02.12-05.51.40:269][415]LogModuleManager: Shutting down and abandoning module Sequencer (210)
-[2019.02.12-05.51.40:269][415]LogModuleManager: Shutting down and abandoning module MessageLog (207)
-[2019.02.12-05.51.40:269][415]LogModuleManager: Shutting down and abandoning module SlateReflector (202)
-[2019.02.12-05.51.40:270][415]LogModuleManager: Shutting down and abandoning module Slate (200)
-[2019.02.12-05.51.40:270][415]LogModuleManager: Shutting down and abandoning module EditorStyle (198)
-[2019.02.12-05.51.40:273][415]LogModuleManager: Shutting down and abandoning module MRMesh (196)
-[2019.02.12-05.51.40:273][415]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (194)
-[2019.02.12-05.51.40:273][415]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (192)
-[2019.02.12-05.51.40:273][415]LogModuleManager: Shutting down and abandoning module XAudio2 (190)
-[2019.02.12-05.51.40:273][415]LogModuleManager: Shutting down and abandoning module Networking (188)
-[2019.02.12-05.51.40:273][415]LogModuleManager: Shutting down and abandoning module Core (186)
-[2019.02.12-05.51.40:273][415]LogModuleManager: Shutting down and abandoning module LevelSequence (184)
-[2019.02.12-05.51.40:273][415]LogModuleManager: Shutting down and abandoning module KismetCompiler (182)
-[2019.02.12-05.51.40:273][415]LogModuleManager: Shutting down and abandoning module MeshUtilities (180)
-[2019.02.12-05.51.40:273][415]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (179)
-[2019.02.12-05.51.40:273][415]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (178)
-[2019.02.12-05.51.40:273][415]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (177)
-[2019.02.12-05.51.40:273][415]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (175)
-[2019.02.12-05.51.40:273][415]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (173)
-[2019.02.12-05.51.40:273][415]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (171)
-[2019.02.12-05.51.40:273][415]LogModuleManager: Shutting down and abandoning module MaterialBaking (167)
-[2019.02.12-05.51.40:273][415]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (163)
-[2019.02.12-05.51.40:274][415]LogModuleManager: Shutting down and abandoning module DerivedDataCache (160)
-[2019.02.12-05.51.40:280][415]LogDerivedDataCache: Shutdown
-[2019.02.12-05.51.40:280][415]LogModuleManager: Shutting down and abandoning module XGEController (158)
-[2019.02.12-05.51.40:280][415]LogXGEController: Cleaning working directory: C:/Users/luste/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.02.12-05.51.40:281][415]LogModuleManager: Shutting down and abandoning module TargetPlatform (156)
-[2019.02.12-05.51.40:281][415]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (155)
-[2019.02.12-05.51.40:281][415]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (153)
-[2019.02.12-05.51.40:281][415]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (151)
-[2019.02.12-05.51.40:282][415]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (149)
-[2019.02.12-05.51.40:282][415]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (147)
-[2019.02.12-05.51.40:282][415]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (145)
-[2019.02.12-05.51.40:282][415]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (143)
-[2019.02.12-05.51.40:282][415]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (141)
-[2019.02.12-05.51.40:282][415]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (139)
-[2019.02.12-05.51.40:282][415]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (137)
-[2019.02.12-05.51.40:282][415]LogModuleManager: Shutting down and abandoning module ImageWrapper (136)
-[2019.02.12-05.51.40:282][415]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (133)
-[2019.02.12-05.51.40:282][415]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (131)
-[2019.02.12-05.51.40:282][415]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (129)
-[2019.02.12-05.51.40:282][415]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (127)
-[2019.02.12-05.51.40:282][415]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (125)
-[2019.02.12-05.51.40:295][415]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
-[2019.02.12-05.51.40:295][415]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (121)
-[2019.02.12-05.51.40:295][415]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (119)
-[2019.02.12-05.51.40:295][415]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (117)
-[2019.02.12-05.51.40:295][415]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (115)
-[2019.02.12-05.51.40:299][415]LogModuleManager: Shutting down and abandoning module Messaging (113)
-[2019.02.12-05.51.40:299][415]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (111)
-[2019.02.12-05.51.40:303][415]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (109)
-[2019.02.12-05.51.40:303][415]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (107)
-[2019.02.12-05.51.40:339][415]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (105)
-[2019.02.12-05.51.40:339][415]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (103)
-[2019.02.12-05.51.40:339][415]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (101)
-[2019.02.12-05.51.40:340][415]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (99)
-[2019.02.12-05.51.40:340][415]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (97)
-[2019.02.12-05.51.40:340][415]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (95)
-[2019.02.12-05.51.40:340][415]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (93)
-[2019.02.12-05.51.40:340][415]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (91)
-[2019.02.12-05.51.40:340][415]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (89)
-[2019.02.12-05.51.40:340][415]LogModuleManager: Shutting down and abandoning module InputCore (86)
-[2019.02.12-05.51.40:340][415]LogModuleManager: Shutting down and abandoning module Settings (84)
-[2019.02.12-05.51.40:340][415]LogModuleManager: Shutting down and abandoning module PhysXCooking (82)
-[2019.02.12-05.51.40:340][415]LogModuleManager: Shutting down and abandoning module SteamVR (80)
-[2019.02.12-05.51.40:340][415]LogHMD: Freeing OpenVRDLLHandle.
-[2019.02.12-05.51.40:340][415]LogModuleManager: Shutting down and abandoning module OculusHMD (78)
-[2019.02.12-05.51.40:340][415]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (76)
-[2019.02.12-05.51.40:340][415]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (74)
-[2019.02.12-05.51.40:340][415]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (72)
-[2019.02.12-05.51.40:340][415]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (68)
-[2019.02.12-05.51.40:341][415]LogModuleManager: Shutting down and abandoning module XMPP (63)
-[2019.02.12-05.51.40:342][415]LogModuleManager: Shutting down and abandoning module WebSockets (62)
-[2019.02.12-05.51.40:348][415]LogModuleManager: Shutting down and abandoning module HTTP (59)
-[2019.02.12-05.51.40:348][415]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2019.02.12-05.51.40:348][415]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA60AAA9F-407A-5339-6623-E4868211BC6A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.1-4613538%2B%2B%2BUE4%2BRelease-4.21&UserID=ad2ce3c842b0a61f8505f3bb91271840%7C5ac4efb3fdd94efd9448d5abd0820c37%7C3f082654-9d54-4b7d-bcd7-107a6bee479d&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2019.02.12-05.51.40:365][415]LogModuleManager: Shutting down and abandoning module SSL (58)
-[2019.02.12-05.51.40:367][415]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (54)
-[2019.02.12-05.51.40:368][415]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (52)
-[2019.02.12-05.51.40:368][415]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (50)
-[2019.02.12-05.51.40:368][415]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (48)
-[2019.02.12-05.51.40:368][415]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (46)
-[2019.02.12-05.51.40:368][415]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (44)
-[2019.02.12-05.51.40:368][415]LogModuleManager: Shutting down and abandoning module MagicLeapController (42)
-[2019.02.12-05.51.40:369][415]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2019.02.12-05.51.40:369][415]LogModuleManager: Shutting down and abandoning module MagicLeap (40)
-[2019.02.12-05.51.40:369][415]LogModuleManager: Shutting down and abandoning module DatasmithContent (38)
-[2019.02.12-05.51.40:369][415]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2019.02.12-05.51.40:369][415]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2019.02.12-05.51.40:369][415]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2019.02.12-05.51.40:369][415]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2019.02.12-05.51.40:369][415]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2019.02.12-05.51.40:369][415]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2019.02.12-05.51.40:369][415]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2019.02.12-05.51.40:371][415]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2019.02.12-05.51.40:371][415]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2019.02.12-05.51.40:371][415]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2019.02.12-05.51.40:371][415]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2019.02.12-05.51.40:371][415]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2019.02.12-05.51.40:371][415]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2019.02.12-05.51.40:371][415]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2019.02.12-05.51.40:371][415]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2019.02.12-05.51.40:371][415]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2019.02.12-05.51.40:371][415]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2019.02.12-05.51.40:371][415]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2019.02.12-05.51.40:381][415]LogExit: Exiting.
-[2019.02.12-05.51.40:399][415]Log file closed, 02/12/19 00:51:40
+[2019.05.08-23.32.07:946][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.05.08-23.32.07:946][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.05.08-23.32.07:946][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Engine.ini]
+[2019.05.08-23.32.07:946][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.05.08-23.32.07:946][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Engine.ini]
+[2019.05.08-23.32.07:946][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Engine.ini]
+[2019.05.08-23.32.07:946][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.05.08-23.32.07:946][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.05.08-23.32.07:946][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.05.08-23.32.07:947][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.05.08-23.32.07:947][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.05.08-23.32.07:947][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.05.08-23.32.07:947][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.05.08-23.32.07:947][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.05.08-23.32.07:947][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.05.08-23.32.07:947][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.05.08-23.32.07:947][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.05.08-23.32.07:947][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.05.08-23.32.07:947][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.05.08-23.32.07:947][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Engine.ini]
+[2019.05.08-23.32.07:947][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.05.08-23.32.07:947][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.05.08-23.32.07:947][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.05.08-23.32.07:947][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.05.08-23.32.07:947][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.05.08-23.32.07:947][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.05.08-23.32.07:947][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.05.08-23.32.07:947][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.05.08-23.32.07:947][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.05.08-23.32.07:947][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.05.08-23.32.07:947][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.05.08-23.32.07:947][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.05.08-23.32.07:947][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.05.08-23.32.07:947][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.05.08-23.32.07:947][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Engine.ini]
+[2019.05.08-23.32.07:947][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Engine.ini]
+[2019.05.08-23.32.07:949][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Scalability.ini]
+[2019.05.08-23.32.07:949][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.05.08-23.32.07:949][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.05.08-23.32.07:949][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Scalability.ini]
+[2019.05.08-23.32.07:949][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.05.08-23.32.07:949][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Scalability.ini]
+[2019.05.08-23.32.07:949][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.05.08-23.32.07:949][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.05.08-23.32.07:949][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.05.08-23.32.07:949][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.05.08-23.32.07:949][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.05.08-23.32.07:949][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.05.08-23.32.07:949][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.05.08-23.32.07:949][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.05.08-23.32.07:949][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.05.08-23.32.07:949][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.05.08-23.32.07:949][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.05.08-23.32.07:949][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.05.08-23.32.07:949][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.05.08-23.32.07:949][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.05.08-23.32.07:949][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Scalability.ini]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Scalability.ini]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Scalability.ini]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Scalability.ini]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.05.08-23.32.07:950][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.05.08-23.32.07:951][  0]LogInit: Selected Device Profile: [Windows]
+[2019.05.08-23.32.07:951][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.05.08-23.32.07:964][  0]LogHAL: Display: Platform has ~ 16 GB [17065697280 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.05.08-23.32.07:964][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.05.08-23.32.07:964][  0]LogInit: Going up to parent DeviceProfile []
+[2019.05.08-23.32.07:964][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Scalability.ini]
+[2019.05.08-23.32.07:964][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.05.08-23.32.07:964][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.05.08-23.32.07:964][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Scalability.ini]
+[2019.05.08-23.32.07:964][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.05.08-23.32.07:964][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Scalability.ini]
+[2019.05.08-23.32.07:964][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.05.08-23.32.07:964][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.05.08-23.32.07:964][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.05.08-23.32.07:964][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.05.08-23.32.07:964][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.05.08-23.32.07:964][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.05.08-23.32.07:964][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.05.08-23.32.07:964][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.05.08-23.32.07:964][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.05.08-23.32.07:964][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.05.08-23.32.07:964][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Scalability.ini]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Scalability.ini]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Scalability.ini]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Scalability.ini]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.05.08-23.32.07:965][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.05.08-23.32.07:965][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.05.08-23.32.07:966][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Engine.ini]
+[2019.05.08-23.32.07:966][  0]LogInit: Computer: LAPTOP-SD3MDD22
+[2019.05.08-23.32.07:966][  0]LogInit: User: luste
+[2019.05.08-23.32.07:966][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.05.08-23.32.07:966][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.05.08-23.32.07:966][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.05.08-23.32.07:966][  0]LogMemory: Platform Memory Stats for Windows
+[2019.05.08-23.32.07:966][  0]LogMemory: Process Physical Memory: 106.93 MB used, 106.93 MB peak
+[2019.05.08-23.32.07:966][  0]LogMemory: Process Virtual Memory: 93.87 MB used, 93.87 MB peak
+[2019.05.08-23.32.07:966][  0]LogMemory: Physical Memory: 6634.05 MB used,  9641.07 MB free, 16275.12 MB total
+[2019.05.08-23.32.07:966][  0]LogMemory: Virtual Memory: 4668.60 MB used,  134213056.00 MB free, 134217728.00 MB total
+[2019.05.08-23.32.07:996][  0]LogInit: Using OS detected language (en-US).
+[2019.05.08-23.32.07:996][  0]LogInit: Using OS detected locale (en-US).
+[2019.05.08-23.32.07:996][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.05.08-23.32.08:429][  0]LogStreaming: Display: Took  0.434s to InitEngineTextLocalization.
+[2019.05.08-23.32.08:429][  0]LogInit: Setting process to per monitor DPI aware
+[2019.05.08-23.32.08:475][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.05.08-23.32.08:475][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.05.08-23.32.08:757][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2019.05.08-23.32.08:757][  0]LogD3D11RHI: D3D11 adapters:
+[2019.05.08-23.32.08:825][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2019.05.08-23.32.08:825][  0]LogD3D11RHI:       6052/0/8137 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.05.08-23.32.08:834][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.05.08-23.32.08:834][  0]LogD3D11RHI:       128/0/8137 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.05.08-23.32.08:838][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.05.08-23.32.08:838][  0]LogD3D11RHI:       0/0/8137 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.05.08-23.32.08:838][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.05.08-23.32.08:870][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.05.08-23.32.08:870][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2019.05.08-23.32.08:870][  0]LogWindows: EnumDisplayDevices:
+[2019.05.08-23.32.08:870][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2019.05.08-23.32.08:871][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.05.08-23.32.08:871][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.05.08-23.32.08:871][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.05.08-23.32.08:871][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2019.05.08-23.32.08:871][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2019.05.08-23.32.08:872][  0]LogD3D11RHI:   Driver Version: 416.34 (internal:25.21.14.1634, unified:416.34)
+[2019.05.08-23.32.08:872][  0]LogD3D11RHI:      Driver Date: 10-10-2018
+[2019.05.08-23.32.08:872][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.05.08-23.32.08:926][  0]LogD3D11RHI: Async texture creation enabled
+[2019.05.08-23.32.08:950][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.05.08-23.32.09:307][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.05.08-23.32.09:322][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.05.08-23.32.09:337][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.05.08-23.32.09:355][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.05.08-23.32.09:369][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.05.08-23.32.09:386][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.05.08-23.32.09:400][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.05.08-23.32.09:417][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.05.08-23.32.09:423][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.05.08-23.32.09:507][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-23.32.09:507][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-23.32.09:507][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-23.32.09:507][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-23.32.09:507][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-23.32.09:507][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-23.32.09:507][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-23.32.09:507][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-23.32.09:507][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-23.32.09:507][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-23.32.09:507][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-23.32.09:507][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-23.32.09:507][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-23.32.09:507][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-23.32.09:507][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-23.32.09:507][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-23.32.09:507][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-23.32.09:507][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.08-23.32.09:508][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.05.08-23.32.09:572][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.05.08-23.32.09:572][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.05.08-23.32.09:598][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.05.08-23.32.09:598][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.05.08-23.32.09:611][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.05.08-23.32.09:625][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.05.08-23.32.09:637][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.05.08-23.32.09:652][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.05.08-23.32.09:699][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.05.08-23.32.09:699][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.05.08-23.32.09:699][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.05.08-23.32.09:765][  0]LogShaderCompilers: Guid format shader working directory is -38 characters bigger than the processId version (../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Intermediate/Shaders/WorkingDirectory/7164/).
+[2019.05.08-23.32.09:765][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/luste/AppData/Local/Temp/UnrealShaderWorkingDir/FEB7343E4BCE64C98DB029868168B3D6/'.
+[2019.05.08-23.32.09:768][  0]LogXGEController: Cleaning working directory: C:/Users/luste/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.05.08-23.32.09:769][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.05.08-23.32.09:769][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.05.08-23.32.09:769][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.05.08-23.32.10:375][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.05.08-23.32.10:434][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/luste/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.05.08-23.32.10:434][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/luste/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.05.08-23.32.10:434][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.05.08-23.32.10:434][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.05.08-23.32.10:435][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.05.08-23.32.10:435][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.05.08-23.32.10:453][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.05.08-23.32.10:453][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.05.08-23.32.10:453][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.05.08-23.32.10:467][  0]LogDerivedDataCache: Using Local data cache path C:/Users/luste/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.05.08-23.32.10:467][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.05.08-23.32.10:467][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.05.08-23.32.10:495][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.05.08-23.32.10:497][  0]LogSlate: Using FreeType 2.6.0
+[2019.05.08-23.32.10:497][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.05.08-23.32.10:592][  0]LogAssetRegistry: FAssetRegistry took 0.0325 seconds to start up
+[2019.05.08-23.32.10:964][  0]LogInit: Selected Device Profile: [Windows]
+[2019.05.08-23.32.11:141][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.05.08-23.32.11:147][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.05.08-23.32.11:147][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.05.08-23.32.11:147][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.05.08-23.32.11:147][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.05.08-23.32.11:164][  0]LogNetVersion: OPSYN 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2167866302)
+[2019.05.08-23.32.11:826][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 2 prioritized culture(s) in 0.145219 seconds
+[2019.05.08-23.32.11:833][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.05.08-23.32.11:833][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
+[2019.05.08-23.32.11:833][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.05.08-23.32.12:809][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.05.08-23.32.12:823][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.05.08-23.32.13:530][  0]LogOSC: Display: Update settings
+[2019.05.08-23.32.13:530][  0]LogOSC: Display: Send targets cleared
+[2019.05.08-23.32.13:530][  0]LogOSC: Display: Send target added: 127.0.0.1:8000
+[2019.05.08-23.32.13:530][  0]LogOSC: Display: Send target added: 10.0.0.1:6000
+[2019.05.08-23.32.13:530][  0]LogOSC: Display: Send target added: 10.0.0.1:6020
+[2019.05.08-23.32.13:530][  0]LogOSC: Display: Send target added: 10.0.0.1:6464
+[2019.05.08-23.32.13:530][  0]LogOSC: Display: Startup succeed
+[2019.05.08-23.32.13:581][  0]SourceControl: Source control is disabled
+[2019.05.08-23.32.13:581][  0]SourceControl: Source control is disabled
+[2019.05.08-23.32.13:583][  0]SourceControl: Source control is disabled
+[2019.05.08-23.32.13:584][  0]SourceControl: Source control is disabled
+[2019.05.08-23.32.13:765][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.05.08-23.32.13:885][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/LeapMotion/Win64/LeapC.dll' (GetLastError=126)
+[2019.05.08-23.32.13:885][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/LeapMotion/Win64/LeapC.dll' does not exist
+[2019.05.08-23.32.13:885][  0]LeapMotionLog: Leap Plugin started v3.2.0
+[2019.05.08-23.32.13:889][  0]LogOcInput: OculusInput pre-init called
+[2019.05.08-23.32.14:030][  0]LogClass: Warning: ObjectProperty FMappedBoneAnimData::BodyStateSkeleton is not initialized properly
+[2019.05.08-23.32.14:030][  0]LogClass: Warning: FBodyStateDeviceConfig::InputType is not initialized properly
+[2019.05.08-23.32.14:030][  0]LogClass: Warning: FLeapStats::FrameExtrapolationInMS is not initialized properly
+[2019.05.08-23.32.14:030][  0]LogClass: Display: 3 Uninitialized script stuct members found
+[2019.05.08-23.32.14:031][  0]LogAutomationTest: Warning: ObjectProperty FMappedBoneAnimData::BodyStateSkeleton is not initialized properly
+[2019.05.08-23.32.14:031][  0]LogAutomationTest: Warning: FBodyStateDeviceConfig::InputType is not initialized properly
+[2019.05.08-23.32.14:031][  0]LogAutomationTest: Warning: FLeapStats::FrameExtrapolationInMS is not initialized properly
+[2019.05.08-23.32.14:032][  0]LogEngine: Initializing Engine...
+[2019.05.08-23.32.14:060][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2019.05.08-23.32.14:062][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.05.08-23.32.14:062][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.05.08-23.32.14:062][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.05.08-23.32.14:062][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.05.08-23.32.14:344][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.05.08-23.32.14:359][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.05.08-23.32.14:390][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.08-23.32.14:467][  0]LogInit: FAudioDevice initialized.
+[2019.05.08-23.32.14:468][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.05.08-23.32.14:533][  0]LogDerivedDataCache: Saved boot cache 0.06s 71MB C:/Users/luste/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.05.08-23.32.14:547][  0]LogInit: Texture streaming: Enabled
+[2019.05.08-23.32.14:566][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.05.08-23.32.14:566][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={DA6BA1AE-4CA9-3AB8-D2F0-E184FFB5B05C}
+[2019.05.08-23.32.14:582][  0]LogInit: Transaction tracking system initialized
+[2019.05.08-23.32.14:612][  0]BlueprintLog: New page: Editor Load
+[2019.05.08-23.32.14:701][  0]LocalizationService: Localization service is disabled
+[2019.05.08-23.32.15:245][  0]LogFileCache: Scanning file cache for directory 'C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Content/' took 0.02s
+[2019.05.08-23.32.15:245][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.05.08-23.32.15:245][  0]LogCook: Display: Mobile HDR setting 1
+[2019.05.08-23.32.15:245][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.05.08-23.32.15:245][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.05.08-23.32.15:245][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.05.08-23.32.15:245][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.05.08-23.32.15:245][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.05.08-23.32.15:396][  0]SourceControl: Source control is disabled
+[2019.05.08-23.32.15:396][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.05.08-23.32.15:397][  0]LightingResults: New page: Lighting Build
+[2019.05.08-23.32.15:401][  0]MapCheck: New page: Map Check
+[2019.05.08-23.32.15:401][  0]LightingResults: New page: Lighting Build
+[2019.05.08-23.32.15:599][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2019.05.08-23.32.15:610][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.05.08-23.32.15:637][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.05.08-23.32.15:637][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.404ms to complete.
+[2019.05.08-23.32.15:638][  0]LogFileHelpers: Loading map 'Template_Default' took 0.242
+[2019.05.08-23.32.15:757][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.08-23.32.15:764][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.08-23.32.15:777][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.08-23.32.15:785][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.08-23.32.15:793][  0]LogCollectionManager: Loaded 0 collections in 0.001712 seconds
+[2019.05.08-23.32.15:812][  0]LogFileCache: Scanning file cache for directory 'C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Collections/' took 0.01s
+[2019.05.08-23.32.15:812][  0]LogFileCache: Scanning file cache for directory 'C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Content/Developers/luste/Collections/' took 0.00s
+[2019.05.08-23.32.15:812][  0]LogFileCache: Scanning file cache for directory 'C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Content/Collections/' took 0.00s
+[2019.05.08-23.32.15:812][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.05.08-23.32.15:822][  0]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 2671 classes and 637 folders.
+[2019.05.08-23.32.15:830][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.05.08-23.32.15:832][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.08-23.32.15:833][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.08-23.32.15:833][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.08-23.32.15:834][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.08-23.32.15:835][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.08-23.32.15:836][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.08-23.32.15:837][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.08-23.32.15:838][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.08-23.32.15:839][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.08-23.32.15:839][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.08-23.32.15:841][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.08-23.32.15:842][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.08-23.32.15:843][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.08-23.32.15:843][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.08-23.32.15:844][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.08-23.32.15:844][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.08-23.32.15:845][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.08-23.32.15:845][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.08-23.32.15:846][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.08-23.32.15:846][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.08-23.32.15:847][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.08-23.32.15:847][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.08-23.32.15:848][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.08-23.32.15:848][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.08-23.32.15:849][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.08-23.32.15:849][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.08-23.32.15:882][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.05.08-23.32.15:889][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.05.08-23.32.15:940][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.05.08-23.32.15:940][  0]LogLoad: (Engine Initialization) Total time: 10.25 seconds
+[2019.05.08-23.32.15:940][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.05.08-23.32.15:975][  0]LeapMotionLog: ServiceMessageLoop started.
+[2019.05.08-23.32.15:975][  0]BodyStateLog: BodyState::DeviceAttached: Leap Motion (1)
+[2019.05.08-23.32.15:976][  0]BodyStateLog: BodyState::DeviceAttached: HMD (2)
+[2019.05.08-23.32.16:023][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.05.08-23.32.16:025][  0]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.05.08-23.32.16:026][  0]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.05.08-23.32.16:030][  0]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.05.08-23.32.16:232][  1]LeapMotionLog: LeapService: OnConnect.
+[2019.05.08-23.32.16:232][  1]LogRenderer: Reallocating scene render targets to support 880x348 Format 10 NumSamples 1 (Frame:1).
+[2019.05.08-23.32.16:329][  2]LogAssetRegistry: Asset discovery search completed in 5.7594 seconds
+[2019.05.08-23.32.16:333][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.05.08-23.32.16:333][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000081 seconds (updated 0 objects)
+[2019.05.08-23.32.18:377][ 56]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.08-23.32.21:974][146]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.05.08-23.32.24:564][146]LogAIModule: Creating AISystem for world OPSYN2
+[2019.05.08-23.32.24:572][146]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2019.05.08-23.32.24:572][146]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2019.05.08-23.32.24:615][146]LogAssetEditorManager: Opening Asset editor for World /Game/OPSYN2.OPSYN2
+[2019.05.08-23.32.24:659][146]Cmd: MAP LOAD FILE="../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Content/OPSYN2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.05.08-23.32.24:659][146]LightingResults: New page: Lighting Build
+[2019.05.08-23.32.24:660][146]LoadErrors: New page: Loading map: OPSYN2.umap
+[2019.05.08-23.32.24:660][146]MapCheck: New page: Map Check
+[2019.05.08-23.32.24:660][146]LightingResults: New page: Lighting Build
+[2019.05.08-23.32.24:743][146]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.05.08-23.32.24:802][146]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.05.08-23.32.24:802][146]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.128ms to complete.
+[2019.05.08-23.32.24:802][146]LogFileHelpers: Loading map 'OPSYN2' took 0.143
+[2019.05.08-23.32.29:998][280]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/OSC_BP.OSC_BP
+[2019.05.08-23.32.30:775][280]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 117 classes and 0 folders.
+[2019.05.08-23.32.31:611][280]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.05.08-23.32.32:253][281]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.05.08-23.32.47:988][562]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.05.08-23.32.47:999][562]LogD3D11RHI: Error: Result failed 
+ at D:\Build\++UE4\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Query.cpp:140 
+ with error DXGI_ERROR_DEVICE_REMOVED DXGI_ERROR_DEVICE_HUNG
+[2019.05.08-23.32.47:999][562]LogD3D11RHI: [Aftermath] GDynamicRHI=000002C2294240C0, GDX11NVAfterMathEnabled=0, Result=0xFFFFFFFF, bDeviceActive=0
+[2019.05.08-23.32.47:999][562]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2019.05.08-23.32.49:074][563]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.05.08-23.32.49:074][563]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2019.05.08-23.32.49:074][563]LogWindows: Error: === Critical error: ===
+[2019.05.08-23.32.49:074][563]LogWindows: Error: 
+[2019.05.08-23.32.49:074][563]LogWindows: Error: Fatal error: [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\RenderCore\Private\RenderingThread.cpp] [Line: 826] 
+[2019.05.08-23.32.49:074][563]LogWindows: Error: Rendering thread exception:
+[2019.05.08-23.32.49:074][563]LogWindows: Error: Fatal error: [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Util.cpp] [Line: 200] 
+[2019.05.08-23.32.49:074][563]LogWindows: Error: Unreal Engine is exiting due to D3D device being lost. (Error: 0x887A0006 - 'HUNG')
+[2019.05.08-23.32.49:074][563]LogWindows: Error: 
+[2019.05.08-23.32.49:074][563]LogWindows: Error: 
+[2019.05.08-23.32.49:074][563]LogWindows: Error: [Callstack] 0x00007ff9795d9129 KERNELBASE.dll!UnknownFunction []
+[2019.05.08-23.32.49:074][563]LogWindows: Error: [Callstack] 0x00007ff91598cd1a UE4Editor-Core.dll!UnknownFunction []
+[2019.05.08-23.32.49:074][563]LogWindows: Error: [Callstack] 0x00007ff91576a967 UE4Editor-Core.dll!UnknownFunction []
+[2019.05.08-23.32.49:074][563]LogWindows: Error: [Callstack] 0x00007ff9156a0df7 UE4Editor-Core.dll!UnknownFunction []
+[2019.05.08-23.32.49:074][563]LogWindows: Error: [Callstack] 0x00007ff8f82cd32a UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2019.05.08-23.32.49:074][563]LogWindows: Error: [Callstack] 0x00007ff8f82d0d64 UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2019.05.08-23.32.49:074][563]LogWindows: Error: [Callstack] 0x00007ff8f82a64f1 UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2019.05.08-23.32.49:074][563]LogWindows: Error: [Callstack] 0x00007ff8f82bd9c5 UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2019.05.08-23.32.49:074][563]LogWindows: Error: [Callstack] 0x00007ff907d54e17 UE4Editor-Renderer.dll!UnknownFunction []
+[2019.05.08-23.32.49:075][563]LogWindows: Error: [Callstack] 0x00007ff907dae67f UE4Editor-Renderer.dll!UnknownFunction []
+[2019.05.08-23.32.49:075][563]LogWindows: Error: [Callstack] 0x00007ff907dc7d40 UE4Editor-Renderer.dll!UnknownFunction []
+[2019.05.08-23.32.49:075][563]LogWindows: Error: [Callstack] 0x00007ff907d94bfe UE4Editor-Renderer.dll!UnknownFunction []
+[2019.05.08-23.32.49:075][563]LogWindows: Error: [Callstack] 0x00007ff907dbff90 UE4Editor-Renderer.dll!UnknownFunction []
+[2019.05.08-23.32.49:075][563]LogWindows: Error: [Callstack] 0x00007ff9077fa3a9 UE4Editor-Renderer.dll!UnknownFunction []
+[2019.05.08-23.32.49:075][563]LogWindows: Error: [Callstack] 0x00007ff907d14a72 UE4Editor-Renderer.dll!UnknownFunction []
+[2019.05.08-23.32.49:075][563]LogWindows: Error: [Callstack] 0x00007ff907ce2182 UE4Editor-Renderer.dll!UnknownFunction []
+[2019.05.08-23.32.49:075][563]LogWindows: Error: [Callstack] 0x00007ff915531798 UE4Editor-Core.dll!UnknownFunction []
+[2019.05.08-23.32.49:075][563]LogWindows: Error: [Callstack] 0x00007ff915531c56 UE4Editor-Core.dll!UnknownFunction []
+[2019.05.08-23.32.49:075][563]LogWindows: Error: [Callstack] 0x00007ff945959af9 UE4Editor-RenderCore.dll!UnknownFunction []
+[2019.05.08-23.32.49:075][563]LogWindows: Error: [Callstack] 0x00007ff94595aa74 UE4Editor-RenderCore.dll!UnknownFunction []
+[2019.05.08-23.32.49:075][563]LogWindows: Error: [Callstack] 0x00007ff91598c500 UE4Editor-Core.dll!UnknownFunction []
+[2019.05.08-23.32.49:075][563]LogWindows: Error: [Callstack] 0x00007ff91597cac1 UE4Editor-Core.dll!UnknownFunction []
+[2019.05.08-23.32.49:075][563]LogWindows: Error: [Callstack] 0x00007ff97c3d7974 KERNEL32.DLL!UnknownFunction []
+[2019.05.08-23.32.49:075][563]LogWindows: Error: [Callstack] 0x00007ff97d0da271 ntdll.dll!UnknownFunction []
+[2019.05.08-23.32.49:075][563]LogWindows: Error: 
+[2019.05.08-23.32.49:075][563]LogWindows: Error: 
+[2019.05.08-23.32.49:075][563]LogWindows: Error: 
+[2019.05.08-23.32.49:075][563]LogWindows: Error: 
+[2019.05.08-23.32.49:091][563]LogExit: Executing StaticShutdownAfterError
+[2019.05.08-23.32.49:094][563]LogWindows: FPlatformMisc::RequestExit(1)
+[2019.05.08-23.32.49:102][563]Log file closed, 05/08/19 19:32:49

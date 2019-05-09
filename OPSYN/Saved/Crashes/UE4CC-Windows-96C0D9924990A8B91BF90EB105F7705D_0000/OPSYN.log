@@ -1,0 +1,902 @@
+﻿Log file open, 04/05/19 21:18:13
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: OPSYN
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.323382
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LeapMotion
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin OSC
+LogStreaming: Display: Took  0.131s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogHMD: Failed initializing OVRPlugin 1.28.0
+LogInit: Build: ++UE4+Release-4.21-CL-4613538
+LogInit: Engine Version: 4.21.1-4613538+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: Intel(R) HD Graphics 630
+LogInit: Compiled (64-bit): Nov 30 2018 04:13:25
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.004s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.04.06-01.18.14:563][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.04.06-01.18.14:563][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.04.06-01.18.14:563][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Engine.ini]
+[2019.04.06-01.18.14:563][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.04.06-01.18.14:563][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Engine.ini]
+[2019.04.06-01.18.14:563][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Engine.ini]
+[2019.04.06-01.18.14:563][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.04.06-01.18.14:563][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.04.06-01.18.14:563][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.04.06-01.18.14:563][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.04.06-01.18.14:563][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.04.06-01.18.14:563][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.04.06-01.18.14:563][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.04.06-01.18.14:563][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.04.06-01.18.14:563][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.04.06-01.18.14:563][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.04.06-01.18.14:563][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.04.06-01.18.14:563][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.04.06-01.18.14:563][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.04.06-01.18.14:563][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Engine.ini]
+[2019.04.06-01.18.14:563][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.04.06-01.18.14:563][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.04.06-01.18.14:563][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.04.06-01.18.14:563][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.04.06-01.18.14:563][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.04.06-01.18.14:563][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.04.06-01.18.14:563][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.04.06-01.18.14:563][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.04.06-01.18.14:563][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.04.06-01.18.14:563][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.04.06-01.18.14:563][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.04.06-01.18.14:563][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.04.06-01.18.14:563][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.04.06-01.18.14:563][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.04.06-01.18.14:563][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Engine.ini]
+[2019.04.06-01.18.14:563][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Engine.ini]
+[2019.04.06-01.18.14:566][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Scalability.ini]
+[2019.04.06-01.18.14:566][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.04.06-01.18.14:566][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.04.06-01.18.14:566][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Scalability.ini]
+[2019.04.06-01.18.14:566][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.04.06-01.18.14:566][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Scalability.ini]
+[2019.04.06-01.18.14:566][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.04.06-01.18.14:566][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.04.06-01.18.14:566][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.04.06-01.18.14:566][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.04.06-01.18.14:566][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.04.06-01.18.14:566][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.04.06-01.18.14:566][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.04.06-01.18.14:566][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Scalability.ini]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Scalability.ini]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Scalability.ini]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Scalability.ini]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.04.06-01.18.14:567][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.04.06-01.18.14:567][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.06-01.18.14:567][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.06-01.18.14:586][  0]LogHAL: Display: Platform has ~ 16 GB [17065697280 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.04.06-01.18.14:586][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.04.06-01.18.14:586][  0]LogInit: Going up to parent DeviceProfile []
+[2019.04.06-01.18.14:586][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Scalability.ini]
+[2019.04.06-01.18.14:586][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.04.06-01.18.14:586][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.04.06-01.18.14:586][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Scalability.ini]
+[2019.04.06-01.18.14:586][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.04.06-01.18.14:586][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Scalability.ini]
+[2019.04.06-01.18.14:586][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.04.06-01.18.14:586][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.04.06-01.18.14:586][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.04.06-01.18.14:586][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.04.06-01.18.14:586][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.04.06-01.18.14:586][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.04.06-01.18.14:586][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.04.06-01.18.14:586][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.04.06-01.18.14:586][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.04.06-01.18.14:586][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.04.06-01.18.14:586][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.04.06-01.18.14:586][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.04.06-01.18.14:586][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.04.06-01.18.14:586][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.04.06-01.18.14:586][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.04.06-01.18.14:586][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.04.06-01.18.14:586][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.04.06-01.18.14:586][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.04.06-01.18.14:586][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Scalability.ini]
+[2019.04.06-01.18.14:586][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.04.06-01.18.14:586][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.04.06-01.18.14:586][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.04.06-01.18.14:586][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.04.06-01.18.14:586][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.04.06-01.18.14:586][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.04.06-01.18.14:586][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.04.06-01.18.14:586][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.04.06-01.18.14:586][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.04.06-01.18.14:586][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.04.06-01.18.14:586][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.04.06-01.18.14:586][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.04.06-01.18.14:586][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.04.06-01.18.14:586][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.04.06-01.18.14:586][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.04.06-01.18.14:587][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.04.06-01.18.14:587][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.04.06-01.18.14:587][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.04.06-01.18.14:587][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.04.06-01.18.14:587][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.04.06-01.18.14:587][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.04.06-01.18.14:587][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.04.06-01.18.14:587][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.04.06-01.18.14:587][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.04.06-01.18.14:587][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.04.06-01.18.14:587][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.04.06-01.18.14:587][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.04.06-01.18.14:587][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.04.06-01.18.14:587][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.04.06-01.18.14:587][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.04.06-01.18.14:587][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Scalability.ini]
+[2019.04.06-01.18.14:587][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.04.06-01.18.14:587][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.04.06-01.18.14:587][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.04.06-01.18.14:587][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.04.06-01.18.14:587][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.04.06-01.18.14:587][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.04.06-01.18.14:587][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.04.06-01.18.14:587][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.04.06-01.18.14:587][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Scalability.ini]
+[2019.04.06-01.18.14:587][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.04.06-01.18.14:587][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.04.06-01.18.14:587][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.04.06-01.18.14:587][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.04.06-01.18.14:587][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.04.06-01.18.14:587][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.04.06-01.18.14:587][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.04.06-01.18.14:587][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.04.06-01.18.14:587][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.04.06-01.18.14:587][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.04.06-01.18.14:587][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.04.06-01.18.14:587][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.04.06-01.18.14:587][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.04.06-01.18.14:587][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Scalability.ini]
+[2019.04.06-01.18.14:587][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.04.06-01.18.14:587][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.04.06-01.18.14:587][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.04.06-01.18.14:587][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.04.06-01.18.14:588][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Config/Windows/Engine.ini]
+[2019.04.06-01.18.14:588][  0]LogInit: Computer: LAPTOP-SD3MDD22
+[2019.04.06-01.18.14:588][  0]LogInit: User: luste
+[2019.04.06-01.18.14:588][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.04.06-01.18.14:588][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.04.06-01.18.14:588][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.04.06-01.18.14:588][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.06-01.18.14:588][  0]LogMemory: Process Physical Memory: 106.21 MB used, 106.22 MB peak
+[2019.04.06-01.18.14:588][  0]LogMemory: Process Virtual Memory: 93.54 MB used, 93.54 MB peak
+[2019.04.06-01.18.14:588][  0]LogMemory: Physical Memory: 4806.19 MB used,  11468.93 MB free, 16275.12 MB total
+[2019.04.06-01.18.14:588][  0]LogMemory: Virtual Memory: 4668.63 MB used,  134213056.00 MB free, 134217728.00 MB total
+[2019.04.06-01.18.14:618][  0]LogInit: Using OS detected language (en-US).
+[2019.04.06-01.18.14:618][  0]LogInit: Using OS detected locale (en-US).
+[2019.04.06-01.18.14:619][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.04.06-01.18.15:130][  0]LogStreaming: Display: Took  0.512s to InitEngineTextLocalization.
+[2019.04.06-01.18.15:130][  0]LogInit: Setting process to per monitor DPI aware
+[2019.04.06-01.18.15:189][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.06-01.18.15:189][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.06-01.18.15:434][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2019.04.06-01.18.15:434][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.06-01.18.15:500][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2019.04.06-01.18.15:500][  0]LogD3D11RHI:       6052/0/8137 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.04.06-01.18.15:513][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.04.06-01.18.15:513][  0]LogD3D11RHI:       128/0/8137 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.04.06-01.18.15:516][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.06-01.18.15:516][  0]LogD3D11RHI:       0/0/8137 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.06-01.18.15:516][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.06-01.18.15:558][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.06-01.18.15:558][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2019.04.06-01.18.15:558][  0]LogWindows: EnumDisplayDevices:
+[2019.04.06-01.18.15:558][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2019.04.06-01.18.15:558][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.04.06-01.18.15:559][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.04.06-01.18.15:559][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.04.06-01.18.15:560][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2019.04.06-01.18.15:560][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2019.04.06-01.18.15:560][  0]LogD3D11RHI:   Driver Version: 416.34 (internal:25.21.14.1634, unified:416.34)
+[2019.04.06-01.18.15:560][  0]LogD3D11RHI:      Driver Date: 10-10-2018
+[2019.04.06-01.18.15:560][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.04.06-01.18.15:621][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.06-01.18.15:656][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.04.06-01.18.16:052][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.04.06-01.18.16:065][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.04.06-01.18.16:078][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.04.06-01.18.16:093][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.04.06-01.18.16:106][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.04.06-01.18.16:120][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.06-01.18.16:134][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.06-01.18.16:151][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.06-01.18.16:158][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.04.06-01.18.16:242][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.06-01.18.16:242][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.06-01.18.16:242][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.06-01.18.16:242][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.06-01.18.16:242][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.06-01.18.16:242][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.06-01.18.16:242][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.06-01.18.16:242][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.06-01.18.16:242][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.06-01.18.16:242][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.06-01.18.16:242][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.06-01.18.16:242][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.06-01.18.16:242][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.06-01.18.16:242][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.06-01.18.16:242][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.06-01.18.16:242][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.06-01.18.16:242][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.06-01.18.16:242][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.06-01.18.16:244][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.04.06-01.18.16:309][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.06-01.18.16:309][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.06-01.18.16:336][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.06-01.18.16:337][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.06-01.18.16:358][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.04.06-01.18.16:371][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.04.06-01.18.16:387][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.04.06-01.18.16:399][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.04.06-01.18.16:451][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.06-01.18.16:451][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.06-01.18.16:451][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.06-01.18.16:531][  0]LogShaderCompilers: Guid format shader working directory is -39 characters bigger than the processId version (../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Intermediate/Shaders/WorkingDirectory/11872/).
+[2019.04.06-01.18.16:531][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/luste/AppData/Local/Temp/UnrealShaderWorkingDir/22A801AA40FC3F2B9894988ADBD46872/'.
+[2019.04.06-01.18.16:533][  0]LogXGEController: Cleaning working directory: C:/Users/luste/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.04.06-01.18.16:533][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.06-01.18.16:533][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.06-01.18.16:533][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.06-01.18.17:233][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.06-01.18.17:300][  0]LogDerivedDataCache: Loaded boot cache 0.07s 71MB C:/Users/luste/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.04.06-01.18.17:300][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/luste/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.04.06-01.18.17:300][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.06-01.18.17:300][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.06-01.18.17:300][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.06-01.18.17:300][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.06-01.18.17:317][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.06-01.18.17:317][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.06-01.18.17:317][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.04.06-01.18.17:330][  0]LogDerivedDataCache: Using Local data cache path C:/Users/luste/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.06-01.18.17:330][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.06-01.18.17:330][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.06-01.18.17:357][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.06-01.18.17:359][  0]LogSlate: Using FreeType 2.6.0
+[2019.04.06-01.18.17:359][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.06-01.18.17:448][  0]LogAssetRegistry: FAssetRegistry took 0.0340 seconds to start up
+[2019.04.06-01.18.17:838][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.06-01.18.18:028][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.06-01.18.18:032][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.06-01.18.18:032][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.04.06-01.18.18:032][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.06-01.18.18:032][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.04.06-01.18.18:047][  0]LogNetVersion: OPSYN 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2167866302)
+[2019.04.06-01.18.18:659][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 2 prioritized culture(s) in 0.120500 seconds
+[2019.04.06-01.18.18:664][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.04.06-01.18.18:664][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
+[2019.04.06-01.18.18:664][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.06-01.18.19:606][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.06-01.18.19:620][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.06-01.18.20:322][  0]LogOSC: Display: Update settings
+[2019.04.06-01.18.20:322][  0]LogOSC: Display: Send targets cleared
+[2019.04.06-01.18.20:322][  0]LogOSC: Display: Send target added: 127.0.0.1:8000
+[2019.04.06-01.18.20:322][  0]LogOSC: Display: Send target added: 10.0.0.1:6000
+[2019.04.06-01.18.20:322][  0]LogOSC: Display: Send target added: 10.0.0.1:6020
+[2019.04.06-01.18.20:322][  0]LogOSC: Display: Startup succeed
+[2019.04.06-01.18.20:362][  0]SourceControl: Source control is disabled
+[2019.04.06-01.18.20:362][  0]SourceControl: Source control is disabled
+[2019.04.06-01.18.20:364][  0]SourceControl: Source control is disabled
+[2019.04.06-01.18.20:364][  0]SourceControl: Source control is disabled
+[2019.04.06-01.18.20:528][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.06-01.18.20:621][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/LeapMotion/Win64/LeapC.dll' (GetLastError=126)
+[2019.04.06-01.18.20:622][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/LeapMotion/Win64/LeapC.dll' does not exist
+[2019.04.06-01.18.20:622][  0]LeapMotionLog: Leap Plugin started v3.2.0
+[2019.04.06-01.18.20:625][  0]LogOcInput: OculusInput pre-init called
+[2019.04.06-01.18.20:760][  0]LogClass: Warning: ObjectProperty FMappedBoneAnimData::BodyStateSkeleton is not initialized properly
+[2019.04.06-01.18.20:760][  0]LogClass: Warning: FBodyStateDeviceConfig::InputType is not initialized properly
+[2019.04.06-01.18.20:760][  0]LogClass: Warning: FLeapStats::FrameExtrapolationInMS is not initialized properly
+[2019.04.06-01.18.20:760][  0]LogClass: Display: 3 Uninitialized script stuct members found
+[2019.04.06-01.18.20:761][  0]LogAutomationTest: Warning: ObjectProperty FMappedBoneAnimData::BodyStateSkeleton is not initialized properly
+[2019.04.06-01.18.20:761][  0]LogAutomationTest: Warning: FBodyStateDeviceConfig::InputType is not initialized properly
+[2019.04.06-01.18.20:761][  0]LogAutomationTest: Warning: FLeapStats::FrameExtrapolationInMS is not initialized properly
+[2019.04.06-01.18.20:761][  0]LogEngine: Initializing Engine...
+[2019.04.06-01.18.20:788][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2019.04.06-01.18.20:790][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.06-01.18.20:790][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.06-01.18.20:790][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.06-01.18.20:790][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.06-01.18.21:065][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.04.06-01.18.21:083][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.06-01.18.21:105][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.06-01.18.21:195][  0]LogInit: FAudioDevice initialized.
+[2019.04.06-01.18.21:195][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.04.06-01.18.21:249][  0]LogDerivedDataCache: Saved boot cache 0.05s 71MB C:/Users/luste/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.04.06-01.18.21:260][  0]LogInit: Texture streaming: Enabled
+[2019.04.06-01.18.21:281][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.04.06-01.18.21:281][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={A71610C4-4209-C29C-73C3-D7982390C5D8}
+[2019.04.06-01.18.21:303][  0]LogInit: Transaction tracking system initialized
+[2019.04.06-01.18.21:331][  0]BlueprintLog: New page: Editor Load
+[2019.04.06-01.18.21:426][  0]LocalizationService: Localization service is disabled
+[2019.04.06-01.18.21:922][  0]LogFileCache: Scanning file cache for directory 'C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Content/' took 0.02s
+[2019.04.06-01.18.21:922][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.06-01.18.21:922][  0]LogCook: Display: Mobile HDR setting 1
+[2019.04.06-01.18.21:922][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.04.06-01.18.21:922][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.06-01.18.21:922][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.06-01.18.21:922][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.06-01.18.21:922][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.06-01.18.22:056][  0]SourceControl: Source control is disabled
+[2019.04.06-01.18.22:056][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.06-01.18.22:056][  0]LightingResults: New page: Lighting Build
+[2019.04.06-01.18.22:059][  0]MapCheck: New page: Map Check
+[2019.04.06-01.18.22:059][  0]LightingResults: New page: Lighting Build
+[2019.04.06-01.18.22:238][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2019.04.06-01.18.22:247][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.06-01.18.22:271][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.06-01.18.22:272][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.204ms to complete.
+[2019.04.06-01.18.22:272][  0]LogFileHelpers: Loading map 'Template_Default' took 0.216
+[2019.04.06-01.18.22:383][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.06-01.18.22:391][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.06-01.18.22:399][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.06-01.18.22:407][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.06-01.18.22:414][  0]LogCollectionManager: Loaded 0 collections in 0.001931 seconds
+[2019.04.06-01.18.22:430][  0]LogFileCache: Scanning file cache for directory 'C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Collections/' took 0.01s
+[2019.04.06-01.18.22:430][  0]LogFileCache: Scanning file cache for directory 'C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Content/Developers/luste/Collections/' took 0.00s
+[2019.04.06-01.18.22:430][  0]LogFileCache: Scanning file cache for directory 'C:/Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Content/Collections/' took 0.00s
+[2019.04.06-01.18.22:430][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.04.06-01.18.22:439][  0]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2671 classes and 637 folders.
+[2019.04.06-01.18.22:449][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.04.06-01.18.22:450][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.06-01.18.22:451][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.06-01.18.22:451][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.06-01.18.22:452][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.06-01.18.22:453][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.06-01.18.22:454][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.06-01.18.22:455][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.06-01.18.22:456][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.06-01.18.22:456][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.06-01.18.22:457][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.06-01.18.22:458][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.06-01.18.22:459][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.06-01.18.22:459][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.06-01.18.22:460][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.06-01.18.22:460][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.06-01.18.22:461][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.06-01.18.22:461][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.06-01.18.22:462][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.06-01.18.22:462][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.06-01.18.22:463][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.06-01.18.22:463][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.06-01.18.22:464][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.06-01.18.22:464][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.06-01.18.22:465][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.06-01.18.22:465][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.06-01.18.22:466][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.06-01.18.22:500][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.04.06-01.18.22:508][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.04.06-01.18.22:529][  0]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.04.06-01.18.22:532][  0]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.04.06-01.18.22:540][  0]LogSlate: Took 0.000199 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.04.06-01.18.22:629][  0]LogRenderer: Reallocating scene render targets to support 916x236 Format 10 NumSamples 1 (Frame:1).
+[2019.04.06-01.18.22:813][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.04.06-01.18.22:813][  0]LogLoad: (Engine Initialization) Total time: 10.78 seconds
+[2019.04.06-01.18.22:813][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.04.06-01.18.22:841][  0]LeapMotionLog: ServiceMessageLoop started.
+[2019.04.06-01.18.22:841][  0]BodyStateLog: BodyState::DeviceAttached: Leap Motion (1)
+[2019.04.06-01.18.22:841][  0]BodyStateLog: BodyState::DeviceAttached: HMD (2)
+[2019.04.06-01.18.22:910][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.04.06-01.18.22:985][  1]LeapMotionLog: LeapService: OnConnect.
+[2019.04.06-01.18.22:985][  1]LogAssetRegistry: Asset discovery search completed in 5.5595 seconds
+[2019.04.06-01.18.22:987][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.04.06-01.18.22:987][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000045 seconds (updated 0 objects)
+[2019.04.06-01.18.25:857][231]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.06-01.18.28:670][447]LogSlate: Took 0.005610 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.06-01.18.30:269][447]LogAIModule: Creating AISystem for world OPSYN1
+[2019.04.06-01.18.30:301][447]LogAssetEditorManager: Opening Asset editor for World /Game/OPSYN1.OPSYN1
+[2019.04.06-01.18.30:339][447]Cmd: MAP LOAD FILE="../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Content/OPSYN1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.06-01.18.30:339][447]LightingResults: New page: Lighting Build
+[2019.04.06-01.18.30:339][447]LoadErrors: New page: Loading map: OPSYN1.umap
+[2019.04.06-01.18.30:340][447]MapCheck: New page: Map Check
+[2019.04.06-01.18.30:340][447]LightingResults: New page: Lighting Build
+[2019.04.06-01.18.30:400][447]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.06-01.18.30:459][447]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.06-01.18.30:459][447]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.142ms to complete.
+[2019.04.06-01.18.30:459][447]LogFileHelpers: Loading map 'OPSYN1' took 0.122
+[2019.04.06-01.18.30:502][447]LogRenderer: Reallocating scene render targets to support 916x256 Format 10 NumSamples 1 (Frame:1).
+[2019.04.06-01.18.33:525][647]LogEditorViewport: Clicking on Actor (LMB): SeqTrigger_01_C (SeqTrigger_01)
+[2019.04.06-01.18.35:854][798]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.06-01.18.36:001][808]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Modules/Common/Blueprints/SeqTrigger_01.SeqTrigger_01
+[2019.04.06-01.18.36:659][808]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 117 classes and 0 folders.
+[2019.04.06-01.18.37:594][808]LogScript: Warning: Accessed None trying to read property OSC
+	SeqTrigger_01_C /Engine/Transient.World_2:PersistentLevel.SeqTrigger_01_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_01.SeqTrigger_01_C:ExecuteUbergraph_SeqTrigger_01:0189
+[2019.04.06-01.18.37:594][808]LogScript: Warning: Accessed None trying to read property Light Blueprint 1
+	SeqTrigger_01_C /Engine/Transient.World_2:PersistentLevel.SeqTrigger_01_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_01.SeqTrigger_01_C:ExecuteUbergraph_SeqTrigger_01:0255
+[2019.04.06-01.18.37:594][808]LogScript: Warning: Accessed None trying to read property Light Blueprint 2
+	SeqTrigger_01_C /Engine/Transient.World_2:PersistentLevel.SeqTrigger_01_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_01.SeqTrigger_01_C:ExecuteUbergraph_SeqTrigger_01:027B
+[2019.04.06-01.18.37:594][808]LogScript: Warning: Accessed None trying to read property Light Blueprint 3
+	SeqTrigger_01_C /Engine/Transient.World_2:PersistentLevel.SeqTrigger_01_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_01.SeqTrigger_01_C:ExecuteUbergraph_SeqTrigger_01:02A1
+[2019.04.06-01.18.37:594][808]LogScript: Warning: Accessed None trying to read property Light Blueprint 4
+	SeqTrigger_01_C /Engine/Transient.World_2:PersistentLevel.SeqTrigger_01_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_01.SeqTrigger_01_C:ExecuteUbergraph_SeqTrigger_01:02C7
+[2019.04.06-01.18.37:594][808]LogScript: Warning: Accessed None trying to read property Glow Material
+	SeqTrigger_01_C /Engine/Transient.World_2:PersistentLevel.SeqTrigger_01_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_01.SeqTrigger_01_C:ExecuteUbergraph_SeqTrigger_01:01EC
+[2019.04.06-01.18.37:594][808]LogScript: Warning: Accessed None trying to read property Glow Material
+	SeqTrigger_01_C /Engine/Transient.World_2:PersistentLevel.SeqTrigger_01_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_01.SeqTrigger_01_C:ExecuteUbergraph_SeqTrigger_01:0220
+[2019.04.06-01.18.37:594][808]LogScript: Warning: Accessed None trying to read property OSC
+	SeqTrigger_01_C /Engine/Transient.World_2:PersistentLevel.SeqTrigger_01_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_01.SeqTrigger_01_C:ExecuteUbergraph_SeqTrigger_01:0189
+[2019.04.06-01.18.37:594][808]LogScript: Warning: Accessed None trying to read property Light Blueprint 1
+	SeqTrigger_01_C /Engine/Transient.World_2:PersistentLevel.SeqTrigger_01_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_01.SeqTrigger_01_C:ExecuteUbergraph_SeqTrigger_01:0255
+[2019.04.06-01.18.37:594][808]LogScript: Warning: Accessed None trying to read property Light Blueprint 2
+	SeqTrigger_01_C /Engine/Transient.World_2:PersistentLevel.SeqTrigger_01_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_01.SeqTrigger_01_C:ExecuteUbergraph_SeqTrigger_01:027B
+[2019.04.06-01.18.37:594][808]LogScript: Warning: Accessed None trying to read property Light Blueprint 3
+	SeqTrigger_01_C /Engine/Transient.World_2:PersistentLevel.SeqTrigger_01_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_01.SeqTrigger_01_C:ExecuteUbergraph_SeqTrigger_01:02A1
+[2019.04.06-01.18.37:594][808]LogScript: Warning: Accessed None trying to read property Light Blueprint 4
+	SeqTrigger_01_C /Engine/Transient.World_2:PersistentLevel.SeqTrigger_01_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_01.SeqTrigger_01_C:ExecuteUbergraph_SeqTrigger_01:02C7
+[2019.04.06-01.18.37:594][808]LogScript: Warning: Accessed None trying to read property Glow Material
+	SeqTrigger_01_C /Engine/Transient.World_2:PersistentLevel.SeqTrigger_01_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_01.SeqTrigger_01_C:ExecuteUbergraph_SeqTrigger_01:0353
+[2019.04.06-01.18.37:594][808]LogScript: Warning: Accessed None trying to read property Glow Material
+	SeqTrigger_01_C /Engine/Transient.World_2:PersistentLevel.SeqTrigger_01_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_01.SeqTrigger_01_C:ExecuteUbergraph_SeqTrigger_01:0387
+[2019.04.06-01.18.37:605][808]LogSlate: Took 0.005123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.04.06-01.18.37:804][809]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.04.06-01.19.20:278][416]LogSlate: Window 'SeqTrigger_01' being destroyed
+[2019.04.06-01.19.20:288][416]LogSlate: Window 'SeqTrigger_01' being destroyed
+[2019.04.06-01.19.20:289][416]LogScript: Warning: Accessed None trying to read property OSC
+	SeqTrigger_01_C /Engine/Transient.World_2:PersistentLevel.SeqTrigger_01_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_01.SeqTrigger_01_C:ExecuteUbergraph_SeqTrigger_01:0189
+[2019.04.06-01.19.20:289][416]LogScript: Warning: Accessed None trying to read property Light Blueprint 1
+	SeqTrigger_01_C /Engine/Transient.World_2:PersistentLevel.SeqTrigger_01_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_01.SeqTrigger_01_C:ExecuteUbergraph_SeqTrigger_01:0255
+[2019.04.06-01.19.20:289][416]LogScript: Warning: Accessed None trying to read property Light Blueprint 2
+	SeqTrigger_01_C /Engine/Transient.World_2:PersistentLevel.SeqTrigger_01_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_01.SeqTrigger_01_C:ExecuteUbergraph_SeqTrigger_01:027B
+[2019.04.06-01.19.23:802][642]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Modules/Common/Blueprints/SeqTrigger_01.SeqTrigger_01
+[2019.04.06-01.19.28:340][822]LogSlate: Window 'SeqTrigger_01' being destroyed
+[2019.04.06-01.19.33:155][178]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Modules/Common/Blueprints/SeqTrigger_02.SeqTrigger_02
+[2019.04.06-01.19.33:512][178]LogScript: Warning: Accessed None trying to read property OSC
+	SeqTrigger_02_C /Engine/Transient.World_4:PersistentLevel.SeqTrigger_02_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_02.SeqTrigger_02_C:ExecuteUbergraph_SeqTrigger_02:014B
+[2019.04.06-01.19.33:512][178]LogScript: Warning: Accessed None trying to read property Light Blueprint 1
+	SeqTrigger_02_C /Engine/Transient.World_4:PersistentLevel.SeqTrigger_02_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_02.SeqTrigger_02_C:ExecuteUbergraph_SeqTrigger_02:0183
+[2019.04.06-01.19.33:512][178]LogScript: Warning: Accessed None trying to read property Light Blueprint 2
+	SeqTrigger_02_C /Engine/Transient.World_4:PersistentLevel.SeqTrigger_02_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_02.SeqTrigger_02_C:ExecuteUbergraph_SeqTrigger_02:01A9
+[2019.04.06-01.19.33:512][178]LogScript: Warning: Accessed None trying to read property Light Blueprint 3
+	SeqTrigger_02_C /Engine/Transient.World_4:PersistentLevel.SeqTrigger_02_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_02.SeqTrigger_02_C:ExecuteUbergraph_SeqTrigger_02:01CF
+[2019.04.06-01.19.33:512][178]LogScript: Warning: Accessed None trying to read property Light Blueprint 4
+	SeqTrigger_02_C /Engine/Transient.World_4:PersistentLevel.SeqTrigger_02_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_02.SeqTrigger_02_C:ExecuteUbergraph_SeqTrigger_02:01F5
+[2019.04.06-01.19.33:513][178]LogScript: Warning: Accessed None trying to read property Glow Material
+	SeqTrigger_02_C /Engine/Transient.World_4:PersistentLevel.SeqTrigger_02_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_02.SeqTrigger_02_C:ExecuteUbergraph_SeqTrigger_02:021B
+[2019.04.06-01.19.33:513][178]LogScript: Warning: Accessed None trying to read property Glow Material
+	SeqTrigger_02_C /Engine/Transient.World_4:PersistentLevel.SeqTrigger_02_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_02.SeqTrigger_02_C:ExecuteUbergraph_SeqTrigger_02:024F
+[2019.04.06-01.19.33:513][178]LogScript: Warning: Accessed None trying to read property OSC
+	SeqTrigger_02_C /Engine/Transient.World_4:PersistentLevel.SeqTrigger_02_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_02.SeqTrigger_02_C:ExecuteUbergraph_SeqTrigger_02:014B
+[2019.04.06-01.19.33:513][178]LogScript: Warning: Accessed None trying to read property Light Blueprint 1
+	SeqTrigger_02_C /Engine/Transient.World_4:PersistentLevel.SeqTrigger_02_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_02.SeqTrigger_02_C:ExecuteUbergraph_SeqTrigger_02:0183
+[2019.04.06-01.19.33:513][178]LogScript: Warning: Accessed None trying to read property Light Blueprint 2
+	SeqTrigger_02_C /Engine/Transient.World_4:PersistentLevel.SeqTrigger_02_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_02.SeqTrigger_02_C:ExecuteUbergraph_SeqTrigger_02:01A9
+[2019.04.06-01.19.33:513][178]LogScript: Warning: Accessed None trying to read property Light Blueprint 3
+	SeqTrigger_02_C /Engine/Transient.World_4:PersistentLevel.SeqTrigger_02_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_02.SeqTrigger_02_C:ExecuteUbergraph_SeqTrigger_02:01CF
+[2019.04.06-01.19.33:513][178]LogScript: Warning: Accessed None trying to read property Light Blueprint 4
+	SeqTrigger_02_C /Engine/Transient.World_4:PersistentLevel.SeqTrigger_02_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_02.SeqTrigger_02_C:ExecuteUbergraph_SeqTrigger_02:01F5
+[2019.04.06-01.19.33:513][178]LogScript: Warning: Accessed None trying to read property Glow Material
+	SeqTrigger_02_C /Engine/Transient.World_4:PersistentLevel.SeqTrigger_02_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_02.SeqTrigger_02_C:ExecuteUbergraph_SeqTrigger_02:021B
+[2019.04.06-01.19.33:513][178]LogScript: Warning: Accessed None trying to read property Glow Material
+	SeqTrigger_02_C /Engine/Transient.World_4:PersistentLevel.SeqTrigger_02_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_02.SeqTrigger_02_C:ExecuteUbergraph_SeqTrigger_02:024F
+[2019.04.06-01.19.38:654][618]LogScript: Warning: Accessed None trying to read property OSC
+	SeqTrigger_02_C /Engine/Transient.World_4:PersistentLevel.SeqTrigger_02_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_02.SeqTrigger_02_C:ExecuteUbergraph_SeqTrigger_02:0328
+[2019.04.06-01.19.38:654][618]LogScript: Warning: Accessed None trying to read property Glow Material
+	SeqTrigger_02_C /Engine/Transient.World_4:PersistentLevel.SeqTrigger_02_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_02.SeqTrigger_02_C:ExecuteUbergraph_SeqTrigger_02:0361
+[2019.04.06-01.19.38:654][618]LogScript: Warning: Accessed None trying to read property Glow Material
+	SeqTrigger_02_C /Engine/Transient.World_4:PersistentLevel.SeqTrigger_02_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_02.SeqTrigger_02_C:ExecuteUbergraph_SeqTrigger_02:0395
+[2019.04.06-01.20.45:915][650]LogEditorTransaction: Undo Delete current selection
+[2019.04.06-01.21.14:838][229]LogSlate: Took 0.004713 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.04.06-01.23.02:948][754]LogEditorTransaction: Undo Delete current selection
+[2019.04.06-01.23.03:433][770]LogEditorTransaction: Undo Create Pin Link
+[2019.04.06-01.23.04:974][893]LogEditorTransaction: Undo Create Pin Link
+[2019.04.06-01.24.14:375][360]Cmd: DELETE
+[2019.04.06-01.24.14:375][360]Cmd: ACTOR DELETE
+[2019.04.06-01.24.14:396][360]LogEditorActor: Deleted Actor: SeqTrigger_05_C
+[2019.04.06-01.24.14:397][360]LogEditorActor: Deleted Actor: SeqTrigger_02_C
+[2019.04.06-01.24.14:398][360]LogEditorActor: Deleted Actor: SeqTrigger_03_C
+[2019.04.06-01.24.14:399][360]LogEditorActor: Deleted Actor: SeqTrigger_04_C
+[2019.04.06-01.24.14:441][360]LogEditorActor: Deleted 4 Actors (0.056 secs)
+[2019.04.06-01.24.20:036][867]LogEditorViewport: Clicking on Actor (LMB): SeqTrigger_01_C (SeqTrigger_01)
+[2019.04.06-01.24.24:947][225]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.06-01.24.55:237][221]LogSlate: Window 'Delete Assets' being destroyed
+[2019.04.06-01.24.55:254][221]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.04.06-01.25.00:795][465]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Modules/Common/Blueprints/SeqTrigger_01.SeqTrigger_01
+[2019.04.06-01.25.05:701][709]LogSlate: Window 'SeqTrigger_01' being destroyed
+[2019.04.06-01.25.20:669][834]LogRenderer: Reallocating scene render targets to support 916x488 Format 10 NumSamples 1 (Frame:156).
+[2019.04.06-01.25.21:861][898]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Modules/Common/Blueprints/SeqTrigger_02.SeqTrigger_02
+[2019.04.06-01.27.05:855][714]LogSavePackage: Moving '../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/SeqTrigger_0182BC5DC94479F39513C42796481FB22A.tmp' to '../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Content/Modules/Common/Blueprints/SeqTrigger_01.uasset'
+[2019.04.06-01.27.12:353][253]BlueprintLog: New page: Compile SeqTrigger_02
+[2019.04.06-01.27.26:652][273]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.06-01.28.30:133][322]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.06-01.28.32:318][492]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.06-01.28.34:668][681]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.06-01.28.37:025][870]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.06-01.28.39:024][ 27]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.06-01.28.41:861][245]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.06-01.29.09:827][290]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.06-01.30.01:722][239]LogSavePackage: Moving '../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/OPSYN1_Auto19771C80445F16B326E053999576AED89.tmp' to '../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Autosaves/Game/OPSYN1_Auto1.umap'
+[2019.04.06-01.30.01:726][239]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/OPSYN1' took 0.286
+[2019.04.06-01.30.01:726][239]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.286
+[2019.04.06-01.30.01:730][239]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Modules/Common/Blueprints/SeqTrigger_02] ([1] browsable assets)...
+[2019.04.06-01.30.01:763][239]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Modules/Common/Blueprints/SeqTrigger_02.SeqTrigger_02]
+[2019.04.06-01.30.01:764][239]OBJ SavePackage: Finished generating thumbnails for package [/Game/Modules/Common/Blueprints/SeqTrigger_02]
+[2019.04.06-01.30.01:819][239]LogSavePackage: Moving '../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/SeqTrigger_02_Auto1D91D78DE4AC12F56148BE7A032E726CB.tmp' to '../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Autosaves/Game/Modules/Common/Blueprints/SeqTrigger_02_Auto1.uasset'
+[2019.04.06-01.30.01:821][239]LogFileHelpers: Auto-saving content packages took 0.093
+[2019.04.06-01.30.06:129][568]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.06-01.33.05:477][298]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.06-01.33.13:026][788]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Modules/Common/Blueprints/SeqTrigger_03.SeqTrigger_03
+[2019.04.06-01.33.13:334][788]LogScript: Warning: Accessed None trying to read property OSC
+	SeqTrigger_03_C /Engine/Transient.World_28:PersistentLevel.SeqTrigger_03_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_03.SeqTrigger_03_C:ExecuteUbergraph_SeqTrigger_03:0189
+[2019.04.06-01.33.13:334][788]LogScript: Warning: Accessed None trying to read property Light Blueprint 1
+	SeqTrigger_03_C /Engine/Transient.World_28:PersistentLevel.SeqTrigger_03_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_03.SeqTrigger_03_C:ExecuteUbergraph_SeqTrigger_03:0255
+[2019.04.06-01.33.13:334][788]LogScript: Warning: Accessed None trying to read property Light Blueprint 2
+	SeqTrigger_03_C /Engine/Transient.World_28:PersistentLevel.SeqTrigger_03_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_03.SeqTrigger_03_C:ExecuteUbergraph_SeqTrigger_03:027B
+[2019.04.06-01.33.13:334][788]LogScript: Warning: Accessed None trying to read property Light Blueprint 3
+	SeqTrigger_03_C /Engine/Transient.World_28:PersistentLevel.SeqTrigger_03_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_03.SeqTrigger_03_C:ExecuteUbergraph_SeqTrigger_03:02A1
+[2019.04.06-01.33.13:334][788]LogScript: Warning: Accessed None trying to read property Light Blueprint 4
+	SeqTrigger_03_C /Engine/Transient.World_28:PersistentLevel.SeqTrigger_03_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_03.SeqTrigger_03_C:ExecuteUbergraph_SeqTrigger_03:02C7
+[2019.04.06-01.33.13:334][788]LogScript: Warning: Accessed None trying to read property Glow Material
+	SeqTrigger_03_C /Engine/Transient.World_28:PersistentLevel.SeqTrigger_03_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_03.SeqTrigger_03_C:ExecuteUbergraph_SeqTrigger_03:01EC
+[2019.04.06-01.33.13:334][788]LogScript: Warning: Accessed None trying to read property Glow Material
+	SeqTrigger_03_C /Engine/Transient.World_28:PersistentLevel.SeqTrigger_03_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_03.SeqTrigger_03_C:ExecuteUbergraph_SeqTrigger_03:0220
+[2019.04.06-01.33.13:334][788]LogScript: Warning: Accessed None trying to read property OSC
+	SeqTrigger_03_C /Engine/Transient.World_28:PersistentLevel.SeqTrigger_03_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_03.SeqTrigger_03_C:ExecuteUbergraph_SeqTrigger_03:0189
+[2019.04.06-01.33.13:334][788]LogScript: Warning: Accessed None trying to read property Light Blueprint 1
+	SeqTrigger_03_C /Engine/Transient.World_28:PersistentLevel.SeqTrigger_03_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_03.SeqTrigger_03_C:ExecuteUbergraph_SeqTrigger_03:0255
+[2019.04.06-01.33.13:335][788]LogScript: Warning: Accessed None trying to read property Light Blueprint 2
+	SeqTrigger_03_C /Engine/Transient.World_28:PersistentLevel.SeqTrigger_03_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_03.SeqTrigger_03_C:ExecuteUbergraph_SeqTrigger_03:027B
+[2019.04.06-01.33.13:335][788]LogScript: Warning: Accessed None trying to read property Light Blueprint 3
+	SeqTrigger_03_C /Engine/Transient.World_28:PersistentLevel.SeqTrigger_03_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_03.SeqTrigger_03_C:ExecuteUbergraph_SeqTrigger_03:02A1
+[2019.04.06-01.33.13:335][788]LogScript: Warning: Accessed None trying to read property Light Blueprint 4
+	SeqTrigger_03_C /Engine/Transient.World_28:PersistentLevel.SeqTrigger_03_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_03.SeqTrigger_03_C:ExecuteUbergraph_SeqTrigger_03:02C7
+[2019.04.06-01.33.13:335][788]LogScript: Warning: Accessed None trying to read property Glow Material
+	SeqTrigger_03_C /Engine/Transient.World_28:PersistentLevel.SeqTrigger_03_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_03.SeqTrigger_03_C:ExecuteUbergraph_SeqTrigger_03:0353
+[2019.04.06-01.33.13:335][788]LogScript: Warning: Accessed None trying to read property Glow Material
+	SeqTrigger_03_C /Engine/Transient.World_28:PersistentLevel.SeqTrigger_03_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_03.SeqTrigger_03_C:ExecuteUbergraph_SeqTrigger_03:0387
+[2019.04.06-01.34.01:346][555]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/OSC_BP.OSC_BP
+[2019.04.06-01.41.56:261][366]LogSavePackage: Moving '../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/OPSYN1_Auto23008DC674BA4604A0E4FC1900B8052FF.tmp' to '../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Autosaves/Game/OPSYN1_Auto2.umap'
+[2019.04.06-01.41.56:265][366]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/OPSYN1' took 0.343
+[2019.04.06-01.41.56:265][366]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.343
+[2019.04.06-01.41.56:268][366]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/OSC_BP] ([1] browsable assets)...
+[2019.04.06-01.41.56:268][366]OBJ SavePackage: Finished generating thumbnails for package [/Game/OSC_BP]
+[2019.04.06-01.41.56:391][366]LogSavePackage: Moving '../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/OSC_BP_Auto28097F77E44937C30B13F2C9294301867.tmp' to '../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Autosaves/Game/OSC_BP_Auto2.uasset'
+[2019.04.06-01.41.56:393][366]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Modules/Common/Blueprints/SeqTrigger_01] ([1] browsable assets)...
+[2019.04.06-01.41.56:393][366]OBJ SavePackage: Finished generating thumbnails for package [/Game/Modules/Common/Blueprints/SeqTrigger_01]
+[2019.04.06-01.41.56:486][366]LogSavePackage: Moving '../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/SeqTrigger_01_Auto29D798DBB4828285BB78C648D395F99BE.tmp' to '../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Autosaves/Game/Modules/Common/Blueprints/SeqTrigger_01_Auto2.uasset'
+[2019.04.06-01.41.56:488][366]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Modules/Common/Blueprints/SeqTrigger_03] ([1] browsable assets)...
+[2019.04.06-01.41.56:522][366]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Modules/Common/Blueprints/SeqTrigger_03.SeqTrigger_03]
+[2019.04.06-01.41.56:522][366]OBJ SavePackage: Finished generating thumbnails for package [/Game/Modules/Common/Blueprints/SeqTrigger_03]
+[2019.04.06-01.41.56:577][366]LogSavePackage: Moving '../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/SeqTrigger_03_Auto2EED7AA19409973047CA6A3BA6D3C5C20.tmp' to '../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Autosaves/Game/Modules/Common/Blueprints/SeqTrigger_03_Auto2.uasset'
+[2019.04.06-01.41.56:578][366]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Modules/Common/Blueprints/SeqTrigger_02] ([1] browsable assets)...
+[2019.04.06-01.41.56:578][366]OBJ SavePackage: Finished generating thumbnails for package [/Game/Modules/Common/Blueprints/SeqTrigger_02]
+[2019.04.06-01.41.56:625][366]LogSavePackage: Moving '../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/SeqTrigger_02_Auto273D9DB0B4E8AA09B6D90628A6280648D.tmp' to '../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Autosaves/Game/Modules/Common/Blueprints/SeqTrigger_02_Auto2.uasset'
+[2019.04.06-01.41.56:626][366]LogFileHelpers: Auto-saving content packages took 0.359
+[2019.04.06-01.53.30:749][356]LogSavePackage: Moving '../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/OPSYN1_Auto3D512FA3247A1A0CE2794E1A046FF8DE7.tmp' to '../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Autosaves/Game/OPSYN1_Auto3.umap'
+[2019.04.06-01.53.30:752][356]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/OPSYN1' took 0.307
+[2019.04.06-01.53.30:752][356]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.307
+[2019.04.06-01.53.30:755][356]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/OSC_BP] ([1] browsable assets)...
+[2019.04.06-01.53.30:755][356]OBJ SavePackage: Finished generating thumbnails for package [/Game/OSC_BP]
+[2019.04.06-01.53.30:849][356]LogSavePackage: Moving '../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/OSC_BP_Auto37352DDB64850BE849C64CFAE006D4BED.tmp' to '../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Autosaves/Game/OSC_BP_Auto3.uasset'
+[2019.04.06-01.53.30:860][356]LogFileHelpers: Auto-saving content packages took 0.106
+[2019.04.06-02.01.06:220][275]BlueprintLog: New page: Compile OSC_BP
+[2019.04.06-02.01.06:632][275]LogScript: Warning: Accessed None trying to read property OSC
+	SeqTrigger_03_C /Engine/Transient.World_28:PersistentLevel.SeqTrigger_03_C_0
+	Function /Game/Modules/Common/Blueprints/SeqTrigger_03.SeqTrigger_03_C:ExecuteUbergraph_SeqTrigger_03:0458
+[2019.04.06-02.01.09:088][456]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OSC_BP" FILE="../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Content/OSC_BP.uasset" SILENT=true
+[2019.04.06-02.01.09:182][456]LogSavePackage: Moving '../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/OSC_BPEE297DF845687884BE9AB29066778194.tmp' to '../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Content/OSC_BP.uasset'
+[2019.04.06-02.01.13:568][774]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OSC_BP" FILE="../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Content/OSC_BP.uasset" SILENT=true
+[2019.04.06-02.01.13:666][774]LogSavePackage: Moving '../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/OSC_BP9C8A4ED34669F90B6C4BE696214A857B.tmp' to '../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Content/OSC_BP.uasset'
+[2019.04.06-02.05.48:204][105]LogSavePackage: Moving '../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/OPSYN1_Auto42443014040421C45946B2CBC5D938E99.tmp' to '../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Autosaves/Game/OPSYN1_Auto4.umap'
+[2019.04.06-02.05.48:208][105]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/OPSYN1' took 0.302
+[2019.04.06-02.05.48:208][105]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.302
+[2019.04.06-02.05.48:211][105]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/OSC_BP] ([1] browsable assets)...
+[2019.04.06-02.05.48:211][105]OBJ SavePackage: Finished generating thumbnails for package [/Game/OSC_BP]
+[2019.04.06-02.05.48:339][105]LogSavePackage: Moving '../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/OSC_BP_Auto47FD8CA544CE03959DB2022AE479265E4.tmp' to '../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Autosaves/Game/OSC_BP_Auto4.uasset'
+[2019.04.06-02.05.48:340][105]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Modules/Common/Blueprints/SeqTrigger_01] ([1] browsable assets)...
+[2019.04.06-02.05.48:380][105]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Modules/Common/Blueprints/SeqTrigger_01.SeqTrigger_01]
+[2019.04.06-02.05.48:380][105]OBJ SavePackage: Finished generating thumbnails for package [/Game/Modules/Common/Blueprints/SeqTrigger_01]
+[2019.04.06-02.05.48:498][105]LogSavePackage: Moving '../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/SeqTrigger_01_Auto48C326D674AC5F1DC75DE17A6289A14AE.tmp' to '../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Autosaves/Game/Modules/Common/Blueprints/SeqTrigger_01_Auto4.uasset'
+[2019.04.06-02.05.48:499][105]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Modules/Common/Blueprints/SeqTrigger_03] ([1] browsable assets)...
+[2019.04.06-02.05.48:530][105]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Modules/Common/Blueprints/SeqTrigger_03.SeqTrigger_03]
+[2019.04.06-02.05.48:530][105]OBJ SavePackage: Finished generating thumbnails for package [/Game/Modules/Common/Blueprints/SeqTrigger_03]
+[2019.04.06-02.05.48:588][105]LogSavePackage: Moving '../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/SeqTrigger_03_Auto4B880523C4BD6E2189F17FEAFBB5480CB.tmp' to '../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Autosaves/Game/Modules/Common/Blueprints/SeqTrigger_03_Auto4.uasset'
+[2019.04.06-02.05.48:590][105]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Modules/Common/Blueprints/SeqTrigger_02] ([1] browsable assets)...
+[2019.04.06-02.05.48:622][105]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Modules/Common/Blueprints/SeqTrigger_02.SeqTrigger_02]
+[2019.04.06-02.05.48:622][105]OBJ SavePackage: Finished generating thumbnails for package [/Game/Modules/Common/Blueprints/SeqTrigger_02]
+[2019.04.06-02.05.48:679][105]LogSavePackage: Moving '../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/SeqTrigger_02_Auto46B690E05487A576067EADA87FA5A5EAA.tmp' to '../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Autosaves/Game/Modules/Common/Blueprints/SeqTrigger_02_Auto4.uasset'
+[2019.04.06-02.05.48:680][105]LogFileHelpers: Auto-saving content packages took 0.471
+[2019.04.06-02.09.31:548][ 44]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OSC_BP" FILE="../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Content/OSC_BP.uasset" SILENT=true
+[2019.04.06-02.09.31:652][ 44]LogSavePackage: Moving '../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/OSC_BP3205CB6D48776313190F3EA451389194.tmp' to '../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Content/OSC_BP.uasset'
+[2019.04.06-02.15.48:795][802]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/OPSYN1' took 0.035
+[2019.04.06-02.15.48:797][802]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/OSC_BP] ([1] browsable assets)...
+[2019.04.06-02.15.48:797][802]OBJ SavePackage: Finished generating thumbnails for package [/Game/OSC_BP]
+[2019.04.06-02.15.48:907][802]LogSavePackage: Moving '../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/OSC_BP_Auto5324D3D3943F899BC21C1438261795C68.tmp' to '../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/Autosaves/Game/OSC_BP_Auto5.uasset'
+[2019.04.06-02.15.48:908][802]LogFileHelpers: Auto-saving content packages took 0.113
+[2019.04.06-02.22.09:167][369]LogEditorTransaction: Undo Delete current selection
+[2019.04.06-02.25.13:806][872]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OSC_BP" FILE="../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Content/OSC_BP.uasset" SILENT=true
+[2019.04.06-02.25.13:922][872]LogSavePackage: Moving '../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Saved/OSC_BP3683EBCF4A5A21F2E5B9169051132F4C.tmp' to '../../../../../../Users/luste/Documents/GitHub/OPSYN-Out-of-Place-Synthesizer-/OPSYN/Content/OSC_BP.uasset'
+[2019.04.06-02.25.19:046][149]BlueprintLog: New page: Compile OSC_BP
+[2019.04.06-02.27.39:741][485]LogUObjectArray: Warning: Empty slot
+[2019.04.06-02.27.39:741][485]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.04.06-02.27.40:038][485]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.297 s
+[2019.04.06-02.27.40:038][485]LogOutputDevice: Error: === Handled ensure: ===
+[2019.04.06-02.27.40:038][485]LogOutputDevice: Error: 
+[2019.04.06-02.27.40:038][485]LogOutputDevice: Error: Ensure condition failed: false [File:D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1154]
+[2019.04.06-02.27.40:038][485]LogOutputDevice: Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2019.04.06-02.27.40:038][485]LogOutputDevice: Error: Stack: 
+[2019.04.06-02.27.40:038][485]LogOutputDevice: Error: [Callstack] 0x00007ffe62a781d4 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.06-02.27.40:038][485]LogOutputDevice: Error: [Callstack] 0x00007ffe62a8809e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.06-02.27.40:038][485]LogOutputDevice: Error: [Callstack] 0x00007ffe61acbcba UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2019.04.06-02.27.40:038][485]LogOutputDevice: Error: [Callstack] 0x00007ffe60b2769a UE4Editor-GraphEditor.dll!UnknownFunction []
+[2019.04.06-02.27.40:038][485]LogOutputDevice: Error: [Callstack] 0x00007ffe60ae0917 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2019.04.06-02.27.40:038][485]LogOutputDevice: Error: [Callstack] 0x00007ffe90507c74 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.06-02.27.40:038][485]LogOutputDevice: Error: [Callstack] 0x00007ffe90754393 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.06-02.27.40:038][485]LogOutputDevice: Error: [Callstack] 0x00007ffe90562d7a UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.06-02.27.40:038][485]LogOutputDevice: Error: [Callstack] 0x00007ffe90538a70 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.06-02.27.40:038][485]LogOutputDevice: Error: [Callstack] 0x00007ffe9052b263 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.06-02.27.40:038][485]LogOutputDevice: Error: [Callstack] 0x00007ffe97e8dc66 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.06-02.27.40:038][485]LogOutputDevice: Error: [Callstack] 0x00007ffe97e80de0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.06-02.27.40:038][485]LogOutputDevice: Error: [Callstack] 0x00007ffe97e901eb UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.06-02.27.40:038][485]LogOutputDevice: Error: [Callstack] 0x00007ffe97e7ca19 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.06-02.27.40:038][485]LogOutputDevice: Error: [Callstack] 0x00007ffed721ca66 USER32.dll!UnknownFunction []
+[2019.04.06-02.27.40:038][485]LogOutputDevice: Error: [Callstack] 0x00007ffed721c582 USER32.dll!UnknownFunction []
+[2019.04.06-02.27.40:038][485]LogOutputDevice: Error: [Callstack] 0x00007ffe97e91746 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.06-02.27.40:038][485]LogOutputDevice: Error: [Callstack] 0x00007ff6bf055546 UE4Editor.exe!UnknownFunction []
+[2019.04.06-02.27.40:038][485]LogOutputDevice: Error: [Callstack] 0x00007ff6bf06596c UE4Editor.exe!UnknownFunction []
+[2019.04.06-02.27.40:038][485]LogOutputDevice: Error: [Callstack] 0x00007ff6bf0659ea UE4Editor.exe!UnknownFunction []
+[2019.04.06-02.27.40:038][485]LogOutputDevice: Error: [Callstack] 0x00007ff6bf0748da UE4Editor.exe!UnknownFunction []
+[2019.04.06-02.27.40:038][485]LogOutputDevice: Error: [Callstack] 0x00007ff6bf07659a UE4Editor.exe!UnknownFunction []
+[2019.04.06-02.27.40:038][485]LogOutputDevice: Error: [Callstack] 0x00007ffed92081f4 KERNEL32.DLL!UnknownFunction []
+[2019.04.06-02.27.40:038][485]LogOutputDevice: Error: [Callstack] 0x00007ffed9a8a251 ntdll.dll!UnknownFunction []
+[2019.04.06-02.27.40:038][485]LogOutputDevice: Error: 
+[2019.04.06-02.27.40:041][485]LogStats:                SubmitErrorReport -  0.000 s
