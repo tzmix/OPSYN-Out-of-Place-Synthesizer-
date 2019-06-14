@@ -12,3 +12,7 @@ OPSYN is a Sci-Fi, Cyber Punk, Immersive Virtual Musical Environment. It is a s
 [Leap Motion SDK](https://developer.leapmotion.com/get-started) \
 [Leap Unreal](https://github.com/leapmotion/LeapUnreal) \
 [LeapUnrealModules](https://github.com/leapmotion/LeapUnrealModules) 
+
+This Program uses UE4 as VR environment and Ableton live with Max for Live devices as sound engine. 
+Here is the source for the Ableton Live Project (https://github.com/tzmix/OPSYN_Ableton_Max).
+These programs are connected via OSC protocol.
