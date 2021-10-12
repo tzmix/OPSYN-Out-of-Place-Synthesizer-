@@ -5,7 +5,7 @@ OPSYN is a Sci-Fi, Cyber Punk, Immersive Virtual Musical Environment. It is a s
 ## Dependencies
 [Ableton](https://www.ableton.com/) \
 [Max](https://cycling74.com/products/max/) \
-[CNMAT-odot](https://github.com/CNMAT/CNMAT-odot) \
+[CNMAT-Externals](https://github.com/CNMAT/CNMAT-Externs) \
 [Unreal Engine](https://www.unrealengine.com) \
 [Oculus SDK](https://developer.oculus.com) \
 [OSC plugin](https://github.com/monsieurgustav/UE4-OSC) \
